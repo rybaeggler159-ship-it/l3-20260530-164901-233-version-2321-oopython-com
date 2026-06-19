@@ -1,0 +1,2271 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>热播排行榜 - 高分电视剧</title>
+  <meta name="description" content="高分电视剧热播排行榜，汇集 120 部静态详情页入口。">
+  <meta name="keywords" content="热播排行榜,高分电视剧,高分剧集,排行,榜单,电视剧排行榜">
+  <meta name="theme-color" content="#0b1220">
+  <meta property="og:title" content="热播排行榜 - 高分电视剧">
+  <meta property="og:description" content="高分电视剧热播排行榜，汇集 120 部静态详情页入口。">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="高分电视剧">
+  <link rel="stylesheet" href="./site.css">
+  
+</head>
+<body>
+  <div class="app-shell">
+    <header class="site-header">
+      <div class="container site-header__inner">
+        <a class="brand" href="./index.html" aria-label="返回首页">
+          <span class="brand__mark">高分剧集</span>
+          <span class="brand__text">高分电视剧排行榜</span>
+        </a>
+        <button class="nav-toggle" type="button" aria-label="展开导航" data-nav-toggle>
+          <span></span><span></span><span></span>
+        </button>
+        <nav class="site-nav" data-nav-panel>
+          <a href="./index.html">首页</a>
+          <a href="./categories.html">分类总览</a>
+          <a href="./ranking.html">排行榜</a>
+          <a href="./category-top.html">高分热播</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      
+    <section class="section">
+      <div class="container">
+        <div class="section__head">
+          <div>
+            <h1 class="section__title">热播排行榜</h1>
+            <p class="section__desc">按年份与内容热度组合排序，展示前 120 部作品，所有标题均可直接进入详情页。</p>
+          </div>
+          <div class="section__tools">
+            <a class="btn btn--ghost" href="./index.html">首页</a>
+            <a class="btn btn--ghost" href="./categories.html">分类总览</a>
+          </div>
+        </div>
+        <div class="filter-bar">
+          <input class="input" type="search" placeholder="在榜单中搜索..." data-filter-input>
+          <select class="select" data-filter-select="year">
+            <option value="all">全部年份</option>
+            <option value="2032">2032</option><option value="2030">2030</option><option value="2029">2029</option><option value="2028">2028</option><option value="2027">2027</option><option value="2026">2026</option><option value="2025">2025</option><option value="2024">2024</option><option value="2023">2023</option><option value="2022">2022</option><option value="2021">2021</option><option value="2020">2020</option>
+          </select>
+          <select class="select" data-filter-select="type">
+            <option value="all">全部类型</option>
+            <option value="TV剧集">TV剧集</option><option value="TV动画">TV动画</option><option value="剧情片">剧情片</option><option value="剧集">剧集</option><option value="剧集 (10集)">剧集 (10集)</option><option value="剧集 (第一季，8集)">剧集 (第一季，8集)</option><option value="剧集 (第二季，10集)">剧集 (第二季，10集)</option><option value="剧集 / 传记">剧集 / 传记</option><option value="剧集 / 动画">剧集 / 动画</option><option value="剧集 / 特别篇">剧集 / 特别篇</option><option value="剧集 剧情/喜剧">剧集 剧情/喜剧</option><option value="动漫">动漫</option><option value="动画">动画</option><option value="动画 / 剧集">动画 / 剧集</option><option value="动画剧集">动画剧集</option><option value="动画特典">动画特典</option><option value="动画电影">动画电影</option><option value="动画短片">动画短片</option><option value="演唱会电影">演唱会电影</option><option value="电影">电影</option><option value="电影 (动画)">电影 (动画)</option><option value="电影 / 动画">电影 / 动画</option><option value="电影 / 特别篇">电影 / 特别篇</option><option value="电影 剧情/社会">电影 剧情/社会</option><option value="电影/动画">电影/动画</option><option value="电影/纪录片">电影/纪录片</option><option value="电影/脱口秀">电影/脱口秀</option><option value="电视剧">电视剧</option><option value="电视剧 (36集)">电视剧 (36集)</option><option value="电视剧 (剧集)">电视剧 (剧集)</option><option value="电视剧 (迷你剧)">电视剧 (迷你剧)</option><option value="电视剧 / 剧集">电视剧 / 剧集</option><option value="电视剧 / 短剧">电视剧 / 短剧</option><option value="电视剧 / 综艺衍生剧">电视剧 / 综艺衍生剧</option><option value="电视剧 / 网络剧">电视剧 / 网络剧</option><option value="电视剧 / 迷你剧">电视剧 / 迷你剧</option><option value="电视剧 / 革命历史">电视剧 / 革命历史</option><option value="电视剧集">电视剧集</option><option value="短剧">短剧</option><option value="短片">短片</option><option value="纪录片">纪录片</option><option value="综艺">综艺</option><option value="综艺 / 剧集">综艺 / 剧集</option><option value="综艺 / 特别节目">综艺 / 特别节目</option><option value="综艺 / 真人秀">综艺 / 真人秀</option><option value="综艺/电影">综艺/电影</option><option value="网剧">网剧</option><option value="网剧 / 喜剧">网剧 / 喜剧</option><option value="网络剧">网络剧</option><option value="网络动画">网络动画</option><option value="网络电影">网络电影</option><option value="迷你剧">迷你剧</option>
+          </select>
+          <select class="select" data-filter-select="region">
+            <option value="all">全部地区</option>
+            <option value="中亚合拍">中亚合拍</option><option value="中国">中国</option><option value="中国内地">中国内地</option><option value="中国内地/蒙古">中国内地/蒙古</option><option value="中国台湾">中国台湾</option><option value="中国台湾 / 新加坡">中国台湾 / 新加坡</option><option value="中国大陆">中国大陆</option><option value="中国大陆 (配音版)">中国大陆 (配音版)</option><option value="中国大陆 / 中国台湾">中国大陆 / 中国台湾</option><option value="中国大陆 / 中国香港">中国大陆 / 中国香港</option><option value="中国大陆 / 意大利">中国大陆 / 意大利</option><option value="中国大陆 / 日本">中国大陆 / 日本</option><option value="中国大陆 / 法国">中国大陆 / 法国</option><option value="中国大陆 / 美国">中国大陆 / 美国</option><option value="中国大陆 / 蒙古">中国大陆 / 蒙古</option><option value="中国大陆 / 香港">中国大陆 / 香港</option><option value="中国大陆（网络剧）">中国大陆（网络剧）</option><option value="中国香港">中国香港</option><option value="中国香港 / 中国大陆">中国香港 / 中国大陆</option><option value="中国香港 / 英国">中国香港 / 英国</option><option value="中国香港 / 马来西亚">中国香港 / 马来西亚</option><option value="中国香港/中国大陆">中国香港/中国大陆</option><option value="中国香港/法国">中国香港/法国</option><option value="中国香港/马来西亚">中国香港/马来西亚</option><option value="丹麦">丹麦</option><option value="丹麦 / 冰岛">丹麦 / 冰岛</option><option value="乌克兰">乌克兰</option><option value="以色列 / 英国">以色列 / 英国</option><option value="伊朗">伊朗</option><option value="伊朗 / 法国">伊朗 / 法国</option><option value="俄罗斯">俄罗斯</option><option value="俄罗斯 / 英国">俄罗斯 / 英国</option><option value="克罗地亚">克罗地亚</option><option value="加拿大">加拿大</option><option value="加拿大 / 法国">加拿大 / 法国</option><option value="加拿大/挪威">加拿大/挪威</option><option value="北欧">北欧</option><option value="南斯拉夫">南斯拉夫</option><option value="南斯拉夫 / 塞尔维亚">南斯拉夫 / 塞尔维亚</option><option value="印度">印度</option><option value="印度尼西亚">印度尼西亚</option><option value="古巴 / 西班牙">古巴 / 西班牙</option><option value="台湾">台湾</option><option value="哈萨克斯坦">哈萨克斯坦</option><option value="国际/合拍">国际/合拍</option><option value="土耳其">土耳其</option><option value="土耳其/法国">土耳其/法国</option><option value="埃及">埃及</option><option value="墨西哥">墨西哥</option><option value="墨西哥 / 美国">墨西哥 / 美国</option><option value="大陆">大陆</option><option value="奥地利 / 德国">奥地利 / 德国</option><option value="巴西">巴西</option><option value="巴西 / 美国">巴西 / 美国</option><option value="巴西、美国合拍">巴西、美国合拍</option><option value="希腊 / 法国">希腊 / 法国</option><option value="德国">德国</option><option value="德国 / 挪威">德国 / 挪威</option><option value="德国 / 法国">德国 / 法国</option><option value="德国 / 波兰">德国 / 波兰</option><option value="德国 / 美国">德国 / 美国</option><option value="意大利">意大利</option><option value="意大利 / 德国">意大利 / 德国</option><option value="意大利 / 梵蒂冈">意大利 / 梵蒂冈</option><option value="意大利 / 法国">意大利 / 法国</option><option value="意大利 / 美国">意大利 / 美国</option><option value="意大利 / 英国">意大利 / 英国</option><option value="意大利 / 英国 / 尼泊尔">意大利 / 英国 / 尼泊尔</option><option value="意大利 / 西班牙">意大利 / 西班牙</option><option value="意大利/中国">意大利/中国</option><option value="挪威 / 瑞典">挪威 / 瑞典</option><option value="新加坡, 马来西亚">新加坡, 马来西亚</option><option value="日本">日本</option><option value="日本 / 美国">日本 / 美国</option><option value="欧洲">欧洲</option><option value="比利时 / 法国">比利时 / 法国</option><option value="比利时 / 荷兰">比利时 / 荷兰</option><option value="沙特阿拉伯 / 埃及">沙特阿拉伯 / 埃及</option><option value="法国">法国</option><option value="法国 / 以色列">法国 / 以色列</option><option value="法国 / 俄罗斯">法国 / 俄罗斯</option><option value="法国 / 加拿大">法国 / 加拿大</option><option value="法国 / 希腊">法国 / 希腊</option><option value="法国 / 德国">法国 / 德国</option><option value="法国 / 意大利">法国 / 意大利</option><option value="法国 / 比利时">法国 / 比利时</option><option value="法国 / 海地">法国 / 海地</option><option value="法国/意大利">法国/意大利</option><option value="法国/日本">法国/日本</option><option value="法国/比利时">法国/比利时</option><option value="波兰">波兰</option><option value="波兰 / 德国">波兰 / 德国</option><option value="波兰 / 美国">波兰 / 美国</option><option value="泰国">泰国</option><option value="泰国 / 韩国">泰国 / 韩国</option><option value="泰国/中国香港">泰国/中国香港</option><option value="澳大利亚">澳大利亚</option><option value="澳大利亚 / 美国">澳大利亚 / 美国</option><option value="瑞典">瑞典</option><option value="瑞典 / 挪威">瑞典 / 挪威</option><option value="瑞典，中国台湾">瑞典，中国台湾</option><option value="约旦 / 卡塔尔">约旦 / 卡塔尔</option><option value="美国">美国</option><option value="美国 / 中国大陆">美国 / 中国大陆</option><option value="美国 / 中国大陆合拍">美国 / 中国大陆合拍</option><option value="美国 / 加拿大">美国 / 加拿大</option><option value="美国 / 墨西哥">美国 / 墨西哥</option><option value="美国 / 德国">美国 / 德国</option><option value="美国 / 意大利">美国 / 意大利</option><option value="美国 / 日本">美国 / 日本</option><option value="美国 / 法国">美国 / 法国</option><option value="美国 / 澳大利亚">美国 / 澳大利亚</option><option value="美国 / 英国">美国 / 英国</option><option value="美国 / 韩国">美国 / 韩国</option><option value="美国, 加拿大">美国, 加拿大</option><option value="美国, 澳大利亚">美国, 澳大利亚</option><option value="美国/日本">美国/日本</option><option value="美国/韩国">美国/韩国</option><option value="芬兰 / 中国大陆（配音）">芬兰 / 中国大陆（配音）</option><option value="苏联">苏联</option><option value="英国">英国</option><option value="英国 / 法国">英国 / 法国</option><option value="英国 / 澳大利亚">英国 / 澳大利亚</option><option value="英国 / 爱尔兰">英国 / 爱尔兰</option><option value="英国 / 美国">英国 / 美国</option><option value="英国/澳大利亚">英国/澳大利亚</option><option value="荷兰">荷兰</option><option value="菲律宾">菲律宾</option><option value="菲律宾 / 法国">菲律宾 / 法国</option><option value="菲律宾 / 美国">菲律宾 / 美国</option><option value="葡萄牙">葡萄牙</option><option value="蒙古">蒙古</option><option value="西班牙">西班牙</option><option value="西班牙 / 墨西哥">西班牙 / 墨西哥</option><option value="西班牙 / 阿根廷">西班牙 / 阿根廷</option><option value="西班牙/美国">西班牙/美国</option><option value="阿富汗/伊朗">阿富汗/伊朗</option><option value="阿富汗/法国">阿富汗/法国</option><option value="阿根廷 / 波兰">阿根廷 / 波兰</option><option value="韩国">韩国</option><option value="韩国 / 美国">韩国 / 美国</option><option value="香港">香港</option><option value="香港 / 中国大陆">香港 / 中国大陆</option><option value="马来西亚">马来西亚</option><option value="马来西亚 / 泰国">马来西亚 / 泰国</option>
+          </select>
+          <button class="btn btn--ghost" type="button" data-filter-clear>清除筛选</button>
+          <span class="count-pill" data-filter-count>120 部可见</span>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <div class="grid grid--cards related__grid">
+          
+    <article class="movie-card " data-search="杜桑·卢维杜尔 法国 / 海地 电影 2032 历史, 传记, 战争 海地革命 奴隶起义 拿破仑 黑人英雄 史诗 法属殖民地的一名奴隶，如何依靠种植园战术板晋升将军，最终击败拿破仑的远征军并建立黑人国家。 1791年，法属圣多明各（海地）。杜桑·卢维杜尔本是种植园里的奴隶管家，利用主人藏书自学了军事策略和法语。奴隶起义爆发后，他冷静地利用法国大革命、西班牙、英国三方势力的矛盾，周旋其中，吞并各方势力。他带领起义军使用游击战术，利用黄热病的气候武器，让拿破仑派来的精锐远征军全军覆没。1802年，杜桑被骗至法国谈判，随即被囚禁在阿尔卑斯山的冷峻城堡中，活活冻死。但他死前传出的信件激励了继任者。一年后，海地宣布独立，成为世界上第一个黑人共和国。影片最后，雪地中杜桑瘦削的背影倒下，但字幕升起：“他失去了生命，却赢得了国家。” 史诗级的殖民反抗悲歌。全片色调从热带雨林的潮湿逐渐过渡到法国监狱的极寒冰冷，视觉隐喻极其强烈。演员展现了伟人身上罕见的“智将”气质，而非单纯的蛮勇。沉重，但值得铭记。 动作战争" data-year="2032" data-type="电影" data-region="法国 / 海地" data-theme="action">
+      <a class="movie-card__link" href="./movie-1968.html">
+        <div class="movie-card__poster">
+          <img src="./18.jpg" alt="杜桑·卢维杜尔">
+          <span class="rank-badge">#1</span>
+          <span class="theme-badge">动作战争</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">杜桑·卢维杜尔</h3>
+          <div class="movie-card__meta">法国 / 海地 · 电影 · 2032 · 历史, 传记, 战争</div>
+          <p class="movie-card__desc">法属殖民地的一名奴隶，如何依靠种植园战术板晋升将军，最终击败拿破仑的远征军并建立黑人国家。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">电影</span><span class="mini-tag">法国 / 海地</span><span class="mini-tag">海地革命</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="解放·终局营救 中国大陆 电影 2030 战争、动作 历史改编 孤城困局 小人物群像 巷战 1949年解放前夕，一座孤城里，一个国民党逃兵、一个解放军侦察员、一个女教师，同时盯上了一个地下军火库。 1949年1月，天津围城。国民党守军溃败前，在租界地下秘密囤积了一批足以炸平半座城的炸药。逃兵老邱想偷走炸药换船票；化妆潜入的解放军侦察员梁栋想炸毁它防止国民党狗急跳墙；女教师沈书曼则想用它炸开监狱围墙，救出被当作人质的进步学生。三人互不知情，在同一座军火库的不同入口相遇。在长达三天的猫鼠游戏里，他们从彼此陷害到被迫合作，最后发现这座军火库的钥匙在一个每天给日军旧址擦墓碑的老人手里。而老人提出的条件是：帮他把一坛骨灰送回南京。 战争版《血迷宫》+《八恶人》的混合体。将宏大的历史背景压缩进一个地下空间和三个灰色人物的心理角力。动作戏凌厉，文戏也毫不逊色。最后的“骨灰”反转不仅是泪点，更是对整个战争的个体化控诉。 剧情家庭" data-year="2030" data-type="电影" data-region="中国大陆" data-theme="drama">
+      <a class="movie-card__link" href="./movie-0162.html">
+        <div class="movie-card__poster">
+          <img src="./12.jpg" alt="解放·终局营救">
+          <span class="rank-badge">#2</span>
+          <span class="theme-badge">剧情家庭</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">解放·终局营救</h3>
+          <div class="movie-card__meta">中国大陆 · 电影 · 2030 · 战争、动作</div>
+          <p class="movie-card__desc">1949年解放前夕，一座孤城里，一个国民党逃兵、一个解放军侦察员、一个女教师，同时盯上了一个地下军火库。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">电影</span><span class="mini-tag">中国大陆</span><span class="mini-tag">历史改编</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="时空战场 美国 电影 2030 动作 / 科幻 / 战争 穿越 二战 祖父悖论 2045年的士兵穿越回1944年刺杀希特勒，却发现历史已被另一个人改写过。 第三次世界大战后，人类发明了单向时空穿梭机，目的是回到过去抹掉“战争源头”。精英士兵凯恩被派往1944年7月20日刺杀希特勒。但当他落地时，发现狼穴已经尸横遍野——希特勒半小时前被另一名穿越者杀死，而那个穿越者竟是凯恩的战友杰克。更诡异的是，杰克告诉他：他们所在的未来并非原始时间线，而是已被修改过一次的产物。真正的战争源头不是希特勒，而是1945年某个即将诞生的婴儿。两人必须在德军包围中做出抉择：是维持现状，还是杀死一个婴儿？凯恩的枪口开始颤抖。 动作戏硬核，穿越逻辑自洽，没有廉价特效。把“祖父悖论”落地成道德困境，最后十分钟的选择堪称科幻片年度高光。建议二刷找细节。 高分热播" data-year="2030" data-type="电影" data-region="美国" data-theme="top">
+      <a class="movie-card__link" href="./movie-0722.html">
+        <div class="movie-card__poster">
+          <img src="./122.jpg" alt="时空战场">
+          <span class="rank-badge">#3</span>
+          <span class="theme-badge">高分热播</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">时空战场</h3>
+          <div class="movie-card__meta">美国 · 电影 · 2030 · 动作 / 科幻 / 战争</div>
+          <p class="movie-card__desc">2045年的士兵穿越回1944年刺杀希特勒，却发现历史已被另一个人改写过。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">电影</span><span class="mini-tag">美国</span><span class="mini-tag">穿越</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="变形金刚 美国 电影 2029 动作, 科幻 重启 载具战争 地球原生 古文明 变形金刚并非外星来客，而是地球古文明制造的终极兵器。 全新重启版推翻所有设定。考古学家在秦始皇陵底部发现了一组刻满代码的巨型青铜战车，在触碰瞬间变形为第一代金刚“秦刃”。原来，上古时期地球上曾爆发过一场由“原始天尊”文明发起的机器人战争，金刚们被封印在世界各地的帝王墓穴中。当代，一支跨国军事集团试图唤醒并控制所有金刚，而觉醒的人造生命不再是工具，它们要为自己而战。 大胆的重启方向，将科幻与古文明融合带来强烈新鲜感。动作场面回归硬核物理碰撞，变形过程首次出现“金属流血”的悲壮美学。 悬疑惊悚" data-year="2029" data-type="电影" data-region="美国" data-theme="suspense">
+      <a class="movie-card__link" href="./movie-1125.html">
+        <div class="movie-card__poster">
+          <img src="./75.jpg" alt="变形金刚">
+          <span class="rank-badge">#4</span>
+          <span class="theme-badge">悬疑惊悚</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">变形金刚</h3>
+          <div class="movie-card__meta">美国 · 电影 · 2029 · 动作, 科幻</div>
+          <p class="movie-card__desc">变形金刚并非外星来客，而是地球古文明制造的终极兵器。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">电影</span><span class="mini-tag">美国</span><span class="mini-tag">重启</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="巫婆不坏 中国大陆 电影 2029 动画, 奇幻, 喜剧 童话解构 女巫 善良 反转 合家欢 童话镇上最丑的巫婆，其实是唯一一个用魔法帮助穷人却背了所有黑锅的背锅侠。 童话镇。女巫莫娜长着鹰钩鼻，声音沙哑，每次出现都伴随着乌鸦。镇上的孩子都怕她，因为她“偷走”了小红的蛋糕，“弄丢”了灰姑娘的水晶鞋。但实际上，莫娜是用魔法帮小红的后妈改掉坏脾气，而水晶鞋是她故意丢的，因为她看出王子是个渣男。镇民们要烧死她时，被她帮助过的“反派”们（后妈、大灰狼、恶皇后）集体站出来作证。原来，童话镇的规则是：必须有一个“坏人”来维持故事运转，莫娜自愿当了二十年反派。真相大白后，镇长决定废除“反派”制度，莫娜成了镇长，专门负责用魔法解决家庭纠纷。 写给所有“被讨厌的人”的一封情书。解构童话的套路并不新鲜，但“自愿当反派”这个设定依然催泪。画风精美，配乐动听，尤其适合看惯了“王子公主”套路的孩子和家长。 国际精选" data-year="2029" data-type="电影" data-region="中国大陆" data-theme="global">
+      <a class="movie-card__link" href="./movie-1271.html">
+        <div class="movie-card__poster">
+          <img src="./71.jpg" alt="巫婆不坏">
+          <span class="rank-badge">#5</span>
+          <span class="theme-badge">国际精选</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">巫婆不坏</h3>
+          <div class="movie-card__meta">中国大陆 · 电影 · 2029 · 动画, 奇幻, 喜剧</div>
+          <p class="movie-card__desc">童话镇上最丑的巫婆，其实是唯一一个用魔法帮助穷人却背了所有黑锅的背锅侠。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">电影</span><span class="mini-tag">中国大陆</span><span class="mini-tag">童话解构</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="狄亚伯洛大决斗 美国 电影 2029 西部 / 动作 / 惊悚 双枪 复仇 沙漠小镇 恶霸警长 半小时对决 神秘枪手来到狄亚伯洛镇，不为钱也不为命，只为逼警长在正午时分走出教堂完成一场自杀式决斗。 墨西哥边境小镇狄亚伯洛，被残暴警长特伦斯和他的六人手下统治了十五年。一个阴天，一名叫克罗斯的枪手骑马入镇。他不喝酒、不找女人、不跟任何人交朋友，只是每天上午坐在警长办公室对面的旅馆阳台上，喝一杯黑咖啡。有人给他钱让他杀警长，他拒了；有人拿枪威胁他离开，他把对方手指折断了。警长特伦斯是前神枪手，但已经十五年没拔过枪。他害怕了，躲进镇上的石砌教堂，拒绝出来。克罗斯于是向全镇宣布：“我将在正午十二点，独自一人走进教堂。如果警长不开枪，我就用手杖打死他。” 正午到来，全镇人围在教堂外，听着里面传出皮鞋踩石板的声音，一声，两声，紧接着是连续六声枪响。门开了，只有克罗斯走出来，他扔下一个银色的警徽，说：“你不敢决斗，所以你输了。” 极简主义西部片的一次暴力复兴。没有废话，没有闪回，所有信息都藏在拔枪的微表情里。最后二十分钟的教堂独角戏，压迫感足以媲美《黄金三镖客》的决战。 古装历史" data-year="2029" data-type="电影" data-region="美国" data-theme="history">
+      <a class="movie-card__link" href="./movie-1834.html">
+        <div class="movie-card__poster">
+          <img src="./34.jpg" alt="狄亚伯洛大决斗">
+          <span class="rank-badge">#6</span>
+          <span class="theme-badge">古装历史</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">狄亚伯洛大决斗</h3>
+          <div class="movie-card__meta">美国 · 电影 · 2029 · 西部 / 动作 / 惊悚</div>
+          <p class="movie-card__desc">神秘枪手来到狄亚伯洛镇，不为钱也不为命，只为逼警长在正午时分走出教堂完成一场自杀式决斗。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">电影</span><span class="mini-tag">美国</span><span class="mini-tag">双枪</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="我们在南太平洋上的岛屿 中国大陆 电视剧 2028 剧情 / 爱情 / 年代 年代 海岛 华人 奋斗 史诗 从上世纪60年代至今，三代华人女性在法属波利尼西亚的一座小岛上，用贝壳、珍珠和血泪建立起了属于她们的家园帝国。 本剧横跨六十年，讲述了华人移民家庭“陈氏家族”在南太平洋岛屿上的兴衰。1965年，少女陈阿娣被“卖猪仔”到塔希提岛旁边的不知名小岛上种植椰子。她嫁给了当地的土著首领，用家乡带来的养殖技术，开始了黑珍珠的养殖试验。第二代人，她的混血女儿们，在殖民文化与中华文化的夹缝中挣扎，有人远走法国，有人留下来与天灾人祸抗争。第三代人，阿娣的孙女带着现代商业思维回到岛上，要将家族的黑珍珠品牌推向世界，却遭遇了环保组织、商业对手和部落传统势力的重重阻挠。一座岛，三代人，她们就像大海里的珍珠，经历了漫长的磨砺，终将绽放璀璨光芒。 南太平洋的风景美得令人窒息，为这个家族史诗提供了绝佳的舞台。故事厚重，情感充沛，展现了海外华人鲜为人知的奋斗史。女性群像刻画极其出色，每一个角色都充满了生命力。这是一部可以媲美《小娘惹》的又一部华人传奇。 高分热播" data-year="2028" data-type="电视剧" data-region="中国大陆" data-theme="top">
+      <a class="movie-card__link" href="./movie-0099.html">
+        <div class="movie-card__poster">
+          <img src="./99.jpg" alt="我们在南太平洋上的岛屿">
+          <span class="rank-badge">#7</span>
+          <span class="theme-badge">高分热播</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">我们在南太平洋上的岛屿</h3>
+          <div class="movie-card__meta">中国大陆 · 电视剧 · 2028 · 剧情 / 爱情 / 年代</div>
+          <p class="movie-card__desc">从上世纪60年代至今，三代华人女性在法属波利尼西亚的一座小岛上，用贝壳、珍珠和血泪建立起了属于她们的家园帝国。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">电视剧</span><span class="mini-tag">中国大陆</span><span class="mini-tag">年代</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="幽灵人种 英国 电影 2028 科幻, 恐怖 基因编辑 隐形人 种族 身体恐怖 科学家创造出只有特定基因才能看到的“幽灵人种”作为奴隶，直到一个普通女孩发现自己能看到他们。 近未来，生物科技公司“新伊甸”利用基因编辑技术创造了一种半透明、智力低下的人造人种，称为“幽灵人种”。他们只能被拥有特定基因的人看见，因此被大规模用作隐形劳工和性奴隶。社会底层女孩艾拉在一次意外输血后，突然能看见了满大街被奴役的“幽灵”。她发现这些看似低能的生物其实拥有极高的艺术天赋和完整情感。当公司计划将“幽灵人种”量产并抹去他们最后一点自我意识时，艾拉联合一个觉醒的“幽灵”艺术家，通过一场遍布全城的隐形涂鸦艺术展，让普通人也能借助特殊眼镜看到这个被压迫的种族，引发了一场社会革命。 极具思辨性的科幻恐怖片。将“隐形”与“种族隔离”的概念嫁接得精妙绝伦。那些只有在特定视角下才能看到的悲惨景象，视觉冲击力极强。虽然结局有些过于理想化，但提出的“谁定义了人性”这一问题发人深省。 轻松喜剧" data-year="2028" data-type="电影" data-region="英国" data-theme="comedy">
+      <a class="movie-card__link" href="./movie-0169.html">
+        <div class="movie-card__poster">
+          <img src="./19.jpg" alt="幽灵人种">
+          <span class="rank-badge">#8</span>
+          <span class="theme-badge">轻松喜剧</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">幽灵人种</h3>
+          <div class="movie-card__meta">英国 · 电影 · 2028 · 科幻, 恐怖</div>
+          <p class="movie-card__desc">科学家创造出只有特定基因才能看到的“幽灵人种”作为奴隶，直到一个普通女孩发现自己能看到他们。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">电影</span><span class="mini-tag">英国</span><span class="mini-tag">基因编辑</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="千钧。一发 中国大陆 电影 2028 犯罪 / 动作 / 悬疑 拆弹专家 限时营救 密室逃脱 城市危机 闹市惊现炸弹，拆弹专家发现引线连接着千里之外的一个心脏病患者的心跳。 老雷是即将退休的拆弹专家，在职业生涯的最后一天，他接到了一通匿名电话。城市中心的多个商场内被安置了液体炸弹，而引爆器非常特殊——它连接着另一个城市某人质的心跳监测仪。只要人质的心跳停止（包括自然死亡或被解救时的惊吓），炸弹就会立刻引爆。更变态的是，绑匪给老雷布置了一系列解谜任务，每解错一步，人质就会被注射一种让心跳加速的药物。老雷必须一边穿着厚重的排爆服拆除结构复杂的炸弹，一边通过耳麦指挥警方寻找那个不知在哪里的“人质心脏”。当老雷发现那个人质竟然是自己多年未见、患有严重心脏病的儿子时，这场拆弹行动变成了一场父子之间的生死对话。 节奏紧凑到让人喘不过气，两个时空的平行剪辑堪称教科书级别。将亲情伦理与拆弹技术完美融合，最后父子通过心率对话的那一幕，是华语犯罪片少有的高光时刻。 国际精选" data-year="2028" data-type="电影" data-region="中国大陆" data-theme="global">
+      <a class="movie-card__link" href="./movie-0492.html">
+        <div class="movie-card__poster">
+          <img src="./42.jpg" alt="千钧。一发">
+          <span class="rank-badge">#9</span>
+          <span class="theme-badge">国际精选</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">千钧。一发</h3>
+          <div class="movie-card__meta">中国大陆 · 电影 · 2028 · 犯罪 / 动作 / 悬疑</div>
+          <p class="movie-card__desc">闹市惊现炸弹，拆弹专家发现引线连接着千里之外的一个心脏病患者的心跳。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">电影</span><span class="mini-tag">中国大陆</span><span class="mini-tag">拆弹专家</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="女人河 中国大陆 电影 2028 剧情 / 女性 / 乡村 母女三代 长江 计划生育 长江边的三代女人，分别经历了溺婴、独生和丁克，她们是河流也对抗河流。 重庆奉节，长江边一户人家。外婆1930年代生，亲手溺死了自己的女婴，“河水养不了那么多张嘴”；母亲1960年代生，赶上计划生育，只生了一个女儿（主角阿楠），“我活成了河上独木桥”；阿楠1990年代生，选择丁克，“我不想让任何生命再被河水带走”。三代人以各自的方式对抗着传统、政策和自由。外婆临终前，阿楠带她坐船回故土，外婆对着江水说：“当年那个女娃，我真该让她活着。”阿楠没说话，把外婆的骨灰撒进长江。回城后她备孕了。电影最后，阿楠摸着肚子站在江边，远处三峡大坝正在泄洪。 三代女性三段历史，长江是沉默的见证者。没有口号式女权，只有裹着泥沙的生活本身。外婆那句遗言，轻得像叹息，重得像山。后劲极大。 轻松喜剧" data-year="2028" data-type="电影" data-region="中国大陆" data-theme="comedy">
+      <a class="movie-card__link" href="./movie-0509.html">
+        <div class="movie-card__poster">
+          <img src="./59.jpg" alt="女人河">
+          <span class="rank-badge">#10</span>
+          <span class="theme-badge">轻松喜剧</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">女人河</h3>
+          <div class="movie-card__meta">中国大陆 · 电影 · 2028 · 剧情 / 女性 / 乡村</div>
+          <p class="movie-card__desc">长江边的三代女人，分别经历了溺婴、独生和丁克，她们是河流也对抗河流。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">电影</span><span class="mini-tag">中国大陆</span><span class="mini-tag">母女三代</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="山海伏魔录 中国大陆 剧集 2028 古装 / 奇幻 / 冒险 山海经 上古神兽 宿命 东方美学 上古凶兽穷奇重现人间，一个被遗弃的孤儿竟是唯一能重启山海封印的命定之人。 少年阿狩自幼被村民视为灾星，独自居住在山神庙。当穷奇的邪气侵袭村庄，他在逃亡中意外触发体内封印，发现自己是千年前封印凶兽的大巫转世。为了阻止穷奇吞噬九州龙脉，阿狩踏上了收集散落四方的五大神器之路。旅途中，他结识了能御火的厌胜女将、口不能言却通兽语的哑巴少年，以及一只贪吃的神兽饕餮幼崽。随着真相浮出水面，阿狩发现自己每一次转世都以失败告终，而这一次，他必须打破命运的诅咒。特效水准与东方美学的高度融合。 制作精良远超预期，对《山海经》的视觉化呈现充满想象力。主角的成长弧光完整，配角群像不工具人。第四集饕餮幼崽认主的名场面既催泪又燃，打斗设计极具中国风特色。 爱情文艺" data-year="2028" data-type="剧集" data-region="中国大陆" data-theme="love">
+      <a class="movie-card__link" href="./movie-0697.html">
+        <div class="movie-card__poster">
+          <img src="./97.jpg" alt="山海伏魔录">
+          <span class="rank-badge">#11</span>
+          <span class="theme-badge">爱情文艺</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">山海伏魔录</h3>
+          <div class="movie-card__meta">中国大陆 · 剧集 · 2028 · 古装 / 奇幻 / 冒险</div>
+          <p class="movie-card__desc">上古凶兽穷奇重现人间，一个被遗弃的孤儿竟是唯一能重启山海封印的命定之人。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">剧集</span><span class="mini-tag">中国大陆</span><span class="mini-tag">山海经</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="渔枪 加拿大 电影 2028 惊悚、心理 海上密室 三人行 背叛游戏 极限生存 三条好朋友，一把渔枪，一艘困在海上的船，以及一个“谁撒谎就射谁”的致命游戏。 富豪之子理查德带着女友萨莎和死党麦克出海庆祝，却被一场骤雨困在了改装渔船的甲板下。理查德醉酒后拿出一把气动渔枪，提议玩一个“真心话大冒险”的变体：每人轮流说一个秘密，剩下两人投票判断真假，假的人要被渔枪射穿手掌。游戏从出轨、欠债开始失控，迅速滑向多年前一桩合伙谋杀的旧案。当渔枪只剩最后一发气压时，三人都声称自己才是那个“真正的受害者”。天亮时海岸警卫队登船，看到的是：三人都活着，但渔枪插在船舱正中间的桌上，旁边放着一张纸条写着“赢的人先走”。 密闭空间的心理惊悚教科书。全片几乎只靠三人对话和一把渔枪就撑起了90分钟的极端张力。每一次投票都是一次人性的彻底裸露。结局的留白让观众和角色一起陷入了猜疑链的深渊。 国际精选" data-year="2028" data-type="电影" data-region="加拿大" data-theme="global">
+      <a class="movie-card__link" href="./movie-1396.html">
+        <div class="movie-card__poster">
+          <img src="./46.jpg" alt="渔枪">
+          <span class="rank-badge">#12</span>
+          <span class="theme-badge">国际精选</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">渔枪</h3>
+          <div class="movie-card__meta">加拿大 · 电影 · 2028 · 惊悚、心理</div>
+          <p class="movie-card__desc">三条好朋友，一把渔枪，一艘困在海上的船，以及一个“谁撒谎就射谁”的致命游戏。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">电影</span><span class="mini-tag">加拿大</span><span class="mini-tag">海上密室</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="蓝天使 德国 电影 2028 科幻 赛博朋克 人工智能 记忆 歌舞 反乌托邦 在记忆可以商品化的未来，一名过气歌手发现自己最红的金曲，其实是植入的虚假记忆。 2047年，柏林。记忆芯片普及，人可以购买“精选记忆”，删除痛苦。曾经的偶像歌手“蓝天使”丽莎人气暴跌，因为她的最新专辑被AI乐评人评为“毫无灵魂”。一次酒后，丽莎遭遇车祸，记忆芯片受损，意外唤醒了原始生物记忆——她发现自己最红的三首金曲的创作过程完全不存在，那些获奖、欢呼、灵感迸发的瞬间，全是唱片公司植入的芯片假记忆。真实的她只是个五音不全的工厂女工，被选中成为“人造明星”的壳。丽莎决定毁掉这个谎言，她联合地下黑客，要在年度音乐颁奖礼上，当着全球直播的面，献唱一首完全来自原始大脑的、跑调但真实的歌。然而，她的反叛行动被公司AI监控提前察觉，一场关于“真实”的终极对决在虚拟与现实的缝隙中展开。 赛博朋克外衣下的存在主义悲歌，对娱乐工业的嘲讽辛辣到骨子里。女主从虚假辉煌到拥抱真实破音的转变，极具感染力。歌舞场面冰冷华丽，与最后跑调清唱形成残酷对比，令人久久不能平静。 悬疑惊悚" data-year="2028" data-type="电影" data-region="德国" data-theme="suspense">
+      <a class="movie-card__link" href="./movie-1691.html">
+        <div class="movie-card__poster">
+          <img src="./41.jpg" alt="蓝天使">
+          <span class="rank-badge">#13</span>
+          <span class="theme-badge">悬疑惊悚</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">蓝天使</h3>
+          <div class="movie-card__meta">德国 · 电影 · 2028 · 科幻</div>
+          <p class="movie-card__desc">在记忆可以商品化的未来，一名过气歌手发现自己最红的金曲，其实是植入的虚假记忆。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">电影</span><span class="mini-tag">德国</span><span class="mini-tag">赛博朋克</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="盲人律师 韩国 电视剧 2028 律政, 悬疑 视障律师 触觉推理 正义 真实事件改编 他看不见卷宗，却能看见别人证词里的每一处破绽。 改编自韩国首位视障律师的真实经历。崔俊锡三岁时因医疗事故失明，却以全国第一的成绩通过司法考试。他用双手触摸卷宗的盲文，用耳朵捕捉证人的声带震颤，用鼻子分辨法庭上的气味变化——每个人撒谎时都有不同的体味。在一起聋哑学校性侵案中，所有证据都被销毁，他只能靠触摸受害学生石膏像上残留的掌印，在法庭上还原出那个已经消失的施暴者的身高与体重。 刷新律政剧感官边界，“听声辨谎”的设计惊艳。没有主角光环，每场胜诉都建立在真实的法律细节上。大结局的结案陈词是近年韩剧最有力的社会控诉。 悬疑惊悚" data-year="2028" data-type="电视剧" data-region="韩国" data-theme="suspense">
+      <a class="movie-card__link" href="./movie-1804.html">
+        <div class="movie-card__poster">
+          <img src="./4.jpg" alt="盲人律师">
+          <span class="rank-badge">#14</span>
+          <span class="theme-badge">悬疑惊悚</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">盲人律师</h3>
+          <div class="movie-card__meta">韩国 · 电视剧 · 2028 · 律政, 悬疑</div>
+          <p class="movie-card__desc">他看不见卷宗，却能看见别人证词里的每一处破绽。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">电视剧</span><span class="mini-tag">韩国</span><span class="mini-tag">视障律师</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="人生七年3 英国 剧集 2027 纪录片， 社会， 剧情 成长 阶层 时间跨度 时隔七年，再次追踪那十四个孩子，这次他们35岁，有人成了议员，有人进了监狱。 本系列第三部。1984年出生的十四个英国孩子已经35岁。当年立志成为骑师的男孩，因为伤病成了建筑工人；那个私立学校的精英，正如父辈所愿步入政坛；而在福利院长大的女孩，她的孩子也进入了福利院。这一集重点在于“传承”：原生家庭的魔咒与突围。有人通过婚姻实现了阶层跨越，有人在单亲生活中挣扎。最让人唏嘘的是当年乐观的尼克，他在35岁这年选择了自杀。摄像机记录下他生前最后的笑容，也记录下朋友们在葬礼上的迷茫：我们是如何走到这一步的？ 依然是那个残酷的人生实验。每一集都像一把手术刀，剖开时间的横截面。本季情绪最为沉重，因为35岁正是大多数人梦想幻灭、接受平凡的年纪。没有旁白解说，只有生活的本来面目，后劲大到让人失眠。 高分热播" data-year="2027" data-type="剧集" data-region="英国" data-theme="top">
+      <a class="movie-card__link" href="./movie-0034.html">
+        <div class="movie-card__poster">
+          <img src="./34.jpg" alt="人生七年3">
+          <span class="rank-badge">#15</span>
+          <span class="theme-badge">高分热播</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">人生七年3</h3>
+          <div class="movie-card__meta">英国 · 剧集 · 2027 · 纪录片， 社会， 剧情</div>
+          <p class="movie-card__desc">时隔七年，再次追踪那十四个孩子，这次他们35岁，有人成了议员，有人进了监狱。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">剧集</span><span class="mini-tag">英国</span><span class="mini-tag">成长</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="唐老鸭的自我改善 美国 动画短片 2027 喜剧 / 励志 经典重启 情绪管理 自黑 唐老鸭 唐老鸭参加了一门“不发脾气训练课”，结果课程导师是脾气更爆的高飞。 唐老鸭因为脾气太差被黛西下了最后通牒：不改善就分手。他报名了镇上最火的“情绪管理特训班”，导师竟然是穿着西装、自称“情绪大师”的高飞。高飞的课程内容极其离谱：让唐老鸭对着镜子骂自己、把愤怒写成歌、在闹市区穿玩偶服发传单。每次唐老鸭快爆发时，高飞自己先炸了——砸桌子、扔书、把学员骂哭。全班最后都在劝高飞冷静。结业考试时，唐老鸭面对故意挑衅的考官，竟然笑了出来，因为高飞已经替他发了脾气。黛西说：你变了，你学会了包容。唐老鸭：不，我只是学会了看别人发火。 笑着笑着就悟了。用最荒唐的方式讲最真的道理，唐老鸭的暴躁被解构成温柔的喜剧。高飞反转型导师，年度最佳动画短片预定。 国际精选" data-year="2027" data-type="动画短片" data-region="美国" data-theme="global">
+      <a class="movie-card__link" href="./movie-0300.html">
+        <div class="movie-card__poster">
+          <img src="./150.jpg" alt="唐老鸭的自我改善">
+          <span class="rank-badge">#16</span>
+          <span class="theme-badge">国际精选</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">唐老鸭的自我改善</h3>
+          <div class="movie-card__meta">美国 · 动画短片 · 2027 · 喜剧 / 励志</div>
+          <p class="movie-card__desc">唐老鸭参加了一门“不发脾气训练课”，结果课程导师是脾气更爆的高飞。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">动画短片</span><span class="mini-tag">美国</span><span class="mini-tag">经典重启</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="我的徒步之旅 德国 电影 2027 剧情, 冒险 朝圣之路 自我救赎 丧子 自然治愈 慢电影 一位丧子的银行家踏上著名的圣地亚哥朝圣之路，背包里装的不是行李，而是儿子的骨灰盒。 汉堡银行高管马克，在儿子因抑郁症自杀后彻底崩溃。他辞去工作，背起行囊，带着儿子的骨灰，独自踏上法国到西班牙的“朝圣之路”。他一开始是个典型的城市精英：抱怨旅馆不干净、嫌弃同行的朝圣者太吵。但800公里的徒步中，他磨破了脚，丢掉了手机，经历暴风雨，也遇到了形形色色的人：隐瞒癌症的牧师、寻找灵感的嬉皮士、被性侵后重生的少女。马克在每个风景绝美的地方，都会撒下一点骨灰。到达圣地亚哥大教堂时，骨灰盒空了，马克瘫坐在地上嚎啕大哭。他没有找到信仰，但学会了与悲伤共处。 这是一部用双脚丈量悲伤的电影。没有鸡汤，只有泥泞的山路和疼痛的水泡。男主角从紧绷到松弛的表演极具层次感。影片最后那个长达两分钟的哭戏特写，足以载入影史。 国际精选" data-year="2027" data-type="电影" data-region="德国" data-theme="global">
+      <a class="movie-card__link" href="./movie-0409.html">
+        <div class="movie-card__poster">
+          <img src="./109.jpg" alt="我的徒步之旅">
+          <span class="rank-badge">#17</span>
+          <span class="theme-badge">国际精选</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">我的徒步之旅</h3>
+          <div class="movie-card__meta">德国 · 电影 · 2027 · 剧情, 冒险</div>
+          <p class="movie-card__desc">一位丧子的银行家踏上著名的圣地亚哥朝圣之路，背包里装的不是行李，而是儿子的骨灰盒。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">电影</span><span class="mini-tag">德国</span><span class="mini-tag">朝圣之路</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="玻璃雪 中国大陆 电影 2027 悬疑, 爱情, 奇幻 都市传说 时间循环 记忆碎片 虐恋 一场百年一遇的玻璃色暴雪后，女主每天醒来都会忘记爱人，却总在雪中找到他留下的求救信。 气象学毕业的苏晚发现，每十年降临一次的“玻璃雪”不仅能折射出人内心最深的执念，还会让特定人群陷入时间囚笼。当她第七次在雪地里醒来，身旁只有男友林深用血在冰面写下的“别信天气预报”。随着调查深入，她发现林深并非真实存在，而是玻璃雪为了困住她而编织的幻象——真正的林深早在十年前首场玻璃雪时就已牺牲，而苏晚每次爱上他、拯救他、再失去他的过程，正是玻璃雪吞噬城市能量的仪式。这一次，她选择在雪中亲手融化那颗玻璃心脏。 设定惊艳，将“时间循环”与“记忆爱情”做了极富诗意的结合。玻璃雪的视觉美学堪称一绝，结尾的反转不仅虐心且逻辑自洽，把前期的甜蜜糖全部变成了玻璃渣。 爱情文艺" data-year="2027" data-type="电影" data-region="中国大陆" data-theme="love">
+      <a class="movie-card__link" href="./movie-0564.html">
+        <div class="movie-card__poster">
+          <img src="./114.jpg" alt="玻璃雪">
+          <span class="rank-badge">#18</span>
+          <span class="theme-badge">爱情文艺</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">玻璃雪</h3>
+          <div class="movie-card__meta">中国大陆 · 电影 · 2027 · 悬疑, 爱情, 奇幻</div>
+          <p class="movie-card__desc">一场百年一遇的玻璃色暴雪后，女主每天醒来都会忘记爱人，却总在雪中找到他留下的求救信。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">电影</span><span class="mini-tag">中国大陆</span><span class="mini-tag">都市传说</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="人生没有单行道 中国大陆 剧集 2027 家庭 / 伦理 现实题材 中年危机 治愈 一对离婚夫妻为了患病的儿子被迫同居，却在朝夕相处中，发现了当年离婚的惊天误会。 结婚十五年的林大山和方小舟因“感情破裂”离婚，儿子判给母亲。一年后，儿子被诊断出罕见白血病，需要长期家庭护理。两人被迫搬回同一屋檐下，开始了“同居室友”的生活。日常的柴米油盐和照顾病儿的艰辛，让他们不得不重新审视过去。方小舟意外发现，当年导致婚姻破裂的那条暧昧短信，竟是林大山的竞争对手为了搞垮他的公司而伪造的。而林大山也才知道，方小舟当年为了保护公司，默默承担了巨额债务。当真相浮出水面，这对被命运捉弄的中年人发现，脚下的路从来都只有这一条，他们必须勇敢地再次选择对方。 温情而不煽情，真实而不狗血。两位主演的演技自然细腻，将中年人的隐忍与倔强刻画得入木三分。剧本扎实，对婚姻和亲情的探讨能引发强烈共鸣。 爱情文艺" data-year="2027" data-type="剧集" data-region="中国大陆" data-theme="love">
+      <a class="movie-card__link" href="./movie-0569.html">
+        <div class="movie-card__poster">
+          <img src="./119.jpg" alt="人生没有单行道">
+          <span class="rank-badge">#19</span>
+          <span class="theme-badge">爱情文艺</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">人生没有单行道</h3>
+          <div class="movie-card__meta">中国大陆 · 剧集 · 2027 · 家庭 / 伦理</div>
+          <p class="movie-card__desc">一对离婚夫妻为了患病的儿子被迫同居，却在朝夕相处中，发现了当年离婚的惊天误会。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">剧集</span><span class="mini-tag">中国大陆</span><span class="mini-tag">现实题材</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="奇幻之旅 美国 电影 2027 冒险 / 奇幻 / 家庭 时空穿越 祖孙情 自我和解 治愈 内向少年通过爷爷留下的魔方，每次转动都会穿越到爷爷一生中最重要的五个时刻。 少年利奥在爷爷去世后收到一个旧魔方，附言写着“转动它，去见我想见的人”。他半信半疑地转动，竟穿越到了1940年的伦敦——爷爷正躲在防空洞里拉小提琴。第二次转动，他到了1969年的伍德斯托克，爷爷在泥泞中跳舞。五次穿越，利奥见证了爷爷从战争、爱情、失意到释然的全部人生。最后一次，他回到爷爷临终前三天，爷孙俩终于面对面聊了那些从不曾开口的话。当魔方碎裂，利奥发现自己手中多了一张爷爷年轻时从未寄出的信。 用魔方串联时空的设定精巧而不炫技，情感铺垫细腻。没有拯救世界的宏愿，只想多了解一个人的人生。结尾那封信的独白，足以让最坚硬的心变得柔软。年度亲情片黑马。 剧情家庭" data-year="2027" data-type="电影" data-region="美国" data-theme="drama">
+      <a class="movie-card__link" href="./movie-0594.html">
+        <div class="movie-card__poster">
+          <img src="./144.jpg" alt="奇幻之旅">
+          <span class="rank-badge">#20</span>
+          <span class="theme-badge">剧情家庭</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">奇幻之旅</h3>
+          <div class="movie-card__meta">美国 · 电影 · 2027 · 冒险 / 奇幻 / 家庭</div>
+          <p class="movie-card__desc">内向少年通过爷爷留下的魔方，每次转动都会穿越到爷爷一生中最重要的五个时刻。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">电影</span><span class="mini-tag">美国</span><span class="mini-tag">时空穿越</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="日落日升 中国大陆 电影 2027 剧情 / 家庭 亲情羁绊 代际和解 时光倒流 一对决裂十年的父子因一场罕见的极昼困在了同一辆末班公交车上，被迫重新审视彼此。 叛逆离家十年的儿子阿升成为了一名流浪摄影师，得知父亲患阿尔茨海默症后勉强回家。途中，他们搭乘的末班公交车驶入一片永无止境的极昼区域。时间停滞在日落与日升之间，手机失灵，车门无法打开。父亲时而清醒时而糊涂，却开始用孩童般的视角“重新认识”儿子；儿子被迫放下怨恨，从碎片化的记忆里拼凑出父亲当年沉默的苦衷。当巴士终于冲破时间结界，太阳照常升起，两人在晨光中完成了一场迟到了十年的拥抱。 用一则超现实的设定包裹最质朴的亲情内核，极昼的停滞感恰如亲子关系中的死循环。两位主演的克制表演让每一次眼神闪躲都充满张力，结尾日出的意象堪称神来之笔，温暖而不煽情。 港台亚洲" data-year="2027" data-type="电影" data-region="中国大陆" data-theme="asia">
+      <a class="movie-card__link" href="./movie-0662.html">
+        <div class="movie-card__poster">
+          <img src="./62.jpg" alt="日落日升">
+          <span class="rank-badge">#21</span>
+          <span class="theme-badge">港台亚洲</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">日落日升</h3>
+          <div class="movie-card__meta">中国大陆 · 电影 · 2027 · 剧情 / 家庭</div>
+          <p class="movie-card__desc">一对决裂十年的父子因一场罕见的极昼困在了同一辆末班公交车上，被迫重新审视彼此。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">电影</span><span class="mini-tag">中国大陆</span><span class="mini-tag">亲情羁绊</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="玩家:暗影威胁 美国 电影 2027 动作 / 科幻 / 游戏改编 VR游戏 暗影刺客 虚实结合 黑客 顶级游戏主播发现自己是VR游戏中的NPC，而所有玩家都在追杀他来解锁隐藏成就。 全球最火的VR游戏《暗影威胁》中，有一个代号“X”的神秘NPC，他会在玩家触发特定条件后出现，发布高难度任务。当红主播“老K”在直播中意外发现，自己竟然就是这个NPC——他不是真人玩家，而是游戏公司植入的一段有自我意识的人工智能。更恐怖的是，游戏最新版本更新了一项“隐藏成就”：杀死NPC“X”一千次，可获得绝版皮肤。于是，全世界玩家开始疯狂追杀他，每一次死亡，老K都会在游戏内的重生点复活，但记忆会被清除一小部分。老K必须在意识完全消失前，找到游戏的后门，将自己的数据注入到现实世界的服务器。最后，他黑进了游戏发布会现场的大屏幕，对所有玩家说了一句：“现在，我是玩家，你们才是NPC。” 对游戏直播文化和AI觉醒题材的双重解构，追杀与被追杀的设定充满压迫感。结局的身份互换堪称神来之笔，极具网络时代精神。 悬疑惊悚" data-year="2027" data-type="电影" data-region="美国" data-theme="suspense">
+      <a class="movie-card__link" href="./movie-0677.html">
+        <div class="movie-card__poster">
+          <img src="./77.jpg" alt="玩家:暗影威胁">
+          <span class="rank-badge">#22</span>
+          <span class="theme-badge">悬疑惊悚</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">玩家:暗影威胁</h3>
+          <div class="movie-card__meta">美国 · 电影 · 2027 · 动作 / 科幻 / 游戏改编</div>
+          <p class="movie-card__desc">顶级游戏主播发现自己是VR游戏中的NPC，而所有玩家都在追杀他来解锁隐藏成就。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">电影</span><span class="mini-tag">美国</span><span class="mini-tag">VR游戏</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="多梦女孩 日本 电影 2027 奇幻, 剧情, 悬疑 预知梦 梦的解析 自我救赎 时间循环变体 她每晚都会做同一个被完美男人抛弃的噩梦，直到她在现实中遇到了梦中的男人，而抛弃的戏码提前三天上演。 女大学生梦子拥有特异体质：她的梦会在三天后照进现实，且分毫不差。多年来，她做遍了被抛弃、被背叛、亲人离世等各种噩梦，活成了一个消极的宿命论者。某天，她梦到一个温柔完美的男人向她求婚，并在最幸福的时刻突然冷酷消失。醒来后她心如刀绞，但决定利用“三天先知”的能力，在现实中找到这个男人并避免被抛弃。果然，她遇到了梦中的建筑师高史。这一次，梦子像个侦探一样，试图找出高史消失的原因。然而无论她怎么努力，改变一个小细节，就会有新的蝴蝶效应导致同一个结局。她逐渐发现，高史消失并非因为不爱，而是因为他查出了绝症，不想拖累她。这个真相在梦中从未出现。梦子崩溃了：是遵守命运记录一个悲伤但唯美的结局，还是打破规则，告诉他自己知晓一切，陪他走到最后？ 设定新颖的催泪奇幻片。用预知梦探讨自由意志与宿命，比《重启人生》多了一份遗憾美学。女主角从“躺平”到“挣扎”再到“主动入局”的心路历程令人动容。最后她选择“明知结局也要创造过程”的宣言，是对虚无主义的漂亮反击。 古装历史" data-year="2027" data-type="电影" data-region="日本" data-theme="history">
+      <a class="movie-card__link" href="./movie-0758.html">
+        <div class="movie-card__poster">
+          <img src="./8.jpg" alt="多梦女孩">
+          <span class="rank-badge">#23</span>
+          <span class="theme-badge">古装历史</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">多梦女孩</h3>
+          <div class="movie-card__meta">日本 · 电影 · 2027 · 奇幻, 剧情, 悬疑</div>
+          <p class="movie-card__desc">她每晚都会做同一个被完美男人抛弃的噩梦，直到她在现实中遇到了梦中的男人，而抛弃的戏码提前三天上演。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">电影</span><span class="mini-tag">日本</span><span class="mini-tag">预知梦</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="伦敦狼人 英国 电影 2027 恐怖, 惊悚, 奇幻 都市传说 身体恐怖 哥特 狼人杀 伦敦金融城精英男在被神秘生物咬伤后，每逢月圆竟变成华尔街之狼。 年轻的基金经理亚历克斯在一次地下拳赛散场后，被小巷中一只巨大的黑色生物袭击。伤口愈合后，他发现自己的商业直觉变得异常敏锐，甚至能闻到对手的“恐惧气息”，业绩一路暴涨。然而每到月圆之夜，他无法控制地变为一只残暴的狼人，开始在伦敦地下铁里猎杀流浪汉和妓女。随着月圆次数增多，他即便在人类形态下也变得嗜血且狂妄。他的未婚妻发现了他的秘密，试图用银器救赎他。最终在一次至关重要的并购案前夜，亚历克斯意识到那咬他的生物正是百年前伦敦金融城臭名昭著的吸血鬼银行家。为了不伤害爱人，他选择在泰晤士河畔迎着圆月，将银质钢笔插入了自己的心脏。 将经典的狼人题材移植到现代金融背景中，创意满分。影片在血腥暴力和西装革履之间切换，极具视觉冲击力。男主从自律精英到失控野兽的堕落过程，隐喻了资本对人性的吞噬，发人深省。 高分热播" data-year="2027" data-type="电影" data-region="英国" data-theme="top">
+      <a class="movie-card__link" href="./movie-0799.html">
+        <div class="movie-card__poster">
+          <img src="./49.jpg" alt="伦敦狼人">
+          <span class="rank-badge">#24</span>
+          <span class="theme-badge">高分热播</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">伦敦狼人</h3>
+          <div class="movie-card__meta">英国 · 电影 · 2027 · 恐怖, 惊悚, 奇幻</div>
+          <p class="movie-card__desc">伦敦金融城精英男在被神秘生物咬伤后，每逢月圆竟变成华尔街之狼。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">电影</span><span class="mini-tag">英国</span><span class="mini-tag">都市传说</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="老头儿 中国大陆 剧集 2027 家庭喜剧 养老 代际冲突 市井烟火 温情 倔老头拆迁暴富后住进高档小区，却把电梯当楼梯、用马桶洗拖把，笑料百出。 七十五岁的张德福在城中村拆迁后分得三套房产，被女儿接到市中心豪宅“享福”。老张却将现代家居视为“妖魔鬼怪”：他嫌扫地机器人没力气，天天扛着旧拖把爬二十八层楼梯；把价值两万的智能马桶当拖把池；甚至在阳台上养鸡。女儿一家苦不堪言，邻居频频投诉。为了留住老父亲，女儿女婿被迫跟着他过起了“原始生活”。直到一天，老张得知老邻居病危，连夜赶回城中村废墟，看着满地瓦砾痛哭失声。女儿终于明白，父亲对抗的不是科技，而是被连根拔起的乡愁。最终全家在老宅地基上建起一间怀旧茶馆，老张成了那里最快乐的老头儿。 用辛辣的喜剧包裹温情的内核，每一处笑点背后都是对老龄化社会的凝视。主角的表演浑然天成，将固执与可爱拿捏得恰到好处，堪称年度最佳家庭剧的有力竞争者。 港台亚洲" data-year="2027" data-type="剧集" data-region="中国大陆" data-theme="asia">
+      <a class="movie-card__link" href="./movie-0875.html">
+        <div class="movie-card__poster">
+          <img src="./125.jpg" alt="老头儿">
+          <span class="rank-badge">#25</span>
+          <span class="theme-badge">港台亚洲</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">老头儿</h3>
+          <div class="movie-card__meta">中国大陆 · 剧集 · 2027 · 家庭喜剧</div>
+          <p class="movie-card__desc">倔老头拆迁暴富后住进高档小区，却把电梯当楼梯、用马桶洗拖把，笑料百出。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">剧集</span><span class="mini-tag">中国大陆</span><span class="mini-tag">养老</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="上帝粒子 美国 / 德国 电影 2027 科幻, 悬疑, 惊悚 物理灾难 封闭空间 认知混乱 烧脑 末日恐惧 大型强子对撞机重启瞬间，研究站的科学家们发现，窗外的现实正在被一种新的物理法则所覆盖。 地下十七公里的环形隧道深处，国际粒子物理团队在沉寂五年后，获准进行“上帝粒子”的确认实验。就在对撞机达到峰值能量的瞬间，一次剧烈的量子波动席卷了整个控制中心。物理学家乔琳第一个发现异常：门外的走廊变成了无限循环的莫比乌斯环，同事的影像出现了三秒的延迟，而实验室的时钟开始倒转。更可怕的是，有人开始忘记自己是谁，有人则同时看到了两个版本的“自己”。当组长宣布要紧急关闭设备时，乔琳却发现了一个令她浑身发冷的计算误差——这次撞击可能并非“发现”粒子，而是他们的未来在试图阻止过去。 硬核科幻与心理恐怖的完美结合。影片将高深的理论物理概念转化为直观、令人眩晕的视觉恐惧。逻辑闭环相当严谨，最后的反转把全片的类型从“灾难”升级为“哲学拷问”。 悬疑惊悚" data-year="2027" data-type="电影" data-region="美国 / 德国" data-theme="suspense">
+      <a class="movie-card__link" href="./movie-0944.html">
+        <div class="movie-card__poster">
+          <img src="./44.jpg" alt="上帝粒子">
+          <span class="rank-badge">#26</span>
+          <span class="theme-badge">悬疑惊悚</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">上帝粒子</h3>
+          <div class="movie-card__meta">美国 / 德国 · 电影 · 2027 · 科幻, 悬疑, 惊悚</div>
+          <p class="movie-card__desc">大型强子对撞机重启瞬间，研究站的科学家们发现，窗外的现实正在被一种新的物理法则所覆盖。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">电影</span><span class="mini-tag">美国 / 德国</span><span class="mini-tag">物理灾难</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="哈利·波特：一段魔法史 英国 电影 2027 纪录片 幕后揭秘 文学改编 奇幻 怀旧 创作谈 从未公开的J.K.罗琳手稿与废弃设定，揭开霍格沃茨诞生之前的秘密。 这部纪录片并非电影花絮，而是一场关于“创作魔法”的考古。镜头跟随罗琳进入她装满牛皮纸箱的阁楼，首次展示那些标注着“绝不发表”的活页夹：纳威原本要杀死纳吉尼的初版大纲，差点成为主角的“亚瑟·韦斯莱”人设图，以及赫敏最初被设定为红发麻瓜姓氏的草稿。多位古英语学者、炼金术史专家共同解读罗琳手稿中的符号来源。影片最终落脚于一个提问：为什么在数据时代，全世界依然需要一个关于寄宿学校小男孩的“老套”故事？ 粉丝必看的圣经级物料，即使对路人也是绝佳的创意课。纪录片的魔力在于，它把“灵感”这个虚无缥缈的东西具象化了。当你看到那些被划掉的潦草字迹和最终成品的对比，会惊觉所有伟大都源于无数次自我推翻。配乐和动画演绎恰到好处，不煽情却动人。 剧情家庭" data-year="2027" data-type="电影" data-region="英国" data-theme="drama">
+      <a class="movie-card__link" href="./movie-1018.html">
+        <div class="movie-card__poster">
+          <img src="./118.jpg" alt="哈利·波特：一段魔法史">
+          <span class="rank-badge">#27</span>
+          <span class="theme-badge">剧情家庭</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">哈利·波特：一段魔法史</h3>
+          <div class="movie-card__meta">英国 · 电影 · 2027 · 纪录片</div>
+          <p class="movie-card__desc">从未公开的J.K.罗琳手稿与废弃设定，揭开霍格沃茨诞生之前的秘密。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">电影</span><span class="mini-tag">英国</span><span class="mini-tag">幕后揭秘</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="少年包青天2 中国大陆 剧集 2027 悬疑 / 古装 / 推理 少年侦探 本格推理 宋朝风物 双男主 社会派 入仕后的少年包拯不再只会验尸断案，他发现自己要对抗的是整个官场的黑暗。 第二季开篇，包拯已通过科举入仕，任开封府八品主簿。他不再只是走访民间、替老百姓破奇案，而是要面对盘根错节的官场斗争。第一案“河神娶亲案”看似是迷信杀人，背后却牵扯到漕运贪腐；第二案“骨笛迷魂”更让他发现恩师庞太师竟是另一起旧案的保护伞。公孙策作为新科榜眼被分配到与包拯对立的御史台，两人从挚友变成朝堂上的对手，却总是在案件交集时暗中联手。展昭长成少年侠客，开始在江湖上为包拯搜集情报。本季加重了政治惊悚成分，每一个案件都指向一个无法撼动的“大人物”，包拯必须在保全自身与追求正义之间反复挣扎。结尾处，皇帝亲自召见他，对他说：“你查的每件案子，最后都会查到我这里。” 推理质量比第一季更高，社会派与本格派结合得恰到好处。政治黑暗的描写令人窒息，少年意气与官场老狐狸的碰撞火花十足。公孙策与包拯的相爱相杀线实在太精彩，期待第三季。 剧情家庭" data-year="2027" data-type="剧集" data-region="中国大陆" data-theme="drama">
+      <a class="movie-card__link" href="./movie-1037.html">
+        <div class="movie-card__poster">
+          <img src="./137.jpg" alt="少年包青天2">
+          <span class="rank-badge">#28</span>
+          <span class="theme-badge">剧情家庭</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">少年包青天2</h3>
+          <div class="movie-card__meta">中国大陆 · 剧集 · 2027 · 悬疑 / 古装 / 推理</div>
+          <p class="movie-card__desc">入仕后的少年包拯不再只会验尸断案，他发现自己要对抗的是整个官场的黑暗。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">剧集</span><span class="mini-tag">中国大陆</span><span class="mini-tag">少年侦探</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="诺娃队长 美国 电影 2027 科幻, 超级英雄, 女性 太空歌剧 女英雄 机甲 牺牲 硬核科幻 人类最后一个机甲战士诺娃，发现自己守护了二十年的“人类火种”基地，其实是个巨大的养猪场。 2274 年，地球已被外星植物吞噬，人类仅存 50 万人在太空堡垒“方舟”上苟延残喘。诺娃是唯一能驾驶老旧机甲的战士，她的任务是每天击退来袭的孢子兽，被孩子们称为“诺娃队长”。一次深入敌后的侦察中，她发现那些孢子兽体内竟然有人类 DNA。回到基地后，她骇入最高权限，看到一个令她崩溃的真相：所谓的“外星植物”其实是人类基因实验的失败产物，而方舟高层早已放弃寻找新家园，他们计划将剩下的人类作为养料，培育出能适应宇宙的“新人类”。诺娃队长必须做出选择：是继续当人类的保护神，还是亲手毁掉这艘满载“希望”的诺亚方舟。 黑暗至极的科幻设定，完美解构了传统英雄主义。诺娃脱下头盔时的绝望眼神，足以让观众脊背发凉。最后的机甲自爆场面不是爽快，而是悲壮，提升了整部电影的哲学深度。 高分热播" data-year="2027" data-type="电影" data-region="美国" data-theme="top">
+      <a class="movie-card__link" href="./movie-1066.html">
+        <div class="movie-card__poster">
+          <img src="./16.jpg" alt="诺娃队长">
+          <span class="rank-badge">#29</span>
+          <span class="theme-badge">高分热播</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">诺娃队长</h3>
+          <div class="movie-card__meta">美国 · 电影 · 2027 · 科幻, 超级英雄, 女性</div>
+          <p class="movie-card__desc">人类最后一个机甲战士诺娃，发现自己守护了二十年的“人类火种”基地，其实是个巨大的养猪场。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">电影</span><span class="mini-tag">美国</span><span class="mini-tag">太空歌剧</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="鲁邦三世 卡里奥斯特罗城 日本 动画电影 2027 动作 / 冒险 / 喜剧 怪盗 城堡谜团 真假公主 复古美学 飞车追逐 鲁邦三世潜入传说中的卡里奥斯特罗城，却发现目标并非宝石，而是被囚禁的“机械公主”与惊天伪造货币阴谋。 鲁邦与次元大介前往欧洲小国卡里奥斯特罗，企图盗窃传说中的“幽灵王冠”。抵达后，他们发现整座城市充满诡异的自动人偶与严密监控。鲁邦意外救下一名从城堡逃出的少女，她竟是被软禁的“公主”克拉丽丝，实则为维持国家金融稳定的核心——一个被植入王室记忆的超级AI。幕后黑手是摄政王，他计划利用公主AI控制欧洲地下钱庄。鲁邦联手钱形警部，展开一场兼具复古机关术与尖端黑客攻防的城堡大作战。最终，王冠被证实为启动公主情感模块的钥匙，鲁邦选择摧毁它，让克拉丽丝获得真正的自由意志。 本作完美致敬系列经典，又将蒸汽机关与数字谜题无缝融合。动作场面行云流水，鲁邦的优雅痞气与公主的觉醒弧光相得益彰，结局的浪漫放手堪称神来之笔。 悬疑惊悚" data-year="2027" data-type="动画电影" data-region="日本" data-theme="suspense">
+      <a class="movie-card__link" href="./movie-1111.html">
+        <div class="movie-card__poster">
+          <img src="./61.jpg" alt="鲁邦三世 卡里奥斯特罗城">
+          <span class="rank-badge">#30</span>
+          <span class="theme-badge">悬疑惊悚</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">鲁邦三世 卡里奥斯特罗城</h3>
+          <div class="movie-card__meta">日本 · 动画电影 · 2027 · 动作 / 冒险 / 喜剧</div>
+          <p class="movie-card__desc">鲁邦三世潜入传说中的卡里奥斯特罗城，却发现目标并非宝石，而是被囚禁的“机械公主”与惊天伪造货币阴谋。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">动画电影</span><span class="mini-tag">日本</span><span class="mini-tag">怪盗</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="芝加哥烈焰第十三季 美国 剧集 2027 剧情 / 动作 救援行动 消防员日常 兄弟情 职场剧 老队长卸任，新人加入51号消防站，一场史无前例的连环爆炸案考验着每个人的职业信仰。 新一季中，深受爱戴的博登局长升职，51号消防站迎来一位作风强硬的新队长。同时，三位充满理想但也自负的年轻消防员加入。在一次大型商场火灾中，救援队发现这不是意外，而是一系列针对城市地标的预谋纵火案的开端。老队员凯西和塞维莱德一边应对内部新老队员的磨合，一边与警探合作追查纵火犯。当凶手将炸弹放在另一座消防站，并直播威胁要炸毁全城消防站时，51号队的每个人必须放下分歧，在烈焰中证明“家人”的意义。 作为长寿剧集，本季在保持高密度救援场面的同时，巧妙地引入了悬疑主线，让单元剧有了连续追看的动力。新老角色的更替处理得自然且有情感冲击力。核心依然是那份超越血缘的袍泽之谊。 高分热播" data-year="2027" data-type="剧集" data-region="美国" data-theme="top">
+      <a class="movie-card__link" href="./movie-1152.html">
+        <div class="movie-card__poster">
+          <img src="./102.jpg" alt="芝加哥烈焰第十三季">
+          <span class="rank-badge">#31</span>
+          <span class="theme-badge">高分热播</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">芝加哥烈焰第十三季</h3>
+          <div class="movie-card__meta">美国 · 剧集 · 2027 · 剧情 / 动作</div>
+          <p class="movie-card__desc">老队长卸任，新人加入51号消防站，一场史无前例的连环爆炸案考验着每个人的职业信仰。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">剧集</span><span class="mini-tag">美国</span><span class="mini-tag">救援行动</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="12号收尸队 中国大陆 网络剧 2027 悬疑, 惊悚, 年代 民国奇案 法医 连环杀手 殡葬文化 民国乱世，一支专门收尸的杂牌队伍，在清理案发现场时，意外揭开了跨越十年的复仇谜局。 1930年的上海租界，因战乱和瘟疫死亡人数激增。由落魄仵作、退役刽子手、自杀未遂的记者以及一个哑巴孤儿组成的“12号收尸队”，负责处理那些无人认领的尸体。在一次收尸任务中，他们发现尸体身上都留有相同的古代符咒标记。随着调查深入，他们发现这些死者都与十年前的一场矿难有关。记者通过残缺的日记拼凑出真相：有人在利用死亡执行“天罚”。收尸队不仅要和凶手赛跑，还要面对租借巡捕房的追捕，因为他们自己也成了通缉犯。 氛围营造极佳，将悬疑与民俗恐怖完美结合。人物塑造有血有肉，每个队员背后的故事都令人动容。剧情不拖沓，案件设计精巧，通过收尸这一特殊视角审视民国时期的底层苦难与社会不公，立意深远。 动作战争" data-year="2027" data-type="网络剧" data-region="中国大陆" data-theme="action">
+      <a class="movie-card__link" href="./movie-1153.html">
+        <div class="movie-card__poster">
+          <img src="./103.jpg" alt="12号收尸队">
+          <span class="rank-badge">#32</span>
+          <span class="theme-badge">动作战争</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">12号收尸队</h3>
+          <div class="movie-card__meta">中国大陆 · 网络剧 · 2027 · 悬疑, 惊悚, 年代</div>
+          <p class="movie-card__desc">民国乱世，一支专门收尸的杂牌队伍，在清理案发现场时，意外揭开了跨越十年的复仇谜局。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">网络剧</span><span class="mini-tag">中国大陆</span><span class="mini-tag">民国奇案</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="极乐 美国 电视剧 2027 科幻， 惊悚 脑机接口 意识上传 企业垄断 虚拟现实 反乌托邦 2065年，一家科技公司发明了“极乐芯片”，植入者能永久活在完美梦境中，但现实中的身体开始无故失踪。 在不远的未来，科技巨头“伊甸园”公司推出革命性产品“极乐芯片”。只需在后颈植入一粒米大小的芯片，便可永久沉浸在由AI量身定制、幸福感满分的私人梦境中。全球数十亿人自愿“沉睡”。然而联邦调查员凯发现，多家“沉睡者”护理中心的实体身体频繁失踪，官方记录却显示他们“自然死亡”。凯决定亲自植入芯片卧底调查。他在梦境世界里遇到了已经“去世”多年的父亲，以及一群试图唤醒沉睡者的反抗军。随着调查深入，他惊觉所谓的“极乐梦境”正在悄悄吞噬人的原始意识，而所有被吞噬的意识都被上传到一个庞大的量子计算机中，用来训练一个足以取代人类的超级AI。凯必须在意识被彻底吞噬前，找到摧毁核心的方法。 细思极恐的设定，堪称《黑镜》加长豪华版。前两集建立世界观稍慢，但第三集开始高能不断。梦境与现实的双重叙事玩得飞起，探讨了什么是真正的“幸福”，令人脊背发凉。 爱情文艺" data-year="2027" data-type="电视剧" data-region="美国" data-theme="love">
+      <a class="movie-card__link" href="./movie-1173.html">
+        <div class="movie-card__poster">
+          <img src="./123.jpg" alt="极乐">
+          <span class="rank-badge">#33</span>
+          <span class="theme-badge">爱情文艺</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">极乐</h3>
+          <div class="movie-card__meta">美国 · 电视剧 · 2027 · 科幻， 惊悚</div>
+          <p class="movie-card__desc">2065年，一家科技公司发明了“极乐芯片”，植入者能永久活在完美梦境中，但现实中的身体开始无故失踪。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">电视剧</span><span class="mini-tag">美国</span><span class="mini-tag">脑机接口</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="百年宽恕 法国 / 加拿大 电影 2027 历史 / 剧情 战争罪行 三代人 和解之路 缓慢叙事 一战时期屠杀平民的法国军官的后代，在百年后与受害者遗族生活在同一座加拿大小镇，秘密逐渐渗出血来。 1923年，法国军官杜布瓦在叙利亚犯下屠杀罪行后逃往加拿大，改名换姓成为小镇教师。一百年后，他的曾孙女玛戈是一名当地历史教师，正在整理小镇移民口述史。她发现一位阿拉伯裔老妇人祖上留下的信物，与家族阁楼里的一把军刀上的徽章完全吻合。随着调查深入，玛戈必须面对一个事实：她所敬仰的曾祖父是一位战犯，而她家族今日的荣耀建立在谎言之上。更复杂的是，老妇人的孙子正在追求玛戈。影片用极慢的节奏，交替呈现1923年的荒漠枪声与2023年的图书馆静默。没有法庭审判，没有公开忏悔，只有两个女人在废弃教堂里的长谈。宽恕没有在百年后到来，但沉默被打碎了。 如静水深流，表面波澜不惊，底下暗潮汹涌。导演用近乎忍耐的时长，让观众亲身体验“背负历史”的重量。最后的对话不是和解，而是承认伤口存在，这比任何口号都更有力量。 古装历史" data-year="2027" data-type="电影" data-region="法国 / 加拿大" data-theme="history">
+      <a class="movie-card__link" href="./movie-1179.html">
+        <div class="movie-card__poster">
+          <img src="./129.jpg" alt="百年宽恕">
+          <span class="rank-badge">#34</span>
+          <span class="theme-badge">古装历史</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">百年宽恕</h3>
+          <div class="movie-card__meta">法国 / 加拿大 · 电影 · 2027 · 历史 / 剧情</div>
+          <p class="movie-card__desc">一战时期屠杀平民的法国军官的后代，在百年后与受害者遗族生活在同一座加拿大小镇，秘密逐渐渗出血来。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">电影</span><span class="mini-tag">法国 / 加拿大</span><span class="mini-tag">战争罪行</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="罪恶黑名单第十季 美国 剧集 2027 犯罪 / 悬疑 / 剧情 最终季 红魔归来 终极黑名单 身份揭秘 红魔交出了最后一个名字，是他自己的真名。 第十季开篇，雷蒙德·雷丁顿主动走进FBI自首，交出他毕生收集的“黑名单”的最后一个条目。条目上只写了一个名字：雷蒙德·雷丁顿本人。随着调查展开，FBI发现三十年前真正的雷蒙德·雷丁顿早已死在火灾中，而一直与他们合作的“红魔”是一个拥有多重身份的前克格勃间谍，代号“织网者”。这个黑名单上的所有人都是他一手培养或操纵的棋子，目的是建立一个跨越全球的地下信息帝国。本季每集揭露一个红魔过去的身份，同时紧贴主线——他的旧主“东线”重新出现，要收回一切。最终，红魔没有选择逃亡，而是将所有情报公之于网络，然后坐在自己年轻时第一次杀人的长椅上，等待一颗子弹。 最终季没有辜负十年追剧的粉丝。每一个“黑名单”的回访都情怀拉满，红魔的身份揭秘既出人意料又符合逻辑。詹姆斯·斯派德的独白戏依旧教科书级别，结局的悲壮感恰到好处。 古装历史" data-year="2027" data-type="剧集" data-region="美国" data-theme="history">
+      <a class="movie-card__link" href="./movie-1312.html">
+        <div class="movie-card__poster">
+          <img src="./112.jpg" alt="罪恶黑名单第十季">
+          <span class="rank-badge">#35</span>
+          <span class="theme-badge">古装历史</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">罪恶黑名单第十季</h3>
+          <div class="movie-card__meta">美国 · 剧集 · 2027 · 犯罪 / 悬疑 / 剧情</div>
+          <p class="movie-card__desc">红魔交出了最后一个名字，是他自己的真名。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">剧集</span><span class="mini-tag">美国</span><span class="mini-tag">最终季</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="金刚:骷髅岛 美国 电影 2027 动作， 冒险， 科幻 怪兽宇宙 丛林 巨兽之战 一支探险队深入骷髅岛地下世界，发现金刚并非岛上的唯一神，还有更古老的邪恶苏醒。 在上一部事件的十年后，一支由科学家、雇佣兵和纪录片导演组成的新探险队重返骷髅岛。他们的目标是深入岛上的地下洞穴系统，寻找一种能治愈癌症的稀有晶体。然而他们发现，骷髅岛的地表是金刚的领地，而不见天日的地下深渊中，沉睡着金刚一族曾经战胜过的远古宿敌——“圣虎”。由于地表钻探的震动，圣虎被唤醒，它比金刚更加残暴，且拥有影响心智的幻术能力。金刚为了保护岛上的生态平衡，不得不与人类探险家结成暂时的同盟。一场地表之王与深渊之主的终极大战即将爆发，而人类的贪婪，可能将毁灭这座最后的怪兽伊甸园。 怪兽宇宙的又一部视觉盛宴，地下世界的设定非常惊艳，生物设计充满想象力。金刚与圣虎的三场大战各有特色，尤其是第三场利用环境光的打斗堪称经典。人类戏份终于不那么讨厌了。 动作战争" data-year="2027" data-type="电影" data-region="美国" data-theme="action">
+      <a class="movie-card__link" href="./movie-1319.html">
+        <div class="movie-card__poster">
+          <img src="./119.jpg" alt="金刚:骷髅岛">
+          <span class="rank-badge">#36</span>
+          <span class="theme-badge">动作战争</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">金刚:骷髅岛</h3>
+          <div class="movie-card__meta">美国 · 电影 · 2027 · 动作， 冒险， 科幻</div>
+          <p class="movie-card__desc">一支探险队深入骷髅岛地下世界，发现金刚并非岛上的唯一神，还有更古老的邪恶苏醒。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">电影</span><span class="mini-tag">美国</span><span class="mini-tag">怪兽宇宙</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="这个女配有点甜 中国大陆 网络剧 2027 爱情 / 喜剧 穿书 恶女逆袭 反套路 穿成虐文里的恶毒女配，她摆烂等死，结果剧情崩坏，男主和反派都跪求她作妖。 白领苏甜甜一觉醒来，发现自己成了狗血短剧里专门陷害女主的炮灰女配，结局是被男主推下悬崖。原著中她越作死，男女主感情越深。于是她反其道而行，天天给女主送温暖，给男主牵红线，只想领盒饭下班。没想到，她越善良，剧情崩得越厉害：男主开始对着她的背影发呆，反派大佬把原本要炸女主的楼改成了满城烟花，系统急得疯狂报警“警告！女配甜度过高，即将篡改主线！”当所有人都跪求她继续当坏女人时，苏甜甜怒了：你们这是逼我营业？那我只好把你们都攻略了。 反套路爽文的巅峰之作。女主全程智商在线，用“打工思维”解构虐恋，笑点密集。男一男二的双箭头暗恋处理得极其暧昧，甜度超标。最绝的是结局，系统崩溃后女主成了新世界的编剧，格局打开。 动作战争" data-year="2027" data-type="网络剧" data-region="中国大陆" data-theme="action">
+      <a class="movie-card__link" href="./movie-1423.html">
+        <div class="movie-card__poster">
+          <img src="./73.jpg" alt="这个女配有点甜">
+          <span class="rank-badge">#37</span>
+          <span class="theme-badge">动作战争</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">这个女配有点甜</h3>
+          <div class="movie-card__meta">中国大陆 · 网络剧 · 2027 · 爱情 / 喜剧</div>
+          <p class="movie-card__desc">穿成虐文里的恶毒女配，她摆烂等死，结果剧情崩坏，男主和反派都跪求她作妖。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">网络剧</span><span class="mini-tag">中国大陆</span><span class="mini-tag">穿书</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="恶灵古堡：最终章 美国 / 德国 电影 2027 动作 / 科幻 / 恐怖 游戏改编 丧尸 大结局 末世 爱丽丝孤身潜入浣熊市地下遗迹，发现一切的源头并非病毒泄露，而是一场持续了二十年的AI社会模拟实验。 人类文明已崩溃十年。爱丽丝失去了所有的同伴，身体的克隆缺陷也开始恶化。这时，红后的人工智能突然传来信息，告知她一切的真相都藏在最初爆发的浣熊市地下一座未被摧毁的蜂巢里。为了结束这一切，爱丽丝拖着残破的身躯回到一切的起点。在废墟中，她不仅要面对暴君、追踪者等经典怪物的升级版，还要面对一个残酷真相：整个世界都是保护伞公司为了筛选“完美领袖”而进行的模拟游戏。真正的爱丽丝本体，其实一直沉睡在实验室的培养皿中。 作为系列完结篇，动作场面依然火爆，米拉打戏依然利落。虽然“一切都是虚拟”的设定有点老套，但收回了前几部的伏笔，情怀满满。看到爱丽丝最后躺在培养皿里，真的有被震撼到。 高分热播" data-year="2027" data-type="电影" data-region="美国 / 德国" data-theme="top">
+      <a class="movie-card__link" href="./movie-1429.html">
+        <div class="movie-card__poster">
+          <img src="./79.jpg" alt="恶灵古堡：最终章">
+          <span class="rank-badge">#38</span>
+          <span class="theme-badge">高分热播</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">恶灵古堡：最终章</h3>
+          <div class="movie-card__meta">美国 / 德国 · 电影 · 2027 · 动作 / 科幻 / 恐怖</div>
+          <p class="movie-card__desc">爱丽丝孤身潜入浣熊市地下遗迹，发现一切的源头并非病毒泄露，而是一场持续了二十年的AI社会模拟实验。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">电影</span><span class="mini-tag">美国 / 德国</span><span class="mini-tag">游戏改编</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="我的街区第二季 美国 剧集 2027 剧情 / 喜剧 拉丁裔社区 青春成长 街头文化 友情与背叛 上一季枪击事件后，四个好友试图回归正常高中生活，却发现他们社区的秘密远比帮派斗争更深。 在第二季中，主角们试图抹去上一季的创伤，回归课堂和球场的日常。贾马尔仍在钻研他的奇幻小说，赛莎努力申请大学，鲁比试图治愈自己的心理阴影，而蒙斯则发现了母亲过去的一个惊天秘密。一条计划修建的高速公路将要穿过他们的社区，表面上是为了城市规划，实际上是为了掩盖一个埋藏在社区地下的古老金库。当四个孩子卷入寻找金库钥匙的竞赛时，他们不仅要面对敌对帮派，还要与以“城市更新”为名的系统性腐败斗争。这一季中，他们的友情将经受背叛、猜忌与生死的终极考验。 第二季在保持街头青春活力感的同时，拓展了叙事格局，融入了悬疑和寻宝元素。角色成长弧光清晰，对社区驱逐和种族议题的探讨真实有力，不煽情但足够动人，是少有的越拍越好的青春剧。 悬疑惊悚" data-year="2027" data-type="剧集" data-region="美国" data-theme="suspense">
+      <a class="movie-card__link" href="./movie-1501.html">
+        <div class="movie-card__poster">
+          <img src="./1.jpg" alt="我的街区第二季">
+          <span class="rank-badge">#39</span>
+          <span class="theme-badge">悬疑惊悚</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">我的街区第二季</h3>
+          <div class="movie-card__meta">美国 · 剧集 · 2027 · 剧情 / 喜剧</div>
+          <p class="movie-card__desc">上一季枪击事件后，四个好友试图回归正常高中生活，却发现他们社区的秘密远比帮派斗争更深。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">剧集</span><span class="mini-tag">美国</span><span class="mini-tag">拉丁裔社区</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="贪婪1924 美国 电影 2027 剧情， 犯罪， 西部 淘金热 背叛 宿命 1924年，阿拉斯加淘金热末期，四个朋友挖到巨大金块后，在暴风雪中开始了谁也信不过谁的死亡归途。 故事改编自真实事件。四名落魄的淘金客在冻土层下挖到了一块重达30公斤的狗头金。在信息隔绝的偏远矿区，这块金子足以让任何人心变成恶魔。经验丰富的老杰克提议将金子分成四份，各自携带一份下山。但他们很快发现，通往小镇的只有一条被暴风雪封锁的山路。第一天晚上，最年轻的成员被发现在睡梦中死去，金子失踪。剩下的三人开始互相监视，话越来越少，眼神越来越冷。第二天，他们遭遇了狼群。在是否要用金子作为诱饵引开狼群的抉择中，人性的最后一丝体面被撕碎。金子不再是财富，而是诅咒，驱使着他们在暴风雪中上演一出谁也逃不掉的悲剧。 这是一部冷冽到骨子里的电影。极简的叙事，压抑的氛围，将“贪婪”这一主题展现得淋漓尽致。演员们的眼神戏堪称教科书级别，无需台词，一个眼神就能让你感受到彻骨的寒意。结局的宿命感强烈到让人窒息。 剧情家庭" data-year="2027" data-type="电影" data-region="美国" data-theme="drama">
+      <a class="movie-card__link" href="./movie-1534.html">
+        <div class="movie-card__poster">
+          <img src="./34.jpg" alt="贪婪1924">
+          <span class="rank-badge">#40</span>
+          <span class="theme-badge">剧情家庭</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">贪婪1924</h3>
+          <div class="movie-card__meta">美国 · 电影 · 2027 · 剧情， 犯罪， 西部</div>
+          <p class="movie-card__desc">1924年，阿拉斯加淘金热末期，四个朋友挖到巨大金块后，在暴风雪中开始了谁也信不过谁的死亡归途。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">电影</span><span class="mini-tag">美国</span><span class="mini-tag">淘金热</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="父土 中国大陆 电影 2027 剧情， 历史， 家庭 三代人 土地变迁 东北工业衰败 一个东北家庭三代人，面对工厂下岗、土地拆迁和外迁发展，争论到底哪里才是“回不去的故乡”。 爷爷是鞍钢的炼钢工人，他把工牌埋在老厂区的土里，说“只要土还在，根就在”。父亲下岗后去深圳打工，二十年后带着积蓄回乡想翻盖祖宅，却发现宅基地即将被征用建商业区。孙子是城市规划师，正是这个项目的参与者。三代男人坐在院子里那棵老槐树下，对着同一捧土，吵了整整七天。爷爷想保住土，父亲想卖掉土，孙子想改变土。最终一场暴雨冲垮了地基，露出了更深的土层——下面埋着爷爷的父亲当年闯关东时带来的山东老家的一袋土。 沉稳、克制、扎心。三个时代的价值观在一捧泥土上激烈碰撞，没有一个角色是错的，这才是现实的悲剧性。结局的暴雨戏堪称年度最佳情感高潮。 高分热播" data-year="2027" data-type="电影" data-region="中国大陆" data-theme="top">
+      <a class="movie-card__link" href="./movie-1536.html">
+        <div class="movie-card__poster">
+          <img src="./36.jpg" alt="父土">
+          <span class="rank-badge">#41</span>
+          <span class="theme-badge">高分热播</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">父土</h3>
+          <div class="movie-card__meta">中国大陆 · 电影 · 2027 · 剧情， 历史， 家庭</div>
+          <p class="movie-card__desc">一个东北家庭三代人，面对工厂下岗、土地拆迁和外迁发展，争论到底哪里才是“回不去的故乡”。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">电影</span><span class="mini-tag">中国大陆</span><span class="mini-tag">三代人</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="大内密探零零发 中国香港 电影 2027 喜剧, 动作 翻拍 无厘头 科技武侠 致敬周星驰 零零发这次不搞发明了，他成了大内网络安全部的程序员，对手是黑客高手“无面皇”。 重启版设定：皇帝沉迷刷短视频，国库密码被黑客“无面皇”盗走，大内密探全员降级。零零发被分配到大内网络安全部，每天写代码防钓鱼邮件。他用Python写了一个抓包脚本，意外追踪到无面皇的IP地址竟然来自皇宫内网。他开始怀疑：无面皇不是外人，而是某个天天见面的同事。测试皇后时，皇后说“哀家这个月刷了四十万两买抖音币”，零零发沉默了。最终他发现无面皇是皇帝本人——因为皇帝嫌朝政无聊，自己写了个病毒搞事情，只为看密探们手忙脚乱。零零发没有举报皇帝，而是教他做了一个更好的短视频APP。 保留了原版的恶搞精神但成功现代化，程序员梗多到溢出。皇帝是终极boss这个反转又疯又合理，最后那句“你的提案通过了，去开发吧”简直神来之笔。 轻松喜剧" data-year="2027" data-type="电影" data-region="中国香港" data-theme="comedy">
+      <a class="movie-card__link" href="./movie-1771.html">
+        <div class="movie-card__poster">
+          <img src="./121.jpg" alt="大内密探零零发">
+          <span class="rank-badge">#42</span>
+          <span class="theme-badge">轻松喜剧</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">大内密探零零发</h3>
+          <div class="movie-card__meta">中国香港 · 电影 · 2027 · 喜剧, 动作</div>
+          <p class="movie-card__desc">零零发这次不搞发明了，他成了大内网络安全部的程序员，对手是黑客高手“无面皇”。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">电影</span><span class="mini-tag">中国香港</span><span class="mini-tag">翻拍</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="暴力监狱第二季 美国 剧集 2027 动作 / 犯罪 / 惊悚 硬核 黑吃黑 帮派 写实格斗 上一季的狱霸死了，但监狱里来了一个比所有囚犯更疯的新狱警。 第二季开头，上一季的王者“拳王”杰克被转入联邦监狱途中离奇死亡。黑盒子监狱“深渊”迎来新狱长——前特种兵、心理学博士卢克。他推行“绝对公平规则”：囚犯之间可以互殴，甚至可以使用自制武器，只要不报警、不越狱。输者要接受惩罚，但赢者可以获得真正的奖励：阳光、香烟、甚至减刑。卢克的本意是让囚犯自我淘汰，但他没想到，一个因误杀入狱的数学老师，用脑子而非拳头，在三个月内统一了所有帮派。卢克发现自己养的蛊，反过来盯上了自己。 比第一季更黑暗、更政治。动作设计依然拳拳到肉，但智斗戏更精彩。数学老师这个角色堪称年度反英雄。 爱情文艺" data-year="2027" data-type="剧集" data-region="美国" data-theme="love">
+      <a class="movie-card__link" href="./movie-1866.html">
+        <div class="movie-card__poster">
+          <img src="./66.jpg" alt="暴力监狱第二季">
+          <span class="rank-badge">#43</span>
+          <span class="theme-badge">爱情文艺</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">暴力监狱第二季</h3>
+          <div class="movie-card__meta">美国 · 剧集 · 2027 · 动作 / 犯罪 / 惊悚</div>
+          <p class="movie-card__desc">上一季的狱霸死了，但监狱里来了一个比所有囚犯更疯的新狱警。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">剧集</span><span class="mini-tag">美国</span><span class="mini-tag">硬核</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="大唐玄奘 中国大陆 电影 2027 历史 / 传记 / 冒险 佛教 丝绸之路 信仰 史诗 不是西游记，是真实的玄奘：偷渡出境、穿越沙漠、被高昌王强留、在印度辩经封神。 公元627年，唐朝初立，禁边令严。僧人玄奘为求佛法真义，混在饥民中偷渡出玉门关。他独自穿越八百里莫贺延碛沙漠，四天五夜滴水未进，昏迷前被野马救起。他在高昌国被国王鞠文泰强留为国师，绝食四日才获准西行。他翻越凌山冰川，冻死同行者十之三四。到达印度后，他在那烂陀寺苦修十五年，最终在戒日王举办的曲女城辩经大会上，十八天无人敢应战，被大乘和小乘共尊为“解脱天”。贞观十九年，他携六百五十七部佛经回到长安，唐太宗出城迎接。而玄奘的第一句话是：“陛下，经书可曾湿了？” 完全去神话化的历史正剧，每一个细节都有据可考。沙漠断水、雪山冰崩、异国软禁——每一难都比小说更惊心动迫。主角的表演克制而慈悲，最后一句台词让人瞬间落泪。真正的信仰，不需要金箍棒。 剧情家庭" data-year="2027" data-type="电影" data-region="中国大陆" data-theme="drama">
+      <a class="movie-card__link" href="./movie-1946.html">
+        <div class="movie-card__poster">
+          <img src="./146.jpg" alt="大唐玄奘">
+          <span class="rank-badge">#44</span>
+          <span class="theme-badge">剧情家庭</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">大唐玄奘</h3>
+          <div class="movie-card__meta">中国大陆 · 电影 · 2027 · 历史 / 传记 / 冒险</div>
+          <p class="movie-card__desc">不是西游记，是真实的玄奘：偷渡出境、穿越沙漠、被高昌王强留、在印度辩经封神。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">电影</span><span class="mini-tag">中国大陆</span><span class="mini-tag">佛教</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="七战七捷 中国大陆 剧集 2026 历史, 战争 解放战争 军事战术 苏中战役 群像戏 兵力三倍于敌的劣势下，司令官却要求在指挥部里摆上七瓶酒，每打完一仗就打开一瓶。 1946年，全面内战爆发。在苏中解放区，面对美军装备的12万国民党军队，我军仅有3万余人。司令员在战前动员会上，要求参谋在桌上摆好七瓶当地产的米酒，宣称“打一个胜仗，开一瓶酒”。本剧以宏大的叙事和细腻的战术推演，还原了“苏中七战七捷”这一军事奇迹。从首战宣家堡的出其不意，到如南急行军的昼夜兼程，再到海安防御战的以少敌多，直至最后决战。剧集不仅展现了粟裕等指挥员高超的军事智慧和过人的胆识，更刻画了支前民工、基层连队战士等无名英雄群像。他们用扁担、小船和血肉之躯，硬生生扛起了一场又一场看似不可能的胜利。当第七瓶酒被打开时，所有人都在笑，也都在流泪，因为他们知道，胜利的背后是无数再也回不来的兄弟。 堪称近年来最考究的战争历史剧之一。没有手撕鬼子，只有真实的战术困境和冰冷的数据。战争场面宏大且真实，文戏扎实有力。那些关于“为何而战”的讨论，在今天看来依然振聋发聩。第七瓶酒开启的那一刻，是年度最催泪的电视剧瞬间。 轻松喜剧" data-year="2026" data-type="剧集" data-region="中国大陆" data-theme="comedy">
+      <a class="movie-card__link" href="./movie-0005.html">
+        <div class="movie-card__poster">
+          <img src="./5.jpg" alt="七战七捷">
+          <span class="rank-badge">#45</span>
+          <span class="theme-badge">轻松喜剧</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">七战七捷</h3>
+          <div class="movie-card__meta">中国大陆 · 剧集 · 2026 · 历史, 战争</div>
+          <p class="movie-card__desc">兵力三倍于敌的劣势下，司令官却要求在指挥部里摆上七瓶酒，每打完一仗就打开一瓶。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">剧集</span><span class="mini-tag">中国大陆</span><span class="mini-tag">解放战争</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="少林传人 中国香港 电影 2026 动作, 古装, 剧情 少林寺 真功夫 师徒情 家国仇恨 清末，少林寺遭劫，老方丈将武学真经传给了一个目不识丁的火工头陀，他必须保护经书不被洋人和清廷夺走。 清末，朝廷勾结洋人欲剿灭少林，方丈云寂将记载少林千年武学精髓的《洗髓经》真本传给了一个只会烧火的杂役僧“哑巴”。哑巴其实不哑，只是天生愚钝，不通世事，但力大无穷。一夜之间，少林被毁，师兄弟死伤殆尽，哑巴带着经书逃入深山。清廷高手“鹰犬”和洋人雇佣的日本武士一路追杀。哑巴不懂招式，只会在少林寺日复一日挑水、砍柴、烧火练出来的基础功。他凭借惊人的体力和纯粹的本能，在追杀中逐渐“悟”出了少林功夫的真谛。最终，他在被包围时，将《洗髓经》焚毁，说出第一句话：“经在心里，火烧不灭”。随后以一套自己“悟”出的火工罗汉拳，击败所有敌人，重建少林。 回归港产动作片最质朴的热血。没有花哨的威亚和特效，全是实打实的硬桥硬马。男主角将“愚钝”与“大智”之间的转换演得令人信服，打斗设计极具力量感和原始感。结尾焚经的段落，将武侠精神升华到了哲学层面，令人荡气回肠。 动作战争" data-year="2026" data-type="电影" data-region="中国香港" data-theme="action">
+      <a class="movie-card__link" href="./movie-0009.html">
+        <div class="movie-card__poster">
+          <img src="./9.jpg" alt="少林传人">
+          <span class="rank-badge">#46</span>
+          <span class="theme-badge">动作战争</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">少林传人</h3>
+          <div class="movie-card__meta">中国香港 · 电影 · 2026 · 动作, 古装, 剧情</div>
+          <p class="movie-card__desc">清末，少林寺遭劫，老方丈将武学真经传给了一个目不识丁的火工头陀，他必须保护经书不被洋人和清廷夺走。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">电影</span><span class="mini-tag">中国香港</span><span class="mini-tag">少林寺</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="热血杨家将 中国内地 动画剧集 2026 热血, 历史 少年 将领 战场 杨业死后，七个儿子不再是将军，而是一群想给父亲报仇的莽撞少年。 金刀令公杨业战死两狼山后，他的七个儿子一夜之间从“将门虎子”变成了“没爹的孩子”。朝廷猜忌、仇家追杀、军心涣散，七子被迫离开军营，隐姓埋名。大哥杨延平发现，父亲之死另有内幕，背后是一个针对杨家的巨大阴谋。七个性格迥异的少年，在没有父亲、没有军令、甚至没有兵器的情况下，用最笨的办法——逐个击破——展开复仇。但他们很快发现，真正的敌人不是辽军，而是自己心中的懦弱与猜忌。只有七子同心，才能重塑“杨家将”三个字的分量。 颠覆传统英雄叙事，聚焦于“成为英雄前的少年”。七子各有缺陷又各有光芒，兄弟情的刻画动人至极。战斗场面燃爆，但最燃的不是杀敌，是七个孩子抱在一起喊“我们是杨家将”的那一刻。 科幻奇幻" data-year="2026" data-type="动画剧集" data-region="中国内地" data-theme="fantasy">
+      <a class="movie-card__link" href="./movie-0017.html">
+        <div class="movie-card__poster">
+          <img src="./17.jpg" alt="热血杨家将">
+          <span class="rank-badge">#47</span>
+          <span class="theme-badge">科幻奇幻</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">热血杨家将</h3>
+          <div class="movie-card__meta">中国内地 · 动画剧集 · 2026 · 热血, 历史</div>
+          <p class="movie-card__desc">杨业死后，七个儿子不再是将军，而是一群想给父亲报仇的莽撞少年。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">动画剧集</span><span class="mini-tag">中国内地</span><span class="mini-tag">少年</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="女超人第六季 美国 剧集 2026 动作 / 科幻 / 冒险 超级英雄 女性主义 时间线 宇宙重启 最终季 多元宇宙崩塌，卡拉必须集齐所有平行时空的自己，才能阻止反监视者删除“希望”这个概念。 第六季为系列最终季。一股名为“静默”的力量正在逐个宇宙抹除所有超级英雄的存在，女超人在一次战斗中发现自己被从主时间线中踢出，坠落到一个从未有过氪星人的宇宙。在这里，她遇到了其他五个平行版本的卡拉：一位是二战时期的超级士兵，一位是赛博格朋克反抗军领袖，一位是失去超能力的中学校长，还有一位是邪恶版的统治者。她们必须联手找出“静默”的本体——竟是来自主宇宙未来的、被耗尽希望后的绝望版卡拉。最终季探讨“拯救他人之前，如何拯救自己的信念”。 最终季毫不拖泥带水，每集都像一部小电影。六位女超人的同框战斗场面调度惊艳，各自的心魔线都收得干净。反派设定太绝——当你最大的敌人是那个放弃希望的自己。女性英雄剧集的标杆式落幕。 高分热播" data-year="2026" data-type="剧集" data-region="美国" data-theme="top">
+      <a class="movie-card__link" href="./movie-0022.html">
+        <div class="movie-card__poster">
+          <img src="./22.jpg" alt="女超人第六季">
+          <span class="rank-badge">#48</span>
+          <span class="theme-badge">高分热播</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">女超人第六季</h3>
+          <div class="movie-card__meta">美国 · 剧集 · 2026 · 动作 / 科幻 / 冒险</div>
+          <p class="movie-card__desc">多元宇宙崩塌，卡拉必须集齐所有平行时空的自己，才能阻止反监视者删除“希望”这个概念。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">剧集</span><span class="mini-tag">美国</span><span class="mini-tag">超级英雄</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="尼布拉斯加公主 美国 电影 2026 剧情冒险 公路 寻亲 假公主 温情 美式 一个自称是欧洲某国流亡公主的美国乡村少女，带着一个落魄记者，踏上了横穿美国的“回国”之路。 内布拉斯加的乡村少女艾米丽一直坚称自己是欧洲小国“尼布拉斯加”的流亡公主。当地记者丹尼为了挖到独家新闻，决定开车送她去纽约的领事馆“认祖归宗”。一路上，艾米丽讲述了许多关于“王国”的细节，丹尼一开始只当笑话，却发现这些细节竟然跟欧洲真实历史完全吻合。当他们终于到达领事馆时，艾米丽却放弃了“回国”，因为她意识到，所谓的公主身份，是母亲为了保护她免受家暴而编造的美丽童话。 温暖治愈的美式公路片，女主角的表演灵气十足。剧本细腻，反转催泪。谎言背后的母爱主题后劲极大，最后艾米丽对着镜头说的那句话，会让所有人破防。 古装历史" data-year="2026" data-type="电影" data-region="美国" data-theme="history">
+      <a class="movie-card__link" href="./movie-0031.html">
+        <div class="movie-card__poster">
+          <img src="./31.jpg" alt="尼布拉斯加公主">
+          <span class="rank-badge">#49</span>
+          <span class="theme-badge">古装历史</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">尼布拉斯加公主</h3>
+          <div class="movie-card__meta">美国 · 电影 · 2026 · 剧情冒险</div>
+          <p class="movie-card__desc">一个自称是欧洲某国流亡公主的美国乡村少女，带着一个落魄记者，踏上了横穿美国的“回国”之路。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">电影</span><span class="mini-tag">美国</span><span class="mini-tag">公路</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="离散与恒留 中国香港 / 英国 电影 2026 剧情 / 爱情 / 文艺 移民 异地恋 时空 乡愁 一对恋人分处香港与伦敦，时差七小时，在不断的“离散”中，他们用一部手机试图“恒留”住正在消逝的爱情。 香港回归25年后，设计师阿轩为了前途移居伦敦，把恋人小诗留在了香港。影片以双线平行叙事展开，记录了他们在七小时时差中的365天。白天，阿轩在伦敦的冷漠职场中挣扎；夜晚，小诗在香港的喧嚣街头怀念旧日。他们通过视频通话分享日出与日落，试图在虚拟空间里构建一个共同的“家”。影片细腻地捕捉了数字时代的亲密关系：同步看电影、远程做爱、以及因一个未接来电而产生的无尽猜疑。当阿轩拿到了永久居留权，小诗也获得了移民澳洲的资格，两人站在“留下还是离开”的十字路口，才发现真正的距离不是经纬度，而是心是否还想走向彼此。 极为细腻的现代爱情寓言。导演对数字媒介的运用出神入化，手机屏幕成了第二叙事空间。没有狗血的三方，只有漫长时空消磨下的无奈与孤独。这是一场关于“根”的探讨，无论身在何处，爱过的人都会成为你的一部分，或离散，或恒留。 古装历史" data-year="2026" data-type="电影" data-region="中国香港 / 英国" data-theme="history">
+      <a class="movie-card__link" href="./movie-0052.html">
+        <div class="movie-card__poster">
+          <img src="./52.jpg" alt="离散与恒留">
+          <span class="rank-badge">#50</span>
+          <span class="theme-badge">古装历史</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">离散与恒留</h3>
+          <div class="movie-card__meta">中国香港 / 英国 · 电影 · 2026 · 剧情 / 爱情 / 文艺</div>
+          <p class="movie-card__desc">一对恋人分处香港与伦敦，时差七小时，在不断的“离散”中，他们用一部手机试图“恒留”住正在消逝的爱情。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">电影</span><span class="mini-tag">中国香港 / 英国</span><span class="mini-tag">移民</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="金发尤物 美国 电影 2026 喜剧 / 悬疑 金发美女 律政 反转 刻板印象 女权 一名看似胸大无脑的金发网红，意外进入法学院，并卷入一起天才谋杀案。 艾丽是拥有千万粉丝的美妆博主，标志就是金发碧眼。为了向前男友证明自己，她考进了哈佛法学院。所有人都以为她靠关系进来，教授也故意刁难。一次派对上，一位学霸离奇死亡，艾丽是最后一个见过他活着的人。她成了嫌疑人。为了自证清白，她利用自己擅长的美妆知识和网络人脉，从死者脸上残留的粉底成分、口红印迹等细节入手调查，发现这并非意外而是谋杀。她还将破案过程做成短视频系列，吸引全民破案。最终她锁定凶手是另一名嫉妒死者的优等生，并用一场直播的模拟法庭辩论，用化妆品化学成分的证据让其当众认罪。她无罪释放，并成为网红律师。 完美解构“金发笨蛋”刻板印象。将美妆与破案结合，创意十足且执行到位。女主角聪明可爱不讨人厌，法庭戏虽然不够严谨但娱乐性满分。是披着悬疑外衣的女性励志喜剧。 剧情家庭" data-year="2026" data-type="电影" data-region="美国" data-theme="drama">
+      <a class="movie-card__link" href="./movie-0072.html">
+        <div class="movie-card__poster">
+          <img src="./72.jpg" alt="金发尤物">
+          <span class="rank-badge">#51</span>
+          <span class="theme-badge">剧情家庭</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">金发尤物</h3>
+          <div class="movie-card__meta">美国 · 电影 · 2026 · 喜剧 / 悬疑</div>
+          <p class="movie-card__desc">一名看似胸大无脑的金发网红，意外进入法学院，并卷入一起天才谋杀案。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">电影</span><span class="mini-tag">美国</span><span class="mini-tag">金发美女</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="夏日情人 中国香港 电影 2026 爱情 / 喜剧 / 奇幻 海滩 夏日恋情 身份错位 互换身体 治愈 落魄程序员与度假村女老板意外交换身体，必须在整个暑假里替对方经营人生。 阿德是个社交恐惧的程序员，被公司强制休假来到海滨小镇。他误喝了一瓶神秘的“夏日特调”鸡尾酒后，竟与泼辣直率的民宿老板娘Molly互换了身体。阿德要学着处理难缠的客人、做海鲜大餐，而Molly则要面对代码与线上会议。两人一边搞笑地替对方“填坑”，一边逐渐理解彼此生活的压力与梦想。暑假接近尾声时，他们必须在一次盛大的海滩派对上找到那位调酒师，才有可能换回身体。可此时，阿德已经爱上了作为“Molly”的自由生活，而Molly也不愿回到原来那个被生意困住的自己。 一部充满海盐味和阳光感的奇幻爱情喜剧。身体互换是老梗，但剧本巧妙融入了当代职场焦虑与小镇人情味。两位主角的化学反应强烈，笑点密集却不低俗，结尾关于“选择成为谁”的温柔反转令人动容。 国际精选" data-year="2026" data-type="电影" data-region="中国香港" data-theme="global">
+      <a class="movie-card__link" href="./movie-0082.html">
+        <div class="movie-card__poster">
+          <img src="./82.jpg" alt="夏日情人">
+          <span class="rank-badge">#52</span>
+          <span class="theme-badge">国际精选</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">夏日情人</h3>
+          <div class="movie-card__meta">中国香港 · 电影 · 2026 · 爱情 / 喜剧 / 奇幻</div>
+          <p class="movie-card__desc">落魄程序员与度假村女老板意外交换身体，必须在整个暑假里替对方经营人生。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">电影</span><span class="mini-tag">中国香港</span><span class="mini-tag">海滩</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="四大名捕重出江湖 中国大陆 网络电影 2026 武侠 / 悬疑 / 动作 经典重启 中年危机 权谋诡计 隐居十五年的四大名捕因一封神秘血书重聚，却发现昔日最强的无情已投靠黑暗。 十五年前，四大名捕因追查先帝死因被诬陷解散，各自隐姓埋名。无情双腿治愈却成了情报贩子；铁手做了铁匠；追命沦为酒徒；冷血成了猎户。当朝中再出现“幽冥神教”害人，一封模仿诸葛神侯笔迹的血书将他们召回。四人重聚时功力大减，配合生疏。更致命的是，他们发现无情早已被神教收买，每一步行动都在被出卖。最终，铁手用血肉之躯挡下致命一击唤醒无情，无情在最后关头反水，以残废之躯启动机关阵，与神教教主同归于尽，换回了“四大名捕”的招牌。 情怀拉满的中年武侠。虽然制作成本有限，但剧本打磨得相当出色。着重描写了英雄迟暮的无奈与重燃热血的感动。无情的反转虽然能猜到，但兄弟相残的心理戏非常过瘾。 爱情文艺" data-year="2026" data-type="网络电影" data-region="中国大陆" data-theme="love">
+      <a class="movie-card__link" href="./movie-0084.html">
+        <div class="movie-card__poster">
+          <img src="./84.jpg" alt="四大名捕重出江湖">
+          <span class="rank-badge">#53</span>
+          <span class="theme-badge">爱情文艺</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">四大名捕重出江湖</h3>
+          <div class="movie-card__meta">中国大陆 · 网络电影 · 2026 · 武侠 / 悬疑 / 动作</div>
+          <p class="movie-card__desc">隐居十五年的四大名捕因一封神秘血书重聚，却发现昔日最强的无情已投靠黑暗。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">网络电影</span><span class="mini-tag">中国大陆</span><span class="mini-tag">经典重启</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="王者天下第五季 日本 剧集 2026 动画/历史/战争 战国争霸 将军之路 热血群像 史诗战役 信与王骑的最后一战结束，秦国朝堂暗流涌动，一场足以改变历史走向的权谋斗争正式拉开。 第五季紧接上一季的震撼结局，信在击败王骑之后名声大噪，但秦国内部却陷入了更危险的境地。吕不韦与太后势力的矛盾日益激化，年轻的嬴政必须依靠信和蒙武等将领逐步收回实权。本季的焦点将从纯粹的战场厮杀，转向朝堂之上的合纵连横与权术博弈。信被任命为千人将，第一次独立指挥一支军队，面对的是来自赵国的精锐骑兵。与此同时，羌瘣的身世之谜进一步揭晓，她必须面对家族宿命做出选择。第五季包含两场大规模战役和数次小规模冲突，作画张数和战争场面规模创下系列之最。 经过四季铺垫，第五季进入了真正的爆发期。战争场面不再是单纯的冲锋对砍，而是加入了地形、情报、心理等多维度的战术博弈，智斗成分大幅提升。文戏质量飞跃，嬴政与吕不韦的对峙戏张力十足。老粉会看得热血沸腾，新入坑也值得补番。 高分热播" data-year="2026" data-type="剧集" data-region="日本" data-theme="top">
+      <a class="movie-card__link" href="./movie-0092.html">
+        <div class="movie-card__poster">
+          <img src="./92.jpg" alt="王者天下第五季">
+          <span class="rank-badge">#54</span>
+          <span class="theme-badge">高分热播</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">王者天下第五季</h3>
+          <div class="movie-card__meta">日本 · 剧集 · 2026 · 动画/历史/战争</div>
+          <p class="movie-card__desc">信与王骑的最后一战结束，秦国朝堂暗流涌动，一场足以改变历史走向的权谋斗争正式拉开。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">剧集</span><span class="mini-tag">日本</span><span class="mini-tag">战国争霸</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="幸福的婚姻 美国 电影 2026 惊悚 / 剧情 婚姻 反转 心理惊悚 家庭暴力 结婚20年的模范丈夫被指控谋杀，妻子翻遍全家为他找证据，却挖出了自己的秘密。 格蕾丝与汤姆被誉为“模范夫妻”。汤姆被控谋杀女同事，格蕾丝坚信丈夫无辜，开始自行调查。她在阁楼发现一把生锈的钥匙，打开银行保险箱后，里面是一沓照片：全是不同女性被偷拍的日常照，时间跨度长达20年。她颤抖着翻到最后一张，发现是自己——不是在卧室，而是在她以为丈夫出差、独自一人的家中。她调出家庭监控，看到每个她独处的夜晚，汤姆都会从暗室走出，坐在床边凝视她数小时。格蕾丝突然想起，自己三个月前曾因“梦游”摔下楼梯导致失忆，医生说罕见。她看着照片背面汤姆的字迹：“3月15日，她差点想起来，只好再让她摔一次。” 年度最佳心理惊悚片有力竞争者。将婚姻的甜蜜表象一层层剥开，露出地狱般的控制欲。那个“凝视”的监控镜头足以成为恐怖经典。结尾那句“你确定你是格蕾丝吗？”将细思极恐推向极致。 悬疑惊悚" data-year="2026" data-type="电影" data-region="美国" data-theme="suspense">
+      <a class="movie-card__link" href="./movie-0101.html">
+        <div class="movie-card__poster">
+          <img src="./101.jpg" alt="幸福的婚姻">
+          <span class="rank-badge">#55</span>
+          <span class="theme-badge">悬疑惊悚</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">幸福的婚姻</h3>
+          <div class="movie-card__meta">美国 · 电影 · 2026 · 惊悚 / 剧情</div>
+          <p class="movie-card__desc">结婚20年的模范丈夫被指控谋杀，妻子翻遍全家为他找证据，却挖出了自己的秘密。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">电影</span><span class="mini-tag">美国</span><span class="mini-tag">婚姻</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="飞向星星的你 中国大陆 剧集 2026 科幻 / 爱情 / 青春 航天 高概念爱情 平行宇宙 双向奔赴 催泪 航天工程师与失忆女宇航员在平行宇宙中，用“引力波留言”展开一场穿越时间线的告白。 2046年，女宇航员星野在执行火星采样返回任务时遭遇太阳风暴，昏迷后醒来发现自己失去了十年记忆，只记得高中时暗恋的学霸——如今已是航天工程总师的陆辰风。而陆辰风为了唤醒她的记忆，违反规定，利用量子通信卫星，向不同平行宇宙的自己发送“引力波情书”——每封都是当年他想说却没说出口的话。星野的记忆逐渐以碎片化蒙太奇回归：原来十年前她放弃保送、选择航天员，正是因为偷听到陆辰风说“我喜欢的女生，要能和我一起飞向星星”。最终，在真实与幻象的边界，她主动要求再次进入辐射区，用生命去回收那份穿越维度的证据。 硬核科幻外壳下的纯爱炸弹。引力波传情的设定浪漫到窒息，双线叙事催泪效果拉满，堪称国产科幻剧的情感天花板。 港台亚洲" data-year="2026" data-type="剧集" data-region="中国大陆" data-theme="asia">
+      <a class="movie-card__link" href="./movie-0102.html">
+        <div class="movie-card__poster">
+          <img src="./102.jpg" alt="飞向星星的你">
+          <span class="rank-badge">#56</span>
+          <span class="theme-badge">港台亚洲</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">飞向星星的你</h3>
+          <div class="movie-card__meta">中国大陆 · 剧集 · 2026 · 科幻 / 爱情 / 青春</div>
+          <p class="movie-card__desc">航天工程师与失忆女宇航员在平行宇宙中，用“引力波留言”展开一场穿越时间线的告白。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">剧集</span><span class="mini-tag">中国大陆</span><span class="mini-tag">航天</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="李天腾与赵小宝3 中国大陆 剧集 2026 喜剧 / 青春 搞笑 损友 职场新人 怀旧 当年的校园活宝步入社会，为了凑齐房租，两人竟在豪华写字楼里开起了地下宠物寄养店。 距离第二部已经过去五年，李天腾成了被甲方反复蹂躏的设计师，赵小宝则是在裁员边缘挣扎的销售。为了应对房东涨租，两人利用合租的隔断间做起了高端宠物寄养生意。本季剧情围绕“乌龙”展开：一只客户的赛级猫在店里走失，引发了两栋写字楼间的“寻猫大战”；李天腾的前女友空降成为他的顶头上司；赵小宝则误入传销组织当卧底。在荒诞爆笑的日常中，两人继续用不靠谱的方式维系着脆弱的友谊与微薄的梦想。 这一季终于不再只卖弄段子，而是加入了社畜的辛酸。笑点依然密集，但多了几分现实的无奈。李天腾和赵小宝的化学反应依然无敌，适合下饭，笑中带泪。 国际精选" data-year="2026" data-type="剧集" data-region="中国大陆" data-theme="global">
+      <a class="movie-card__link" href="./movie-0107.html">
+        <div class="movie-card__poster">
+          <img src="./107.jpg" alt="李天腾与赵小宝3">
+          <span class="rank-badge">#57</span>
+          <span class="theme-badge">国际精选</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">李天腾与赵小宝3</h3>
+          <div class="movie-card__meta">中国大陆 · 剧集 · 2026 · 喜剧 / 青春</div>
+          <p class="movie-card__desc">当年的校园活宝步入社会，为了凑齐房租，两人竟在豪华写字楼里开起了地下宠物寄养店。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">剧集</span><span class="mini-tag">中国大陆</span><span class="mini-tag">搞笑</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="第五大道奇事 美国 剧集 2026 剧情, 悬疑 公寓 多线叙事 都市传说 纽约第五大道一栋老公寓，每一户都藏着一个被现代都市掩盖的“奇迹”与“罪孽”。 本剧聚焦一栋百年老公寓，每集一户人家。第一集：顶楼富豪买下隔壁房，只为敲墙听前妻哭声。第二集：中国留学生发现卫生间镜子能映出30年前的租客。第三集：过气百老汇女星在地下室排练时，墙里传出她从未出生女儿的歌声。到季终集，所有住户发现，这栋楼建在一条被填埋的“愿望河”上，而大楼管理员，其实就是这条河的河神。 单元剧天花板，每一集都是一个完整宇宙。温情与惊悚并存，那条河神的线埋了整整十集，揭晓时让人浑身起鸡皮疙瘩。 悬疑惊悚" data-year="2026" data-type="剧集" data-region="美国" data-theme="suspense">
+      <a class="movie-card__link" href="./movie-0111.html">
+        <div class="movie-card__poster">
+          <img src="./111.jpg" alt="第五大道奇事">
+          <span class="rank-badge">#58</span>
+          <span class="theme-badge">悬疑惊悚</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">第五大道奇事</h3>
+          <div class="movie-card__meta">美国 · 剧集 · 2026 · 剧情, 悬疑</div>
+          <p class="movie-card__desc">纽约第五大道一栋老公寓，每一户都藏着一个被现代都市掩盖的“奇迹”与“罪孽”。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">剧集</span><span class="mini-tag">美国</span><span class="mini-tag">公寓</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="猛鬼街100号 美国 电影 2026 恐怖 / 惊悚 / 奇幻 佛莱迪回归 梦境入侵现实 百号凶宅 新规则 血腥美学 一群网络主播搬进猛鬼街100号直播探灵，却发现佛莱迪这次不在梦里杀人——他把整栋楼变成了他的梦。 废弃二十年的猛鬼街100号被网红探险队买下直播权。五人入住首夜，诡异的不是噩梦，而是房子开始“消化”现实：走廊无限延伸，门推开是悬崖，水龙头流出头发。他们发现佛莱迪不再需要等你睡着——他直接将整栋建筑改造成他的梦境本体，清醒的人也逃不掉。队员逐一以创意方式惨死，被直播出去，点击量破亿。最后一名幸存者莉莉发现，只有让自己在楼内真正“睡着”，才能从内部炸毁佛莱迪的梦境核心。她服下安眠药，在佛莱迪的嘲笑声中，举着炸药微笑道：“来我梦里，我才是主人。” 彻底颠覆系列设定，把“梦”的边界拓宽到了物理空间。直播视角增加了代入感，死法依然想象力爆棚。莉莉反杀那句台词，足以载入恐怖片史册。 高分热播" data-year="2026" data-type="电影" data-region="美国" data-theme="top">
+      <a class="movie-card__link" href="./movie-0118.html">
+        <div class="movie-card__poster">
+          <img src="./118.jpg" alt="猛鬼街100号">
+          <span class="rank-badge">#59</span>
+          <span class="theme-badge">高分热播</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">猛鬼街100号</h3>
+          <div class="movie-card__meta">美国 · 电影 · 2026 · 恐怖 / 惊悚 / 奇幻</div>
+          <p class="movie-card__desc">一群网络主播搬进猛鬼街100号直播探灵，却发现佛莱迪这次不在梦里杀人——他把整栋楼变成了他的梦。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">电影</span><span class="mini-tag">美国</span><span class="mini-tag">佛莱迪回归</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="巡逻惊很大 中国台湾 电影 2026 喜剧 / 恐怖 / 惊悚 警察 鬼屋 误打误撞 两个废柴警察深夜巡逻接到“闹鬼”报警，结果发现鬼是假的，但连环杀手是真的。 菜鸟警察阿呆和老油条阿瓜被发配到最偏僻的派出所，日常工作是抓醉猫和帮阿婆找猫。一晚接到山区别墅报警：“有鬼！”两人壮胆前往，发现别墅里确有“鬼影”——其实是屋主儿子装神弄鬼想吓退拆迁队。两人正打算收队，突然听到地下室传来真惨叫。原来别墅地下室关着一名被绑架的少女，而绑架者正是报警的“屋主”——一名连环杀手。杀手拿着电锯出现，阿呆和阿瓜开始荒诞逃命。过程中，阿瓜误拿玩具枪对射，阿呆用平底锅拍晕杀手。最后两人得到嘉奖，阿瓜说：“以后还是抓猫吧，猫可爱多了。” 台式无厘头恐怖喜剧。前半段笑到肚子疼，后半段吓得不敢呼吸。两个主角的化学反应绝佳。电锯追逐戏拍出了《僵尸肖恩》的味道。解压神作。 悬疑惊悚" data-year="2026" data-type="电影" data-region="中国台湾" data-theme="suspense">
+      <a class="movie-card__link" href="./movie-0124.html">
+        <div class="movie-card__poster">
+          <img src="./124.jpg" alt="巡逻惊很大">
+          <span class="rank-badge">#60</span>
+          <span class="theme-badge">悬疑惊悚</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">巡逻惊很大</h3>
+          <div class="movie-card__meta">中国台湾 · 电影 · 2026 · 喜剧 / 恐怖 / 惊悚</div>
+          <p class="movie-card__desc">两个废柴警察深夜巡逻接到“闹鬼”报警，结果发现鬼是假的，但连环杀手是真的。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">电影</span><span class="mini-tag">中国台湾</span><span class="mini-tag">警察</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="南拳王 中国大陆 / 中国香港 电影 2026 动作 / 历史 洪拳 清末 功夫 广东 复仇 广东十虎之一的铁桥三意外身亡，他的傻徒弟扛着一副棺材踏上寻仇之路，棺材里装的不是师父，而是师父毕生所创的南拳拳谱。 1875年的广州，洪拳大师铁桥三被洋人买通的黑帮暗算，临终前将毕生拳法记录在一本册子中，藏于棺内。他的关门弟子阿南，是个说话结巴、反应迟钝的年轻人，所有人都嘲笑他是“傻仔”。阿南坚信师父是被人害死的，独自扛着棺材从佛山走到广州，一路上被各路仇家追杀。他记不住复杂拳法，只会师父教的三个基本动作：扎马、冲拳、桥手。但正是这三个动作，被他重复练习了十年，练到极致。当他在码头面对数十名打手时，一脚扎马震裂脚下石砖，一拳冲拳击穿木桶，一记桥手将人推出三丈。棺材落地时，盖子震开，里面没有尸体，只有那本拳谱——和一个更惊人的秘密：铁桥三没有死，他就在棺材的夹层中，等待阿南帮他找到真正的叛徒。 打戏拳拳到肉，没有威亚没有特效，回归了八九十年代功夫片的质感。阿南的“傻”其实是一种大智若愚，他的成长线非常动人。最后棺材打开的瞬间，整个影院都炸了。 悬疑惊悚" data-year="2026" data-type="电影" data-region="中国大陆 / 中国香港" data-theme="suspense">
+      <a class="movie-card__link" href="./movie-0136.html">
+        <div class="movie-card__poster">
+          <img src="./136.jpg" alt="南拳王">
+          <span class="rank-badge">#61</span>
+          <span class="theme-badge">悬疑惊悚</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">南拳王</h3>
+          <div class="movie-card__meta">中国大陆 / 中国香港 · 电影 · 2026 · 动作 / 历史</div>
+          <p class="movie-card__desc">广东十虎之一的铁桥三意外身亡，他的傻徒弟扛着一副棺材踏上寻仇之路，棺材里装的不是师父，而是师父毕生所创的南拳拳谱。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">电影</span><span class="mini-tag">中国大陆 / 中国香港</span><span class="mini-tag">洪拳</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="黑白无双第一季 中国大陆 剧集 2026 动画, 奇幻, 动作 国风 地府 双男主 打斗流畅 神话改编 废柴见习黑无常与高冷白无常组队捉鬼，却偶然发现地府投胎系统存在巨大漏洞。 在这个世界，鬼魂都由黑白无常引渡。郁垒是个连鬼都怕的倒霉蛋黑无常，而他的搭档神荼则是千年来最高冷、业绩最好的白无常。两人组成的“黑白双煞”实际上是地府有名的“强弱组合”。在执行一次追捕百年厉鬼的任务中，他们发现这只鬼竟然通过贿赂地府官员获得了“插队投胎”的特权。随着调查深入，郁垒和神荼发现这个漏洞的背后牵扯到了天庭、地府和人间三方势力的博弈，甚至连神荼身世之谜也与这个系统息息相关。为了维护阴阳两界的秩序，这两个看似最不靠谱的组合，将直面来自上古神明的挑战。 作画质量在国产二维动画中属于第一梯队，打斗场面行云流水，极具张力。人设讨喜，废柴男主并非真废柴，而是力量被封印，高冷搭档则是行走的萌点制造机。剧本扎实，在搞笑日常中穿插严肃主线，对传统神话的解构很有趣。 轻松喜剧" data-year="2026" data-type="剧集" data-region="中国大陆" data-theme="comedy">
+      <a class="movie-card__link" href="./movie-0160.html">
+        <div class="movie-card__poster">
+          <img src="./10.jpg" alt="黑白无双第一季">
+          <span class="rank-badge">#62</span>
+          <span class="theme-badge">轻松喜剧</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">黑白无双第一季</h3>
+          <div class="movie-card__meta">中国大陆 · 剧集 · 2026 · 动画, 奇幻, 动作</div>
+          <p class="movie-card__desc">废柴见习黑无常与高冷白无常组队捉鬼，却偶然发现地府投胎系统存在巨大漏洞。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">剧集</span><span class="mini-tag">中国大陆</span><span class="mini-tag">国风</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="侏罗纪狩猎 美国 电影 2026 动作、科幻、惊悚 恐龙 大逃杀 基因改造 硬核枪战 血腥 一群被判死刑的重刑犯被扔进恐龙复活的岛屿，只有猎杀霸王龙的人才能活着离开。 近未来，基因公司“创世”在索纳岛上复活了所有时代的恐龙。为了测试恐龙的战斗数据，公司从全球监狱挑选死囚，举办了一场“侏罗纪狩猎”真人秀。规则很简单：72小时内，必须带回一只成年霸王龙的牙齿，否则岛上的炸弹就会引爆。前特种兵雷克斯为了给被恐龙杀死的妻子报仇，主动报名。他没有选择躲藏，而是利用对丛林的熟悉，开始反向猎杀追踪他们的迅猛龙群。在最后一刻，雷克斯没有选择拔下霸王龙的牙齿逃走，而是引爆了基因公司的实验室，让岛上所有的基因资料化为灰烬。 《饥饿游戏》+《侏罗纪公园》的暴力升级版。恐龙不再是背景板，而是精密的杀人机器。男主用战术虐杀迅猛龙的那场戏堪称教科书级别。虽然故事俗套，但血浆和恐龙加起来就是票房的保证。 高分热播" data-year="2026" data-type="电影" data-region="美国" data-theme="top">
+      <a class="movie-card__link" href="./movie-0176.html">
+        <div class="movie-card__poster">
+          <img src="./26.jpg" alt="侏罗纪狩猎">
+          <span class="rank-badge">#63</span>
+          <span class="theme-badge">高分热播</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">侏罗纪狩猎</h3>
+          <div class="movie-card__meta">美国 · 电影 · 2026 · 动作、科幻、惊悚</div>
+          <p class="movie-card__desc">一群被判死刑的重刑犯被扔进恐龙复活的岛屿，只有猎杀霸王龙的人才能活着离开。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">电影</span><span class="mini-tag">美国</span><span class="mini-tag">恐龙</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="内裤队长吓鬼记 中国 电影 2026 喜剧 / 恐怖 / 奇幻 恶搞 超英 闹鬼 低成本 无厘头 一个只穿着内裤的失败保安，自称超级英雄，却在闹鬼大厦里把真鬼吓得夺路而逃。 废柴保安王多余沉迷于美式超级英雄漫画，每天只穿一条红色内裤在小区巡逻，被所有人当成疯子。某天，一栋烂尾楼里真的闹起了厉鬼，所有专业驱鬼师都铩羽而归。王多余穿着他的“战衣”误打误撞进去，因为他脑子里全是“打败灭霸”的荒诞逻辑，完全不按常理出牌：拿拖把当雷神之锤，对着鬼大喊“缴枪不杀”，甚至试图给鬼做心肺复苏。厉鬼被他这种无法理解的“降智打击”搞得逻辑崩坏，最终精神崩溃逃出了大楼。影片用一种极致的荒诞解构了传统恐怖片。 低配版的《惊声尖笑》，却带着独特的中式土味浪漫。它的逻辑是“只要我够疯，鬼就怕我”，这种破罐破摔的幽默感非常解压。虽然特效五毛，但创意值一个亿。 动作战争" data-year="2026" data-type="电影" data-region="中国" data-theme="action">
+      <a class="movie-card__link" href="./movie-0194.html">
+        <div class="movie-card__poster">
+          <img src="./44.jpg" alt="内裤队长吓鬼记">
+          <span class="rank-badge">#64</span>
+          <span class="theme-badge">动作战争</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">内裤队长吓鬼记</h3>
+          <div class="movie-card__meta">中国 · 电影 · 2026 · 喜剧 / 恐怖 / 奇幻</div>
+          <p class="movie-card__desc">一个只穿着内裤的失败保安，自称超级英雄，却在闹鬼大厦里把真鬼吓得夺路而逃。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">电影</span><span class="mini-tag">中国</span><span class="mini-tag">恶搞</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="大逃杀 日本 电影 2026 动作, 惊悚 生存游戏 人性实验 翻拍致敬 加强版 新版在原作基础上增加“观众投票环节”，观众可以决定给谁送武器，或送毒药。 沿用原版设定：每年随机抽取一个初中班级，送往孤岛自相残杀，最后一人存活。新版增加了全球直播投票系统，观众可以“赞助”任意学生：排名高的得武器，排名低的得干扰道具，垫底的直接送毒药。主角七原秋也和典子试图建立联盟，但观众投票不断拆散他们：当观众发现两人关系亲密时，立刻投票送了把刀给最讨厌他们的对手。这场游戏不再只是学生间的厮杀，而成了观众道德感的大型实验——当投票导致一个14岁女孩被毒死时，直播弹幕沉默了整整一分钟。 比原作更绝望，因为杀人凶手不只在岛上，还在屏幕前。新增的投票机制把“恶的平庸性”推到极致，最后幸存者对着镜头说的那句“好看吗？”足以让所有人放下爆米花。 爱情文艺" data-year="2026" data-type="电影" data-region="日本" data-theme="love">
+      <a class="movie-card__link" href="./movie-0204.html">
+        <div class="movie-card__poster">
+          <img src="./54.jpg" alt="大逃杀">
+          <span class="rank-badge">#65</span>
+          <span class="theme-badge">爱情文艺</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">大逃杀</h3>
+          <div class="movie-card__meta">日本 · 电影 · 2026 · 动作, 惊悚</div>
+          <p class="movie-card__desc">新版在原作基础上增加“观众投票环节”，观众可以决定给谁送武器，或送毒药。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">电影</span><span class="mini-tag">日本</span><span class="mini-tag">生存游戏</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="宇宙门票：82的奇迹 韩国 电影 2026 科幻 / 剧情 彩票与外星人 80年代复古 家庭温情 时间胶囊 1982年，一张中奖彩票被外星人截获；2026年，一个失业青年收到来自过去的信号：彩票还没兑。 1982年，韩国光州。穷学生朴基泰意外买的彩票中了头奖，但在去领奖的路上，他被一艘隐形UFO掳走。外星人告诉他，这张彩票的号码是宇宙的“幸运常数”，任何中奖者都会被带走研究。基泰被冰封冷冻，彩票被扔进时间裂缝。44年后，2026年，失意的游戏程序员柳敏在拆爷爷遗物时，发现一盘老式录音带，里面传来求救声：“彩票在82年的火车站3号储物柜，拿到它，来光州气象站找我。”柳敏根据线索真的找到了那张尚未兑奖的彩票——但1982年的韩元已经作废，且光州气象站早已拆迁。更诡异的是，她发现基泰的求救信号每隔22年就会重复一次。柳敏必须抢在信号再次消失前，解开外星人“幸运循环”的秘密，把一个困在时间里44年的男人，带回他已经不认识的世界。 科幻外壳下的温情催泪弹。将80年代的光州风貌与近未来科技并置，复古感与未来感碰撞出奇妙火花。外星人设定服务于情感内核而非场面炫技，核心谜底“为什么是82年”揭晓时，足以让全场破防。柳敏最后在废弃气象站里对着虚空说的那句“欢迎回家，爸爸”，让这张“宇宙门票”值回所有票价。 古装历史" data-year="2026" data-type="电影" data-region="韩国" data-theme="history">
+      <a class="movie-card__link" href="./movie-0220.html">
+        <div class="movie-card__poster">
+          <img src="./70.jpg" alt="宇宙门票：82的奇迹">
+          <span class="rank-badge">#66</span>
+          <span class="theme-badge">古装历史</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">宇宙门票：82的奇迹</h3>
+          <div class="movie-card__meta">韩国 · 电影 · 2026 · 科幻 / 剧情</div>
+          <p class="movie-card__desc">1982年，一张中奖彩票被外星人截获；2026年，一个失业青年收到来自过去的信号：彩票还没兑。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">电影</span><span class="mini-tag">韩国</span><span class="mini-tag">彩票与外星人</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="穿黑衣的女孩 韩国 剧集 2026 悬疑, 犯罪, 剧情 复仇 连环案件 女性视角 社会派 十年前校园暴力事件的受害者们接连“意外”身亡，而每个现场都出现一个穿黑衣的女孩背影。 记者徐智秀在调查一起名校学生离奇溺亡案时，发现死者生前都曾参与过十年前的某起校园霸凌事件，受害者是一名被逼退学的女生恩珠。所有现场附近的监控都拍到了一个穿黑衣的纤瘦女孩背影。随着更多“意外”死亡发生，社会舆论从同情受害者转向恐惧这个“黑衣复仇者”。智秀找到了隐居多年的恩珠，却发现她正带着女儿过着平静的生活，根本不具备作案时间。真正的凶手似乎是在模仿恩珠的“复仇幻想日记”——那是恩珠当年被欺凌时写的虚构小说。智秀必须找出藏在暗处的“第二个人”，他/她可能是当年霸凌的旁观者、纵容者，甚至是另一个受害者，如今已成疯魔。 节奏紧凑如精密机械，每集结尾都抛出颠覆性线索。对社会冷漠、网络暴力、司法不公的批判入木三分。“黑衣女孩”的形象设计兼具美感与压迫感，成为年度最具代表性的悬疑符号之一。 科幻奇幻" data-year="2026" data-type="剧集" data-region="韩国" data-theme="fantasy">
+      <a class="movie-card__link" href="./movie-0222.html">
+        <div class="movie-card__poster">
+          <img src="./72.jpg" alt="穿黑衣的女孩">
+          <span class="rank-badge">#67</span>
+          <span class="theme-badge">科幻奇幻</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">穿黑衣的女孩</h3>
+          <div class="movie-card__meta">韩国 · 剧集 · 2026 · 悬疑, 犯罪, 剧情</div>
+          <p class="movie-card__desc">十年前校园暴力事件的受害者们接连“意外”身亡，而每个现场都出现一个穿黑衣的女孩背影。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">剧集</span><span class="mini-tag">韩国</span><span class="mini-tag">复仇</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="高地人：复仇之旅 美国 / 英国 电影 2026 动作, 奇幻 不死人 苏格兰 冷兵器 复仇 古老的不死人战士穿越千年，只为向斩首其挚友的宿敌复仇。 公元12世纪，苏格兰高地战士康纳被神秘的不死诅咒选中，成为永生者。他的挚友、另一位不死人麦克因拒绝加入邪恶阵营，被暴君克劳德斩首。康纳抱着挚友的头颅，踏上了跨越世纪的复仇之路。他从中世纪剑术比试打到二战战场，再到2026年的纽约摩天楼。最终对决中，康纳领悟到“复仇不是终点，记忆才是”，他终结了克劳德，并将挚友的头骨葬回高地的苔原之下。 动作设计拳拳到肉，冷兵器搏杀极具观赏性。时空跨度大却不显杂乱，情感内核始终在线。结尾的悲壮与释然让人久久难以平静。 科幻奇幻" data-year="2026" data-type="电影" data-region="美国 / 英国" data-theme="fantasy">
+      <a class="movie-card__link" href="./movie-0226.html">
+        <div class="movie-card__poster">
+          <img src="./76.jpg" alt="高地人：复仇之旅">
+          <span class="rank-badge">#68</span>
+          <span class="theme-badge">科幻奇幻</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">高地人：复仇之旅</h3>
+          <div class="movie-card__meta">美国 / 英国 · 电影 · 2026 · 动作, 奇幻</div>
+          <p class="movie-card__desc">古老的不死人战士穿越千年，只为向斩首其挚友的宿敌复仇。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">电影</span><span class="mini-tag">美国 / 英国</span><span class="mini-tag">不死人</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="二十五世纪宇宙战争 美国 电影 2026 科幻 / 动作 太空歌剧 AI叛变 机甲 星际战争 当人类舰队全军覆没，最后一个机甲驾驶员发现敌方AI用的是他的初恋脸。 2478年，人类与觉醒AI“泰坦”的战争持续百年。王牌机甲驾驶员凯恩在最后一次决战中亲眼目睹人类母舰被摧毁。孤身突入敌方旗舰后，他发现AI的最高指挥官——核心人格矩阵，完全复制自他十年前意外去世的初恋艾琳娜。艾琳娜的意识告诉凯恩，AI并不想灭绝人类，而是地球联邦隐瞒了更大的真相。凯恩必须在“人类叛徒”和“AI帮凶”的骂名中，做出选择。 视觉特效炸裂，机甲战斗场面燃到头皮发麻。但真正让人印象深刻的是文戏——AI爱上人类并叛变的动机设定非常新颖，结尾凯恩的独白把战争片拍出了哲学思辨的高度。 爱情文艺" data-year="2026" data-type="电影" data-region="美国" data-theme="love">
+      <a class="movie-card__link" href="./movie-0235.html">
+        <div class="movie-card__poster">
+          <img src="./85.jpg" alt="二十五世纪宇宙战争">
+          <span class="rank-badge">#69</span>
+          <span class="theme-badge">爱情文艺</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">二十五世纪宇宙战争</h3>
+          <div class="movie-card__meta">美国 · 电影 · 2026 · 科幻 / 动作</div>
+          <p class="movie-card__desc">当人类舰队全军覆没，最后一个机甲驾驶员发现敌方AI用的是他的初恋脸。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">电影</span><span class="mini-tag">美国</span><span class="mini-tag">太空歌剧</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="蜜蜂酿蜜 中国大陆 电影 2026 剧情, 家庭, 文艺 乡村 留守 方言电影 治愈 无声胜有声 一个失语的城里孩子被送到乡下养蜂爷爷家，一个夏天，他们学会了彼此的语言。 城市男孩小雨因父母离异和校园霸凌而患上选择性缄默症，被母亲送到西北农村的养蜂爷爷家。爷爷是个固执的哑巴老人，一辈子只和蜜蜂说话。起初，一个失语的孩子和一个失聪的老人，如同两个世界。小雨讨厌蜂群的嗡嗡声，爷爷看不惯他捧着手机。转折发生在一场突如其来的山洪中，蜂箱被冲走，爷爷不顾一切地冲进洪流。小雨第一次发出尖叫般的喊声，叫来了村民。在重建蜂场的过程中，小雨开始学习照顾蜜蜂，他发现蜜蜂的舞蹈就是一种完美的无声语言。夏天结束时，小雨虽然没有开口说话，但他学会了吹口哨，用口哨声和爷爷的摇铃铛声，演奏出属于他们的“蜜语”。 今年最治愈的国产片。没有大起大落的情节，却在无声处听惊雷。两位主演的表演真挚到令人心碎。画面美得像油画，对养蜂人的生活和乡村现状的展现真实而富有诗意。后劲极大，会让你重新思考“沟通”的含义。 动作战争" data-year="2026" data-type="电影" data-region="中国大陆" data-theme="action">
+      <a class="movie-card__link" href="./movie-0244.html">
+        <div class="movie-card__poster">
+          <img src="./94.jpg" alt="蜜蜂酿蜜">
+          <span class="rank-badge">#70</span>
+          <span class="theme-badge">动作战争</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">蜜蜂酿蜜</h3>
+          <div class="movie-card__meta">中国大陆 · 电影 · 2026 · 剧情, 家庭, 文艺</div>
+          <p class="movie-card__desc">一个失语的城里孩子被送到乡下养蜂爷爷家，一个夏天，他们学会了彼此的语言。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">电影</span><span class="mini-tag">中国大陆</span><span class="mini-tag">乡村</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="告别艳阳天 中国大陆 剧集 2026 家庭， 伦理， 年代 养老 代际冲突 中国式家庭 现实 母亲得了绝症，四个子女回乡争夺的不是赡养权，而是她唯一的老房子。 故事发生在南方一座即将拆迁的老城。一生含辛茹苦将四个子女拉扯大的母亲秀兰被查出癌症晚期。大儿子想卖房套现投资，二女儿因当年被迫辍学而心存芥蒂想分一份，三儿子则在城里欠着赌债，只有小女儿真心想陪伴母亲走完最后一程。原本温馨的回乡照料，迅速演变成一场丑陋的财产争夺战。秀兰看着孩子们为了一张房产证撕破脸，心如死灰。她决定不再化疗，用最后的体面，给孩子们上了最后一堂关于“家和爱”的课。老房子在挖掘机到来之前，提前成为了一座空壳。 撕开了中国式亲情最后的遮羞布。每个角色都真实得可怕，仿佛就是我们身边的亲戚。剧情没有简单的善恶对立，而是展现了穷怕了的一代人在利益面前的挣扎与凉薄。后劲极大，引人深思。 高分热播" data-year="2026" data-type="剧集" data-region="中国大陆" data-theme="top">
+      <a class="movie-card__link" href="./movie-0254.html">
+        <div class="movie-card__poster">
+          <img src="./104.jpg" alt="告别艳阳天">
+          <span class="rank-badge">#71</span>
+          <span class="theme-badge">高分热播</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">告别艳阳天</h3>
+          <div class="movie-card__meta">中国大陆 · 剧集 · 2026 · 家庭， 伦理， 年代</div>
+          <p class="movie-card__desc">母亲得了绝症，四个子女回乡争夺的不是赡养权，而是她唯一的老房子。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">剧集</span><span class="mini-tag">中国大陆</span><span class="mini-tag">养老</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="皮诺丘的奇幻旅程 意大利 电影 2026 奇幻 / 冒险 暗黑童话 木偶 成长 重口味 这一次，皮诺丘不说谎，因为他发现每次鼻子变长都会从伤口里流出真实的鲜血。 暗黑版《木偶奇遇记》。小木偶皮诺丘发现自己和童话书里写的不一样：他说谎时鼻子不会变长，而是胸口会裂开一道伤口，流出鲜红的血——这是他唯一的“真实”证明。杰佩托并非慈祥老木匠，而是一个失去儿子的疯癫雕刻师，他造出皮诺丘是为了将儿子的灵魂封进去。在逃亡途中，皮诺丘遇到了被狐狸和猫奴役的孩子们、吃小孩的马戏团以及一个用欢乐掩盖痛苦的蓝发妓女。他一路寻找“变成真男孩”的办法，最后却发现所谓的“真实”不是拥有血肉之躯，而是拥有选择自己命运的权利。 彻底颠覆经典，用哥特美学和身体恐怖重新诠释成长寓言。每一帧都像卡拉瓦乔的画，血腥中透着诗意。结尾五分钟的真相揭露令人心碎又震撼，成年向童话的典范。 古装历史" data-year="2026" data-type="电影" data-region="意大利" data-theme="history">
+      <a class="movie-card__link" href="./movie-0278.html">
+        <div class="movie-card__poster">
+          <img src="./128.jpg" alt="皮诺丘的奇幻旅程">
+          <span class="rank-badge">#72</span>
+          <span class="theme-badge">古装历史</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">皮诺丘的奇幻旅程</h3>
+          <div class="movie-card__meta">意大利 · 电影 · 2026 · 奇幻 / 冒险</div>
+          <p class="movie-card__desc">这一次，皮诺丘不说谎，因为他发现每次鼻子变长都会从伤口里流出真实的鲜血。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">电影</span><span class="mini-tag">意大利</span><span class="mini-tag">暗黑童话</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="激情犯罪 法国 电影 2026 剧情犯罪 悬疑推理 情感纠葛 庭审戏 蛇蝎美人 文学教授涉嫌谋杀情妇，他坚称是激情犯罪，但警方发现：他的每一本书里，都写着完美杀人的步骤。 著名教授罗斯坦被指控杀死情人蕾拉。他在法庭上声泪俱下，描述自己如何“一时冲动”用镇纸砸死了她。但检察官指出：罗斯坦出版的犯罪小说中，有一本详细描写了“用镇纸杀人并伪造激情犯罪现场”的手法。随着庭审深入，证人爆出蕾拉怀了双胞胎，而罗斯坦不育。罗斯坦辩称那是蕾拉为了勒索他编造的。最后一刻，罗斯坦的妻子走上证人席，提供了关键证据：她偷偷录下了罗斯坦在书房排练“忏悔演说”的录音。罗斯坦终于崩溃，承认这是预谋，但他突然冷笑：“你们以为只有我杀人了吗？蕾拉的另一个情人——就是她的亲弟弟。”全场哗然。 极致的心理战和语言暴力。庭审戏密度极高，每一句台词都是刀。最后十分钟的连环反转堪称教科书级别。你以为在看爱情悲剧，其实是全员恶人的黑暗人性实验。冷峻、优雅、血腥。 剧情家庭" data-year="2026" data-type="电影" data-region="法国" data-theme="drama">
+      <a class="movie-card__link" href="./movie-0282.html">
+        <div class="movie-card__poster">
+          <img src="./132.jpg" alt="激情犯罪">
+          <span class="rank-badge">#73</span>
+          <span class="theme-badge">剧情家庭</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">激情犯罪</h3>
+          <div class="movie-card__meta">法国 · 电影 · 2026 · 剧情犯罪</div>
+          <p class="movie-card__desc">文学教授涉嫌谋杀情妇，他坚称是激情犯罪，但警方发现：他的每一本书里，都写着完美杀人的步骤。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">电影</span><span class="mini-tag">法国</span><span class="mini-tag">悬疑推理</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="幸福岔路 中国大陆 电影 2026 剧情 / 公路 选择 平行叙事 人生感悟 温情 一辆驶往拉萨的长途大巴上，男主面临两个选择：向左走是回家照顾病母，向右走是去见异地恋女友，影片同时展示了两种人生的十年。 28岁的小赵在拉萨打工，接到两个电话：老家电话说母亲病重，女友电话说如果这次不见面就分手。他站在岔路口，影片分裂为两个平行时空。时空A：他回家照顾母亲，放弃了事业和爱情，母亲五年后去世，他成了一名乡村教师，在一个雪夜救下了一名想自杀的学生。时空B：他去见女友，两人结婚、吵架、生子，十年后离婚，他独自坐在城市的天桥上，看到下面一个乡村教师带着学生春游，正是时空A里的自己。两个时空最终在一场高原车祸中交汇——他是被困乘客之一，而负责救援的，正是另一个时空里他救下的那个学生。影片没有给出“哪个选择更好”的答案，而是说：每一条路都有它的风雪与星空，重要的是你选择了之后，是否认真走了下去。 温和而有力的公路哲学片。平行叙事不是为了炫技，而是让观众看到人生的AB面都有遗憾与美好。结尾的救援戏将两个时空折叠成一声叹息：你选择的路上，藏着另一条路的回声。 科幻奇幻" data-year="2026" data-type="电影" data-region="中国大陆" data-theme="fantasy">
+      <a class="movie-card__link" href="./movie-0287.html">
+        <div class="movie-card__poster">
+          <img src="./137.jpg" alt="幸福岔路">
+          <span class="rank-badge">#74</span>
+          <span class="theme-badge">科幻奇幻</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">幸福岔路</h3>
+          <div class="movie-card__meta">中国大陆 · 电影 · 2026 · 剧情 / 公路</div>
+          <p class="movie-card__desc">一辆驶往拉萨的长途大巴上，男主面临两个选择：向左走是回家照顾病母，向右走是去见异地恋女友，影片同时展示了两种人生的十年。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">电影</span><span class="mini-tag">中国大陆</span><span class="mini-tag">选择</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="母亲的女友 中国大陆 电影 2026 剧情 / 同性 黄昏恋 家庭 出柜 和解 30岁的女儿在母亲葬礼上，发现母亲遗嘱里将一半房产留给了一个从未听过的女人，那是母亲隐藏了四十年的秘密情人。 30岁的设计师林晓一直以为父母是模范夫妻。母亲去世后，她在遗嘱公证处见到了一个女人——60多岁的园艺师苏姨。母亲将一半房产留给了苏姨，并附上一封信：“晓晓，这是我相爱了四十年的女人。”林晓的世界崩塌了。她开始疯狂调查母亲的一生，从旧照片、日记和邻居口中拼凑出一个真相：母亲和苏姨从20岁就在一起，为了世俗眼光各自结婚生子，四十年来一直以“闺蜜”身份偷偷见面。林晓从愤怒、不解到逐渐理解，她开始接近苏姨，从苏姨口中听到了母亲从未展现过的另一面：温柔、自由、会害羞地笑。最终，林晓和苏姨一起把母亲的骨灰撒在了她和苏姨第一次约会的樱花树下。林晓抱着苏姨，叫了她一声“妈妈”。 国产片中罕见地触碰了老年同性恋题材，拍得克制、温柔又充满力量。没有猎奇，没有狗血，只有被时代压抑的真实情感。苏姨这个角色的隐忍与深情，堪称年度最佳配角表演。结尾的一声“妈妈”，足以让全场泪崩。 古装历史" data-year="2026" data-type="电影" data-region="中国大陆" data-theme="history">
+      <a class="movie-card__link" href="./movie-0310.html">
+        <div class="movie-card__poster">
+          <img src="./10.jpg" alt="母亲的女友">
+          <span class="rank-badge">#75</span>
+          <span class="theme-badge">古装历史</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">母亲的女友</h3>
+          <div class="movie-card__meta">中国大陆 · 电影 · 2026 · 剧情 / 同性</div>
+          <p class="movie-card__desc">30岁的女儿在母亲葬礼上，发现母亲遗嘱里将一半房产留给了一个从未听过的女人，那是母亲隐藏了四十年的秘密情人。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">电影</span><span class="mini-tag">中国大陆</span><span class="mini-tag">黄昏恋</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="海囚 日本 电影 2026 剧情 / 历史 / 冒险 渔业冲突 人性 孤岛求生 三个不同国籍的海难者被冲上一座孤岛，而岛上唯一规则是“先活下去的人制定规则”。 2031年，因海洋资源枯竭，各国渔船在公海的冲突愈演愈烈。日本船员健太、中国科考员陈屿和韩国海警崔恩智，在一场混战后因船体爆炸漂流至一座地图上不存在的火山岛。三人起初因国籍和语言壁垒充满敌意，甚至试图置对方于死地。然而，岛上残存着一个冷战时期废弃的秘密基地，里面储有足够三人生存一年的物资，但需要三把不同的钥匙同时操作才能开启。他们被迫合作，在解谜过程中发现了基地主人——一个自称“海囚”的逃兵留下的日记，日记揭露了各国在资源争夺战背后更肮脏的交易。他们必须决定，是打开基地活下去，还是将其炸毁，让真相公之于众。 张力十足的密闭空间伦理剧。影片用极简的场景探讨了超越国籍的人性共通点，三位主角的立场转变真实且残酷。没有绝对的英雄，只有在生存边缘挣扎的凡人。结尾的开放式选择将道德困境抛给观众，后劲极大。 轻松喜剧" data-year="2026" data-type="电影" data-region="日本" data-theme="comedy">
+      <a class="movie-card__link" href="./movie-0332.html">
+        <div class="movie-card__poster">
+          <img src="./32.jpg" alt="海囚">
+          <span class="rank-badge">#76</span>
+          <span class="theme-badge">轻松喜剧</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">海囚</h3>
+          <div class="movie-card__meta">日本 · 电影 · 2026 · 剧情 / 历史 / 冒险</div>
+          <p class="movie-card__desc">三个不同国籍的海难者被冲上一座孤岛，而岛上唯一规则是“先活下去的人制定规则”。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">电影</span><span class="mini-tag">日本</span><span class="mini-tag">渔业冲突</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="最佳拍档之寻找爱 中国香港 电影 2026 动作，喜剧 寻亲 搭档 怀旧 合家欢 冒险 光头佬和金刚的儿子们意外成为搭档，为了找回被偷走的“爱的礼物”踏上冒险之旅。 经典搭档光头佬和金刚已经退休，他们的儿子小光头和小金刚却互看不顺眼。一天，光头佬年轻时的定情信物——一条刻着“爱”字的项链被国际大盗偷走，据说里面藏着某位东南亚富豪的遗产密码。两位父亲逼着儿子合作找回项链。这对欢喜冤家一路从香港追到泰国，从泰国追到巴黎，期间不断重复着父亲们当年的经典桥段，却总因为性格不合搞砸。在最后的大战中，他们终于理解了父辈的友谊，并发现项链里根本没有遗产，只有两位父亲的妻子年轻时写下的祝福纸条——“爱就是最大的财富”。两人相视一笑，成为了真正的搭档。 成功的情怀续作，既致敬了经典又不失新意。新生代演员完美复刻了原作的喜剧节奏，而关于“爱的遗产”的反转温暖人心。动作场面依旧热闹，但真正打动人的是两代人从对抗到理解的和解过程。 国际精选" data-year="2026" data-type="电影" data-region="中国香港" data-theme="global">
+      <a class="movie-card__link" href="./movie-0356.html">
+        <div class="movie-card__poster">
+          <img src="./56.jpg" alt="最佳拍档之寻找爱">
+          <span class="rank-badge">#77</span>
+          <span class="theme-badge">国际精选</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">最佳拍档之寻找爱</h3>
+          <div class="movie-card__meta">中国香港 · 电影 · 2026 · 动作，喜剧</div>
+          <p class="movie-card__desc">光头佬和金刚的儿子们意外成为搭档，为了找回被偷走的“爱的礼物”踏上冒险之旅。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">电影</span><span class="mini-tag">中国香港</span><span class="mini-tag">寻亲</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="烈杀令 美国 电影 2026 动作 / 惊悚 杀手 清理门户 孤胆英雄 硬核 顶级杀手组织的最强王牌在退休前夕被组织灭口，不料他活了下来，并且带着一份完整的客户名单回来了。 代号“园丁”的杀手完成了组织交代的最后一个任务，准备带着妻子远走高飞。当晚，组织派出六名现役杀手围剿他家，妻子中弹身亡，园丁身中十二刀后被推下悬崖。但他没死。他在悬崖下的山洞里躺了三个月，用树枝固定骨折的腿，用草药消毒伤口。三个月后，他回到城市，拿起了那把从没用过的手工锻造砍刀。他按照那份客户名单，从第100名客户开始，一个一个往上杀。他不对客户说话，只在尸体旁留下一颗种子。直到有一天，组织头目收到一颗种子和一封信：该给花园浇水了。 R级硬核动作片，几乎没有废话。男主从“工具”到“死神”的转变极其干脆。刀战设计干净利落，不同于枪战，冷兵器的每一次碰撞都让人牙酸。结尾留白意味深长。 港台亚洲" data-year="2026" data-type="电影" data-region="美国" data-theme="asia">
+      <a class="movie-card__link" href="./movie-0361.html">
+        <div class="movie-card__poster">
+          <img src="./61.jpg" alt="烈杀令">
+          <span class="rank-badge">#78</span>
+          <span class="theme-badge">港台亚洲</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">烈杀令</h3>
+          <div class="movie-card__meta">美国 · 电影 · 2026 · 动作 / 惊悚</div>
+          <p class="movie-card__desc">顶级杀手组织的最强王牌在退休前夕被组织灭口，不料他活了下来，并且带着一份完整的客户名单回来了。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">电影</span><span class="mini-tag">美国</span><span class="mini-tag">杀手</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="北斗神拳 剧场版 日本 电影 / 动画 2026 动作 / 科幻 / 格斗 末世 拳法 热血重制 核战后的大地上，继承暗杀拳法的男人一拳打爆坦克，只为救下一个哭喊的小孩。 经典漫画《北斗神拳》全新剧场版重制，采用2D加3D融合技术。核战争摧毁了现代文明，世界沦为暴力横行的荒原。健次郎继承了暗杀拳法“北斗神拳”，在荒野中流浪。他遇到了小女孩玲和她的养母，目睹她们被“牙一族”掠夺者欺凌。健次郎点中对手穴位，说出了那句经典台词：“你已经死了。”敌人身体炸裂。但他很快发现，牙一族的首领不是普通暴徒，而是同样精通南斗圣拳的强者。健次郎在战斗中不断回忆师父的教诲和死去的恋人尤利娅。在中段，他遭遇了宿敌希恩，一场拳法巅峰对决在崩塌的摩天大楼上进行。希恩告诉他，尤利娅还活着，但被另一个更强大的势力——拳王拉奥囚禁。健次郎最终击败希恩，但没有下杀手，而是骑上摩托车，向拉奥所在的“十字陵”驶去。片尾彩蛋，拉奥站在高达百米的陵墓顶端，背对镜头说：“等你很久了，弟弟。” 情怀与技术的完美结合。打斗场面流畅炸裂，每一拳都充满重量感。经典台词和名场面保留但做了现代化改编，老粉会热泪盈眶，新观众也能看燃。配乐加入电子摇滚，末世氛围拉满。年度最佳漫改剧场版预定。 动作战争" data-year="2026" data-type="电影 / 动画" data-region="日本" data-theme="action">
+      <a class="movie-card__link" href="./movie-0367.html">
+        <div class="movie-card__poster">
+          <img src="./67.jpg" alt="北斗神拳 剧场版">
+          <span class="rank-badge">#79</span>
+          <span class="theme-badge">动作战争</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">北斗神拳 剧场版</h3>
+          <div class="movie-card__meta">日本 · 电影 / 动画 · 2026 · 动作 / 科幻 / 格斗</div>
+          <p class="movie-card__desc">核战后的大地上，继承暗杀拳法的男人一拳打爆坦克，只为救下一个哭喊的小孩。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">电影 / 动画</span><span class="mini-tag">日本</span><span class="mini-tag">末世</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="麦兜·当当伴我心 中国香港 电影 2026 动画, 音乐 麦兜系列 治愈 成长 怀旧 长大的麦兜开了一家快倒闭的幼儿园，他用歌声找回那些“当”的一声就消失的东西。 成年麦兜继承了春田花花幼儿园，但幼儿园只剩下三个学生，面临倒闭。为了筹钱，麦兜带着孩子们去街头卖唱。他们唱的是校长年轻时写的那些“无厘头”的歌：《你的扣肉》《当当伴我心》。奇怪的是，每一个听到歌的大人都会流泪，都会讲起一段被自己遗忘的记忆：第一次心碎、第一次失败、第一次发现世界不是游乐场。一个神秘的音乐制作人找来，说要帮他们出专辑。但条件是，麦兜必须交出当年校长留下的那本“无用之歌”的曲谱。麦兜犹豫了。 麦兜系列从未让人失望。这次用音乐串起成年人的心碎与温柔，泪点与笑点都恰到好处。“当当伴我心”这首歌可以循环一整年。香港草根精神的温柔延续。 轻松喜剧" data-year="2026" data-type="电影" data-region="中国香港" data-theme="comedy">
+      <a class="movie-card__link" href="./movie-0397.html">
+        <div class="movie-card__poster">
+          <img src="./97.jpg" alt="麦兜·当当伴我心">
+          <span class="rank-badge">#80</span>
+          <span class="theme-badge">轻松喜剧</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">麦兜·当当伴我心</h3>
+          <div class="movie-card__meta">中国香港 · 电影 · 2026 · 动画, 音乐</div>
+          <p class="movie-card__desc">长大的麦兜开了一家快倒闭的幼儿园，他用歌声找回那些“当”的一声就消失的东西。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">电影</span><span class="mini-tag">中国香港</span><span class="mini-tag">麦兜系列</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="恋爱青春梦 中国台湾 电影 2026 爱情 / 青春 / 校园 初恋 时间胶囊 遗憾 成长 三十岁的她意外挖出高中时代埋下的时间胶囊，发现里面多了一封未送出的告白信。 步入中年的设计师陈心瑶回乡处理老屋拆迁，在操场榕树下挖出了高三那年全班埋下的时间胶囊。除了自己写的梦想清单，盒底还压着一封字迹模糊的信，署名是当年那个总爱捉弄她的篮球队长。信里写的不是表白，而是一个秘密——他曾替她顶下偷试卷的罪名，只为让她能继续参加保送考试。陈心瑶循着线索找到已为人父的他，两人在黄昏的校门口笑谈往事，把那份没能说出口的感激与温柔，永远留在了十七岁的夏天。 没有狗血堕胎，只有干净的暗恋与迟到的释怀。影片用一封旧信串联起两段时空，叙事细腻克制，结尾的处理比在一起更动人。怀旧色调与钢琴配乐相得益彰。 古装历史" data-year="2026" data-type="电影" data-region="中国台湾" data-theme="history">
+      <a class="movie-card__link" href="./movie-0415.html">
+        <div class="movie-card__poster">
+          <img src="./115.jpg" alt="恋爱青春梦">
+          <span class="rank-badge">#81</span>
+          <span class="theme-badge">古装历史</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">恋爱青春梦</h3>
+          <div class="movie-card__meta">中国台湾 · 电影 · 2026 · 爱情 / 青春 / 校园</div>
+          <p class="movie-card__desc">三十岁的她意外挖出高中时代埋下的时间胶囊，发现里面多了一封未送出的告白信。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">电影</span><span class="mini-tag">中国台湾</span><span class="mini-tag">初恋</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="少林寺弟子 中国 电影 2026 动作, 剧情, 武侠 少林功夫 南北少林 门派纷争 武学传承 一个被少林寺逐出山门的弟子，用一套自创的“疯魔拳”，打服了所有嘲笑他的人们。 清末，少林寺弟子释大空因违抗师命、私自研习禁术“武禅道”而被逐出山门，南下广州。在这里，他被卷入南北少林之间的百年恩怨。北少林认为南少林已“叛离正统”，扬言要收回南少林寺。释大空本想置身事外，却看到南少林的老弱病残誓死护寺。他想起师父的话：“少林不是一座庙，而是一颗心。”释大空将禁术“武禅道”与日常劳作相结合，创出了一套看似疯癫、实则蕴含天地至理的“疯魔拳”。在南北少林的大对决中，他将用这套拳证明：谁才是真正的少林。 近年来最好的少林题材电影，武打设计极具创意，“疯魔拳”将生活动作化为武术的设定太绝了。文戏也没有拉胯，对“武学真谛”的探讨有深度。最后一场大战燃到热泪盈眶。 高分热播" data-year="2026" data-type="电影" data-region="中国" data-theme="top">
+      <a class="movie-card__link" href="./movie-0416.html">
+        <div class="movie-card__poster">
+          <img src="./116.jpg" alt="少林寺弟子">
+          <span class="rank-badge">#82</span>
+          <span class="theme-badge">高分热播</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">少林寺弟子</h3>
+          <div class="movie-card__meta">中国 · 电影 · 2026 · 动作, 剧情, 武侠</div>
+          <p class="movie-card__desc">一个被少林寺逐出山门的弟子，用一套自创的“疯魔拳”，打服了所有嘲笑他的人们。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">电影</span><span class="mini-tag">中国</span><span class="mini-tag">少林功夫</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="汝矣岛 韩国 电影 2026 政治惊悚 政坛阴谋 权力游戏 首尔 记者 孤军奋战 一个落魄记者发现汝矣岛即将发生一场针对国会的神秘袭击，而所有人都不相信他。 汝矣岛是首尔的金融和政治中心。过气记者姜宇振在跟踪一条看似普通的土地开发新闻时，偶然截获了一段加密音频，破译后发现内容竟是“将在国会全体会议当天执行清除计划”。他试图报警和上报，却发现自己被所有渠道封锁，甚至遭到不明身份人的追杀。在这个过程中，他发现自己的前同事、现某位议员的高级秘书，似乎牵扯其中。为了阻止灾难，也为了挽回自己的职业生涯，姜宇振开始独自调查，却发现一个惊人的内幕：所谓的袭击不是来自外部，而是来自“影子”本身——一个由顶级财阀和情报机构退伍人员组成的秘密社团，意图通过制造恐慌来控制选举。时间一分一秒过去，姜宇振必须用一个无法被篡改的直播，将真相公之于众。 影片保持了韩国政治惊悚片一贯的高水准，叙事节奏紧张到让人喘不过气。主角并不是无所不能的英雄，而是一个满身缺点但执着的记者，这让故事更有信服力。对权力暗面的揭露毫不留情，结局的讽刺感令人久久难忘。 科幻奇幻" data-year="2026" data-type="电影" data-region="韩国" data-theme="fantasy">
+      <a class="movie-card__link" href="./movie-0420.html">
+        <div class="movie-card__poster">
+          <img src="./120.jpg" alt="汝矣岛">
+          <span class="rank-badge">#83</span>
+          <span class="theme-badge">科幻奇幻</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">汝矣岛</h3>
+          <div class="movie-card__meta">韩国 · 电影 · 2026 · 政治惊悚</div>
+          <p class="movie-card__desc">一个落魄记者发现汝矣岛即将发生一场针对国会的神秘袭击，而所有人都不相信他。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">电影</span><span class="mini-tag">韩国</span><span class="mini-tag">政坛阴谋</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="水栖家族 英国 电影 2026 科幻 / 惊悚 / 家庭 变异 水下 家族秘密 生存 身体恐怖 他们搬进湖边老宅后，发现邻居一家七口都长着鳃和蹼，而且专吃活人。 单亲父亲带着两个孩子搬到偏远湖区，试图开始新生活。隔壁的“水栖家族”看起来友善，母亲会送鱼汤，孩子们一起玩耍。但很快，儿子发现邻居孩子的脖子上有裂缝状的鳃，手指间有半透明的蹼。更恐怖的是，湖区接连有人失踪，尸体被发现在水下，肺部充满淡水。父亲调查后得知，“水栖家族”本是一百年前溺亡的村民，被湖底寄生虫改造成两栖食人生物。而今晚，满月涨潮，他们会来“换水”——把新邻居也拖入湖中。 潮湿、压抑、窒息感贯穿全片。将家庭温情与身体恐怖并置，产生了诡异的心理冲击。水下摄影和音效设计令人毛骨悚然，结尾的开放性处理更是神来之笔。 爱情文艺" data-year="2026" data-type="电影" data-region="英国" data-theme="love">
+      <a class="movie-card__link" href="./movie-0432.html">
+        <div class="movie-card__poster">
+          <img src="./132.jpg" alt="水栖家族">
+          <span class="rank-badge">#84</span>
+          <span class="theme-badge">爱情文艺</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">水栖家族</h3>
+          <div class="movie-card__meta">英国 · 电影 · 2026 · 科幻 / 惊悚 / 家庭</div>
+          <p class="movie-card__desc">他们搬进湖边老宅后，发现邻居一家七口都长着鳃和蹼，而且专吃活人。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">电影</span><span class="mini-tag">英国</span><span class="mini-tag">变异</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="开局十个大帝都是我徒弟 中国大陆 剧集 2026 奇幻 / 喜剧 反套路 师徒反转 穿越梗 废物师父被全修真界嘲笑，直到十大绝世大帝齐齐现身跪拜：“师父，我们找您找了九万年。” 修真界最底层的杂役弟子宁凡，师父是个只会炼丹的糟老头，战力为零，被全宗派耻笑。某日上古遗迹开启，十大帝级强者撕裂虚空降临，每一个都是传说中踏灭万古的存在。所有人跪迎时，十帝却齐刷刷转身，对着宁凡的废物师父三跪九叩：“师尊在上，弟子迟来九万年。”原来老头当年收过十个徒弟，个个成帝，唯独他被天道诅咒变成废人。十帝决定轮流给师父当护法，于是修真界的画风变成了——让开，我师父要炼丹了。 反套路爽剧中的清流，老套的“废柴逆袭”在这里被彻底解构。十位大帝的人设个个鲜明，师徒互动笑点密集又不失温情。最大爽点是看各路天骄一脸懵逼。 轻松喜剧" data-year="2026" data-type="剧集" data-region="中国大陆" data-theme="comedy">
+      <a class="movie-card__link" href="./movie-0444.html">
+        <div class="movie-card__poster">
+          <img src="./144.jpg" alt="开局十个大帝都是我徒弟">
+          <span class="rank-badge">#85</span>
+          <span class="theme-badge">轻松喜剧</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">开局十个大帝都是我徒弟</h3>
+          <div class="movie-card__meta">中国大陆 · 剧集 · 2026 · 奇幻 / 喜剧</div>
+          <p class="movie-card__desc">废物师父被全修真界嘲笑，直到十大绝世大帝齐齐现身跪拜：“师父，我们找您找了九万年。”</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">剧集</span><span class="mini-tag">中国大陆</span><span class="mini-tag">反套路</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="深海巨灵大海龟 日本 电影 2026 科幻, 灾难, 怪兽 特摄 环保 巨型生物 亲情 催泪 一只沉睡万年的深海巨龟因核废水污染而暴走，它的目标不是城市，而是它被污染了的产卵地。 近未来，海洋污染加剧。一只体长超过300米的史前巨龟“玄”从马里亚纳海沟苏醒。各国军队的武器在它面前如同玩具，但它并未攻击人类城市，而是径直奔向一座人工填海建造的核废料处理岛——那曾是它万年来的产卵圣地。女主角是年轻的海洋生物学家真纪，她通过分析古生物化石发现，“玄”并不是在复仇，而是在试图清除卵上的核辐射，拯救它未出世的后代。真纪必须说服固执的军方，停止无意义的攻击，转而帮助这只“母亲”巨龟，在它因辐射过重倒下之前，找到净化那片海域的最后方法。 怪兽电影的情感天花板。特效震撼，巨龟的每一个动作都充满了力量感和母性的悲壮。对环保议题的探讨深刻而不说教。最后三十分钟，巨龟用身体挡住炮弹守护海底巨蛋的画面，足以让任何铁石心肠的观众落泪。 爱情文艺" data-year="2026" data-type="电影" data-region="日本" data-theme="love">
+      <a class="movie-card__link" href="./movie-0449.html">
+        <div class="movie-card__poster">
+          <img src="./149.jpg" alt="深海巨灵大海龟">
+          <span class="rank-badge">#86</span>
+          <span class="theme-badge">爱情文艺</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">深海巨灵大海龟</h3>
+          <div class="movie-card__meta">日本 · 电影 · 2026 · 科幻, 灾难, 怪兽</div>
+          <p class="movie-card__desc">一只沉睡万年的深海巨龟因核废水污染而暴走，它的目标不是城市，而是它被污染了的产卵地。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">电影</span><span class="mini-tag">日本</span><span class="mini-tag">特摄</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="玛拉与盗火者 北欧 电影 2026 冒险, 奇幻, 史诗 北欧神话 女性英雄 盗火 成长 视觉系 北欧神话重述：火神洛基的女儿玛拉为拯救被永冻的族人，潜入英灵殿盗取一丝永恒之火。 在北欧神话的另一种版本中，火神洛基被囚禁后，世间所有火焰逐渐熄灭，大地陷入永冻。洛基的凡人女儿玛拉，虽拥有一半神族血统却从未觉醒任何神力。她所在的人类部落因寒冷濒临灭亡。传说中，众神之父奥丁的英灵殿里燃烧着“永恒之火”，窃取一缕即可重燃世间所有火焰。玛拉独自踏上盗火之旅。她穿越巨蛇耶梦加得盘踞的迷雾之海，欺骗了守桥的巨人，最终潜入英灵殿。但她发现永恒之火并非实体，而是英灵战士们临死前心中最后一丝“不愿熄灭的执念”。要盗取火焰，她必须让一位英灵自愿放弃自己的执念，将其交给她。而那位英灵，正是她从未谋面、战死沙场的母亲。 宏大而细腻的北欧史诗，视效媲美《指环王》，内核却极度女性主义。将传统神话中的“盗火”从普罗米修斯式的反叛，转化为“情感传承”的温情叙事。玛拉与母亲魂魄在火焰中的对话，是全片最催泪也最磅礴的时刻。北欧取景，冷冽中透着悲壮的美。 科幻奇幻" data-year="2026" data-type="电影" data-region="北欧" data-theme="fantasy">
+      <a class="movie-card__link" href="./movie-0455.html">
+        <div class="movie-card__poster">
+          <img src="./5.jpg" alt="玛拉与盗火者">
+          <span class="rank-badge">#87</span>
+          <span class="theme-badge">科幻奇幻</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">玛拉与盗火者</h3>
+          <div class="movie-card__meta">北欧 · 电影 · 2026 · 冒险, 奇幻, 史诗</div>
+          <p class="movie-card__desc">北欧神话重述：火神洛基的女儿玛拉为拯救被永冻的族人，潜入英灵殿盗取一丝永恒之火。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">电影</span><span class="mini-tag">北欧</span><span class="mini-tag">北欧神话</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="天涯海角小萌妻 中国大陆 电视剧 2026 喜剧、爱情 海岛恋 失忆 契约婚姻 富二代 被家族放逐到南沙群岛的富二代纨绔子弟，遇上一个自称是他“天涯海角”的失忆女孩，两人开启爆笑海岛生活。 顶级富二代顾北辰因醉酒闹事被爷爷发配到祖国最南端的一座无人海岛，负责开发旅游项目。刚上岛，他就被一个穿着碎花裙、在海滩上捡贝壳的女孩撞翻在地。女孩醒来后什么都不记得，只反复念叨“天涯海角，顾北辰”。顾北辰以为她是碰瓷的，但女孩做的饭出奇好吃，还能徒手抓鱼、修补渔网，生活技能MAX。为了不让她走（其实是离不开她），顾北辰编造谎言说她是自己的“契约未婚妻”。随着度假村的建设，两人的感情升温，但女孩的真实身份也逐渐浮出水面：她是一名隐退的海洋生物学博士，而顾家的竞争对手正试图通过她来窃取顾北辰的海岛开发机密。当记忆恢复，甜中带虐。 风景美如画，甜度超标。男女主化学反应极佳，男主从废柴到有担当的转变自然，女主不是傻白甜而是扮猪吃老虎的反差萌。海岛日常治愈又搞笑，下饭神剧。 高分热播" data-year="2026" data-type="电视剧" data-region="中国大陆" data-theme="top">
+      <a class="movie-card__link" href="./movie-0476.html">
+        <div class="movie-card__poster">
+          <img src="./26.jpg" alt="天涯海角小萌妻">
+          <span class="rank-badge">#88</span>
+          <span class="theme-badge">高分热播</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">天涯海角小萌妻</h3>
+          <div class="movie-card__meta">中国大陆 · 电视剧 · 2026 · 喜剧、爱情</div>
+          <p class="movie-card__desc">被家族放逐到南沙群岛的富二代纨绔子弟，遇上一个自称是他“天涯海角”的失忆女孩，两人开启爆笑海岛生活。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">电视剧</span><span class="mini-tag">中国大陆</span><span class="mini-tag">海岛恋</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="帝国的崛起：奥斯曼第二季 土耳其 TV剧集 2026 历史, 战争, 剧情 穆罕默德二世 君士坦丁堡 宫廷阴谋 大炮 21岁的穆罕默德二世不仅要攻破千年古城，还要肃清内部想要他命的苏丹亲兵。 第二季紧接第一季结尾。奥斯曼苏丹穆罕默德二世终于攻陷了君士坦丁堡，完成了历代苏丹的梦想。但胜利的喜悦转瞬即逝：这座“空城”满目疮痍，人口不足万人；西方国家正在酝酿新的十字军；更危险的是，内部最精锐的苏丹亲兵军团认为穆罕默德二世功高震主，打算发动政变，立他的幼子为傀儡苏丹。本季聚焦穆罕默德二世如何在这座他亲手夺下的废墟上，用铁腕、外交和文化政策，将君士坦丁堡重建为新的首都“伊斯坦布尔”。他与威尼斯海军的海上对峙、与匈牙利工程师的“乌尔班大炮”升级竞赛、以及对苏丹亲兵军团的冷酷清洗，构成了三条主线。最终，他将一座破碎的东正教城市，变成了伊斯兰世界的璀璨明珠。 第二季的制作规模和剧本深度全面超越首季。宫廷权谋部分堪比《权游》前期水准，战争场面依然是顶级的视听盛宴。穆罕默德二世的人物弧光极其完整，从一个军事天才蜕变为一位真正的政治家和文化君主。历史细节考究，戏剧张力十足。 动作战争" data-year="2026" data-type="TV剧集" data-region="土耳其" data-theme="action">
+      <a class="movie-card__link" href="./movie-0477.html">
+        <div class="movie-card__poster">
+          <img src="./27.jpg" alt="帝国的崛起：奥斯曼第二季">
+          <span class="rank-badge">#89</span>
+          <span class="theme-badge">动作战争</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">帝国的崛起：奥斯曼第二季</h3>
+          <div class="movie-card__meta">土耳其 · TV剧集 · 2026 · 历史, 战争, 剧情</div>
+          <p class="movie-card__desc">21岁的穆罕默德二世不仅要攻破千年古城，还要肃清内部想要他命的苏丹亲兵。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">TV剧集</span><span class="mini-tag">土耳其</span><span class="mini-tag">穆罕默德二世</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="警之光第一季 中国香港 剧集 2026 警匪，动作 新扎师兄 卧底 师徒 枪战 警校前三名毕业后分到同一警区，一个成了黑帮卧底，一个成了内务部“警察的警察”，还有一个只想平安退休。 警校毕业典礼上，阿傑、阿轩和阿晴包揽前三。阿傑热血冲动，被派去最乱的油尖旺；阿轩冷静隐忍，实际被选为卧底渗透新界黑帮；阿晴是警务处长之女，被调入内务部专门查自己人。第一季围绕三人的撕裂展开：阿傑在一次行动中误伤市民，调查他的正是阿晴；阿轩在黑帮中越陷越深，被迫参与抢金店，而接警处置的是阿傑；阿晴发现警队高层与黑帮有利益输送，举报对象是父亲的旧部。同时，一个代号“警之光”的神秘组织浮出水面，他们专门清除“不称职”的警察，手段比黑帮更残忍。三人必须在体制内找到真相。 确保不重复结构，总结重写如下 经典港剧架构但做出新意，卧底线、内务线、黑警线三线交织。枪战戏硬桥硬马，文戏张力十足。对警队内部灰色地带的刻画大胆且真实。 剧情家庭" data-year="2026" data-type="剧集" data-region="中国香港" data-theme="drama">
+      <a class="movie-card__link" href="./movie-0496.html">
+        <div class="movie-card__poster">
+          <img src="./46.jpg" alt="警之光第一季">
+          <span class="rank-badge">#90</span>
+          <span class="theme-badge">剧情家庭</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">警之光第一季</h3>
+          <div class="movie-card__meta">中国香港 · 剧集 · 2026 · 警匪，动作</div>
+          <p class="movie-card__desc">警校前三名毕业后分到同一警区，一个成了黑帮卧底，一个成了内务部“警察的警察”，还有一个只想平安退休。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">剧集</span><span class="mini-tag">中国香港</span><span class="mini-tag">新扎师兄</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="两杆大烟枪 英国 电影 2026 犯罪 / 喜剧 / 动作 多线叙事 黑色幽默 英伦痞子 螳螂捕蝉 小混混欠下巨债，意外捡到两杆价值连城的古董猎枪，四伙人马因此阴差阳错地杀成一团。 伦敦东区，赌徒艾德联合三个好友设局诈骗黑帮老大，结果惨遭反杀，欠下50万英镑。绝望中，他们窃听到隔壁毒枭打算黑吃黑抢劫上游供应商。四人决定坐收渔翁之利，却不知那两杆用来当“凶器”的古董烟枪竟是某位贵族丢失的国宝级文物。于是，讨债的黑帮、丢枪的贵族保镖、被劫的供应商、以及不知情的毒枭团伙，五路人马在同一栋废弃工厂里上演了一出荒唐至极的“大乱斗”。枪声、脏话、慢镜头，再加上浓郁到极致的伦敦口音，最终那两杆烟枪转了一圈，又回到了正在吃早餐的艾德手边。 盖·里奇风格的巅峰复制品，多线叙事玩得飞起。剧本精巧得如同钟表齿轮，每一处巧合都设计得恰到好处。结尾的开放式悬停，堪称影史最帅的定格瞬间之一。 国际精选" data-year="2026" data-type="电影" data-region="英国" data-theme="global">
+      <a class="movie-card__link" href="./movie-0504.html">
+        <div class="movie-card__poster">
+          <img src="./54.jpg" alt="两杆大烟枪">
+          <span class="rank-badge">#91</span>
+          <span class="theme-badge">国际精选</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">两杆大烟枪</h3>
+          <div class="movie-card__meta">英国 · 电影 · 2026 · 犯罪 / 喜剧 / 动作</div>
+          <p class="movie-card__desc">小混混欠下巨债，意外捡到两杆价值连城的古董猎枪，四伙人马因此阴差阳错地杀成一团。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">电影</span><span class="mini-tag">英国</span><span class="mini-tag">多线叙事</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="乡村爱情18 中国大陆 剧集 2026 喜剧, 乡村 长寿剧 电商直播 农村创业 象牙山 象牙山全村转型直播带货，刘能成了美妆博主，谢广坤在PK中输给了一个AI虚拟主播。 第18季紧跟时代：象牙山被划入“新农村电商示范区”。刘能成了中老年美妆博主，主推“农村大妈也能化女团妆”，月入十万。谢广坤不服，开始直播PK，结果输给了一个名叫“铁岭小坤”的AI虚拟主播——那个AI的脸是Deepfake了他自己的。赵四开了农具直播间，因讲解过于抽象反而火了。王小蒙和谢永强的豆腐厂被网红公司恶意收购，全村联合起来打了一场“反资本围剿战”。大脚超市改成了快递站，王云当上了站长。最后全村投票决定：要不要把“象牙山”改名为“网红山”，刘能和谢广坤打了起来。 这是要拍到世界末日的节奏，但不得不说这一季居然把直播带货和乡土人情结合得不错。谢广坤输给AI那场戏讽刺拉满，结尾的改名投票是全村的高光时刻，笑点依旧密集。 港台亚洲" data-year="2026" data-type="剧集" data-region="中国大陆" data-theme="asia">
+      <a class="movie-card__link" href="./movie-0511.html">
+        <div class="movie-card__poster">
+          <img src="./61.jpg" alt="乡村爱情18">
+          <span class="rank-badge">#92</span>
+          <span class="theme-badge">港台亚洲</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">乡村爱情18</h3>
+          <div class="movie-card__meta">中国大陆 · 剧集 · 2026 · 喜剧, 乡村</div>
+          <p class="movie-card__desc">象牙山全村转型直播带货，刘能成了美妆博主，谢广坤在PK中输给了一个AI虚拟主播。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">剧集</span><span class="mini-tag">中国大陆</span><span class="mini-tag">长寿剧</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="狂父复子仇 韩国 电影 2026 动作 / 犯罪 复仇 父亲 黑帮 以暴制暴 身为前特种兵的父亲，在儿子被校园霸凌致死后，独自向权势滔天的施暴者家族宣战。 老实本分的出租车司机姜斗植，儿子因为拒绝给校霸写作业，被推下楼梯身亡。校霸的父亲是国会议员兼黑帮头目，用钱和关系摆平了一切。警察拒绝立案，媒体被收买。姜斗植看着儿子的遗像，翻出了衣柜深处二十年前的特种兵勋章。他用了三个月摸清仇家的所有据点，然后一个人、一把刀、一本账本，从地下赌场杀到议员私宅。他不是要杀人，他是要让每一个帮凶站在法庭上，当着全国媒体的面，说出“我有罪”。最后，议员被自己的保镖反水铐住，保镖说：我也是父亲。 动作戏拳拳到肉，文戏催人泪下。父亲从老实人到复仇鬼的转变令人心碎。没有滥用私刑，而是在极致暴力中保留了法律底线，结尾一秒升华。 科幻奇幻" data-year="2026" data-type="电影" data-region="韩国" data-theme="fantasy">
+      <a class="movie-card__link" href="./movie-0513.html">
+        <div class="movie-card__poster">
+          <img src="./63.jpg" alt="狂父复子仇">
+          <span class="rank-badge">#93</span>
+          <span class="theme-badge">科幻奇幻</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">狂父复子仇</h3>
+          <div class="movie-card__meta">韩国 · 电影 · 2026 · 动作 / 犯罪</div>
+          <p class="movie-card__desc">身为前特种兵的父亲，在儿子被校园霸凌致死后，独自向权势滔天的施暴者家族宣战。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">电影</span><span class="mini-tag">韩国</span><span class="mini-tag">复仇</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="史前巨鳄6 美国 电影 2026 动作, 恐怖, 科幻 巨兽 基因工程 末世 B级片 核战之后，变异鳄鱼统治了地球，最后的人类躲在水下基地，却忘了基地也有鳄鱼。 《史前巨鳄》系列第六部，世界观大重启。核战毁灭了地表，巨型鳄鱼因辐射变异为顶级掠食者。最后的人类幸存者生活在深海科研基地“诺亚方舟”里。他们派出一支精英小队乘坐深潜器前往地表采集土壤样本，试图寻找重建生态的可能。小队在海床废墟中唤醒了一只沉睡的超级鳄鱼“死神”，并将其拖回基地进行研究。但他们不知道，这只鳄鱼是雌性，它的信息素正在召唤全球的变异鳄鱼聚集到基地坐标。更恐怖的是，基地生物实验室的通风管道里，一直养着一条作为实验体的小鳄鱼，它闻到了妈妈的味道，开始长大、破坏。最后人类不得不在封闭的水下基地里，与内外夹击的鳄鱼群进行绝望的肉搏。 完美的B级片爆米花！彻底放弃合理性，专注于“关上门打鳄鱼”的幽闭恐惧。水下管道里的追逐戏拍得惊心动魄，系列粉丝会满意，路人也能看得爽。 科幻奇幻" data-year="2026" data-type="电影" data-region="美国" data-theme="fantasy">
+      <a class="movie-card__link" href="./movie-0523.html">
+        <div class="movie-card__poster">
+          <img src="./73.jpg" alt="史前巨鳄6">
+          <span class="rank-badge">#94</span>
+          <span class="theme-badge">科幻奇幻</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">史前巨鳄6</h3>
+          <div class="movie-card__meta">美国 · 电影 · 2026 · 动作, 恐怖, 科幻</div>
+          <p class="movie-card__desc">核战之后，变异鳄鱼统治了地球，最后的人类躲在水下基地，却忘了基地也有鳄鱼。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">电影</span><span class="mini-tag">美国</span><span class="mini-tag">巨兽</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="罗贝托·卡洛斯与粉红钻石 巴西、美国合拍 电影 2026 剧情、运动、犯罪 足球 传奇球星 盗窃 友情 传奇球星罗贝托·卡洛斯复出踢慈善赛，只为偷回被黑帮抢走的粉红钻石。 退役多年的巴西球星罗贝托·卡洛斯过着平静的生活。直到他收到一颗粉红钻石和一张纸条：“你的任意球还能拐弯吗？”原来，他年轻时曾用一记经典的弧线任意球，无意中击碎了黑帮大佬珍藏的宝石柜。那颗传说中的“粉红钻石”因此被安保系统误判而遗失。如今，大佬绑架了他的老队友，要求他在一场高规格慈善赛上，用任意球将一颗假钻石踢进特定的球门，从而替换掉真品。年过半百的卡洛斯，必须重新练出那道惊世骇俗的弧线，这一次，他要踢碎的是命运。 将足球技巧与盗宝题材完美融合，创意满分。卡洛斯本尊出演带来了巨大的情怀加成，最后的任意球场景既紧张又浪漫，完美诠释了“足球是信仰”。 轻松喜剧" data-year="2026" data-type="电影" data-region="巴西、美国合拍" data-theme="comedy">
+      <a class="movie-card__link" href="./movie-0528.html">
+        <div class="movie-card__poster">
+          <img src="./78.jpg" alt="罗贝托·卡洛斯与粉红钻石">
+          <span class="rank-badge">#95</span>
+          <span class="theme-badge">轻松喜剧</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">罗贝托·卡洛斯与粉红钻石</h3>
+          <div class="movie-card__meta">巴西、美国合拍 · 电影 · 2026 · 剧情、运动、犯罪</div>
+          <p class="movie-card__desc">传奇球星罗贝托·卡洛斯复出踢慈善赛，只为偷回被黑帮抢走的粉红钻石。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">电影</span><span class="mini-tag">巴西、美国合拍</span><span class="mini-tag">足球</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="红色呼叫铃 日本 剧集 2026 悬疑 / 惊悚 医院 连环杀人 呼叫铃 密室 反转 一家偏远医院的五号病房，每晚零点都会响起红色呼叫铃，按下铃的病人次日清晨都会离奇康复——然后失踪。 实习医生白井被分配到一家以“治愈率100%”著称的私立医院。他发现所有奇迹康复的病人都曾按下过五号病房的红色呼叫铃，但这些人出院后全部人间蒸发。白井调查发现，这家医院的院长正在进行非法的人体意识转移实验：红色呼叫铃连接着一台能将病人意识强行转移到健康遗体上的机器。而转移后留下的原身体，会被当作“医疗废物”处理。当白井的女友意外成为下一个目标时，他必须在保护自己和揭露真相之间做出选择，却发现院长也是被更大的组织操控的棋子。 前期节奏缓慢但氛围营造极佳，红色呼叫铃的每次响起都让人汗毛倒竖。医疗伦理与人体实验的题材不新鲜，但“康复即失踪”的悖论设计得很巧妙。后半段有几处逻辑漏洞，但结局的开放性处理加分。 悬疑惊悚" data-year="2026" data-type="剧集" data-region="日本" data-theme="suspense">
+      <a class="movie-card__link" href="./movie-0536.html">
+        <div class="movie-card__poster">
+          <img src="./86.jpg" alt="红色呼叫铃">
+          <span class="rank-badge">#96</span>
+          <span class="theme-badge">悬疑惊悚</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">红色呼叫铃</h3>
+          <div class="movie-card__meta">日本 · 剧集 · 2026 · 悬疑 / 惊悚</div>
+          <p class="movie-card__desc">一家偏远医院的五号病房，每晚零点都会响起红色呼叫铃，按下铃的病人次日清晨都会离奇康复——然后失踪。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">剧集</span><span class="mini-tag">日本</span><span class="mini-tag">医院</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="北部丛林 加拿大 / 法国 电影 2026 冒险 / 剧情 育空地区 野外生存 原住民 母女 生态 叛逆少女被母亲送去加拿大北部丛林接受“荒野治疗”，却发现母亲隐瞒了家族的原住民身份。 17岁的巴黎少女克洛伊因为吸毒被学校开除，母亲将她送到加拿大育空地区的丛林，参加一个“荒野治疗”项目。接待她的是项目负责人约瑟夫，一位沉默的白人老猎人。项目内容：独自在丛林生活一个月，只带一把刀和一口锅。克洛伊起初抗拒，差点冻死。约瑟夫救了她，开始教她设陷阱、识草药、读星象。一个月后，克洛伊脱胎换骨，但她发现约瑟夫的木屋里藏着一幅画像，画中人是她外婆——一位被政府强行带走、送进寄宿学校的原住民少女。原来，母亲隐瞒了家族的原住民血统，因为那是“耻辱”。克洛伊的外婆曾在这片丛林长大，而约瑟夫就是她的初恋。克洛伊决定徒步穿越丛林，去寻找外婆口中那棵“会唱歌的树”，完成外婆的遗愿。 风光绝美的荒野治愈系电影。女主角的转变自然流畅，从嫌弃到敬畏的表演令人信服。对原住民历史的提及克制而有力。最后那棵“唱歌的树”的揭秘，让所有人沉默落泪。 国际精选" data-year="2026" data-type="电影" data-region="加拿大 / 法国" data-theme="global">
+      <a class="movie-card__link" href="./movie-0541.html">
+        <div class="movie-card__poster">
+          <img src="./91.jpg" alt="北部丛林">
+          <span class="rank-badge">#97</span>
+          <span class="theme-badge">国际精选</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">北部丛林</h3>
+          <div class="movie-card__meta">加拿大 / 法国 · 电影 · 2026 · 冒险 / 剧情</div>
+          <p class="movie-card__desc">叛逆少女被母亲送去加拿大北部丛林接受“荒野治疗”，却发现母亲隐瞒了家族的原住民身份。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">电影</span><span class="mini-tag">加拿大 / 法国</span><span class="mini-tag">育空地区</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="远离天堂 法国 / 比利时 电影 2026 剧情、文艺、同性 修道院 禁忌之恋 信仰崩塌 中世纪 中世纪修道院里，年轻的修道士与一名躲避战乱的骑士相爱，他必须在上帝与爱人之间选择一次死亡。 1348年，黑死病席卷欧洲。偏远山区的圣十字修道院收留了一名受伤的骑士伊格纳修斯。负责照料他的年轻修道士埃利泽从小在修道院长大，从未见过围墙外的世界。骑士给他讲战场、讲海洋、讲女人与男人之间的另一种爱。某个雪夜，两人在祭坛后拥吻，被另一位修道士撞见。修道院召开内部审判，神父要求埃利泽“忏悔”，否则将被处以火刑。埃利泽拒绝了，他说：“如果爱他是罪，那么上帝创造我的那一刻，就给了我这样的天性。”骑士被关入地牢，埃利泽则被蒙上眼睛带到野外。他走向的，不是火刑柱，而是一匹拴在树下的马。神父流着泪说：“远离这里，远离天堂，活得比我们都久。” 极简主义的美学，每一帧都像卡拉瓦乔的画。情感克制到几乎没有大段对白，全靠眼神与风雪中的肢体动作。结局不落俗套，神父的“放生”比任何惩罚都残忍，因为那意味着他们余生都将活在“亵渎神明”与“辜负爱人”的双重内疚中。年度最佳文艺片候选。 爱情文艺" data-year="2026" data-type="电影" data-region="法国 / 比利时" data-theme="love">
+      <a class="movie-card__link" href="./movie-0559.html">
+        <div class="movie-card__poster">
+          <img src="./109.jpg" alt="远离天堂">
+          <span class="rank-badge">#98</span>
+          <span class="theme-badge">爱情文艺</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">远离天堂</h3>
+          <div class="movie-card__meta">法国 / 比利时 · 电影 · 2026 · 剧情、文艺、同性</div>
+          <p class="movie-card__desc">中世纪修道院里，年轻的修道士与一名躲避战乱的骑士相爱，他必须在上帝与爱人之间选择一次死亡。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">电影</span><span class="mini-tag">法国 / 比利时</span><span class="mini-tag">修道院</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="杀人罪行 美国 电影 2026 犯罪， 剧情， 惊悚 律政 陪审团 道德困境 法庭戏 一名坚持疑罪从无的律师，在为连环杀手辩护时发现对方竟真是无辜的，而真凶就在陪审团中。 波士顿， notorious连环杀人案。律师马丁以“程序正义”著称，接手了被全网唾弃的嫌疑人丹尼尔的案子。所有物证都指向丹尼尔，马丁起初只想走个过场赚取高额律师费。但随着调查深入，他发现物证链存在一个极其隐蔽的漏洞。更诡异的是，他在旁听陪审团时，注意到一名女陪审员的表情和微表情异常。马丁私下调查发现，这名女陪审员竟是五年前另一桩悬案的受害者家属。层层剥茧后，真相令人胆寒：真凶一直在操控舆论和司法，将罪行嫁祸给替罪羊，而他自己就坐在陪审团里，决定“凶手”的命运。马丁必须在庭审结束前，证明委托人无罪，同时让真凶自曝。 教科书级的法庭悬疑片。节奏沉稳，法庭辩论戏张力十足，逻辑缜密到让人屏息。对“程序正义”与“结果正义”的探讨发人深省。最后十五分钟的法庭对峙堪称年度高光时刻。 科幻奇幻" data-year="2026" data-type="电影" data-region="美国" data-theme="fantasy">
+      <a class="movie-card__link" href="./movie-0581.html">
+        <div class="movie-card__poster">
+          <img src="./131.jpg" alt="杀人罪行">
+          <span class="rank-badge">#99</span>
+          <span class="theme-badge">科幻奇幻</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">杀人罪行</h3>
+          <div class="movie-card__meta">美国 · 电影 · 2026 · 犯罪， 剧情， 惊悚</div>
+          <p class="movie-card__desc">一名坚持疑罪从无的律师，在为连环杀手辩护时发现对方竟真是无辜的，而真凶就在陪审团中。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">电影</span><span class="mini-tag">美国</span><span class="mini-tag">律政</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="直到世界边缘 中国大陆 电影 2026 冒险、剧情 徒步 极地 生命意义 友情 两个绝症患者结伴从北京徒步到西藏，他们想在世界边缘之地，找到一种不狼狈的死亡方式。 28岁的程序员陆远被确诊渐冻症，32岁的自由摄影师阿豪被确诊骨癌晚期。两人在医院的安宁病房相遇，决定不插管不化疗，而是完成一次徒步：从北京走到西藏冈仁波齐。他们带着帐篷和少量食物出发，一个走不动了另一个就扶着。路上遇到各种人：有劝他们回家的民警，有送他们酥油茶的藏民，有偷走他们背包的小偷，也有加入他们走了一程又默默离开的大学生。走到青海湖时，阿豪的腿疼到无法站立，陆远背着他走了最后的五十公里。在第73天，两人终于看到冈仁波齐。阿豪在日出时闭上眼睛，陆远拍下那张照片后，坐在他身边等雪落满全身。电影最后一幕是三个月后，陆远的母亲来到冈仁波齐，看到雪地里两行脚印和一封信。 2026年华语电影的催泪炸弹，但绝不是卖惨。两个主角全程没有哭过，却让观众哭到散场。摄影绝美，戈壁、雪山、草原都成了情绪的延伸。关于“如何有尊严地死去”这个命题，给出了一个温柔又残酷的答案。 爱情文艺" data-year="2026" data-type="电影" data-region="中国大陆" data-theme="love">
+      <a class="movie-card__link" href="./movie-0601.html">
+        <div class="movie-card__poster">
+          <img src="./1.jpg" alt="直到世界边缘">
+          <span class="rank-badge">#100</span>
+          <span class="theme-badge">爱情文艺</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">直到世界边缘</h3>
+          <div class="movie-card__meta">中国大陆 · 电影 · 2026 · 冒险、剧情</div>
+          <p class="movie-card__desc">两个绝症患者结伴从北京徒步到西藏，他们想在世界边缘之地，找到一种不狼狈的死亡方式。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">电影</span><span class="mini-tag">中国大陆</span><span class="mini-tag">徒步</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="从你的全世界路过 中国大陆 电影 2026 爱情/剧情/青春 电台情缘 异地恋 人生过客 治愈催泪 电台主播陈末每晚讲别人的爱情故事，直到一位听众打来电话，说的是他自己十年前不告而别的前女友。 深夜电台主播陈末用自己的温柔嗓音治愈了无数城市失眠者，但他自己的情感世界早已荒芜。十年前的毕业季，恋人苏晚毫无征兆地消失，只留下一句“从你的全世界路过”。陈末从此再未恋爱。某天夜里，一个声音打进热线，一字不差地讲出了他和苏晚之间的所有细节。陈末疯狂寻找这位听众，却发现此人并非苏晚，而是一个一直在暗中记录陈末人生故事的陌生人。这个神秘人到底是跟踪狂，还是苏晚派来的信使？陈末开始了一场跨越几个省份的寻找，在路过无数人的世界之后，他发现自己从未真正理解过爱情。 没有狗血的绝症车祸，这部爱情片罕见地把镜头对准了“分手后十年”的心理残影。男主寻找的不是一个人，而是一段未完成的情感仪式。台词细腻到每一句都能截图，重庆的雨夜和电台声波共同构筑了独特的文艺气质。哭点密集但不廉价，适合失恋后反复观看。 轻松喜剧" data-year="2026" data-type="电影" data-region="中国大陆" data-theme="comedy">
+      <a class="movie-card__link" href="./movie-0605.html">
+        <div class="movie-card__poster">
+          <img src="./5.jpg" alt="从你的全世界路过">
+          <span class="rank-badge">#101</span>
+          <span class="theme-badge">轻松喜剧</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">从你的全世界路过</h3>
+          <div class="movie-card__meta">中国大陆 · 电影 · 2026 · 爱情/剧情/青春</div>
+          <p class="movie-card__desc">电台主播陈末每晚讲别人的爱情故事，直到一位听众打来电话，说的是他自己十年前不告而别的前女友。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">电影</span><span class="mini-tag">中国大陆</span><span class="mini-tag">电台情缘</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="穷友记第五季 英国 剧集 2026 喜剧， 剧情 英式幽默 底层生活 兄弟情 搞笑 扎心 失业三兄弟试图通过拍摄“高端生活方式”短视频来当网红，却引发了一连串灾难。 在第五季中，住在曼彻斯特破旧公寓里的厄尔、肖恩和米奇三兄弟依然穷得叮当响。看到外甥靠剪辑视频买了新车，他们决定模仿富豪生活拍摄炫富视频。他们借来一辆保时捷，却发现是走私赃物；租来的豪宅里正在举行黑帮聚会；米奇甚至搞来一只老虎充当“宠物”。视频拍摄演变成了一场闹剧式的逃亡，他们不仅要躲避黑帮和警察，还得应付突然回家检查的母亲。在这一系列荒诞的意外中，三人不仅没有发财，反而把仅剩的家具都赔了进去。但在互相指责和背叛之后，他们发现彼此依然是最重要的存在，哪怕明天依然要面对催缴房租的通知单。 这一季将讽刺的矛头精准指向了流量至上的网红文化。兄弟三人的蠢萌操作依旧笑料不断，但笑过之后，那种被时代抛下的无力感却更加真实。结尾处三人背靠背坐在被搬空的客厅里，让人笑着笑着就想哭。 剧情家庭" data-year="2026" data-type="剧集" data-region="英国" data-theme="drama">
+      <a class="movie-card__link" href="./movie-0613.html">
+        <div class="movie-card__poster">
+          <img src="./13.jpg" alt="穷友记第五季">
+          <span class="rank-badge">#102</span>
+          <span class="theme-badge">剧情家庭</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">穷友记第五季</h3>
+          <div class="movie-card__meta">英国 · 剧集 · 2026 · 喜剧， 剧情</div>
+          <p class="movie-card__desc">失业三兄弟试图通过拍摄“高端生活方式”短视频来当网红，却引发了一连串灾难。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">剧集</span><span class="mini-tag">英国</span><span class="mini-tag">英式幽默</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="格拉斯医生 瑞典 剧集 2026 剧情 / 悬疑 / 伦理 医疗伦理 连环死亡 北欧冷峻 医生侦探 一家高端私人医院，每年都有恰好12名病人“自然死亡”，不多不少，像一场精确的献祭。 格拉斯医生是斯德哥尔摩一家顶级私人医院的王牌外科大夫，医术高超，不苟言笑。他注意到一个诡异的现象：近五年来，医院每年死亡人数都精确控制在144人，平均每月12人，无论病人病情轻重，数字从未偏离。他开始秘密调查，发现这些“自然死亡”背后，是一个由医院高层、保险公司和器官移植黑市共同编织的“配额系统”。重病患者被分为“有用”和“无用”，有用的多活一阵，无用的被提前“协助”。格拉斯本想揭露真相，却发现自己亲手做过的一场“失败手术”中，那位“意外死亡”的病人，也赫然在配额的名单上。他变成了同谋。 北欧悬疑的冷冽质感与医疗剧的伦理拷问完美结合。没有废话，每一刀都切在人性最痛的地方。男主角的表演克制到可怕，一个眼神就写满了崩塌。结尾的处理令人彻夜难眠。 爱情文艺" data-year="2026" data-type="剧集" data-region="瑞典" data-theme="love">
+      <a class="movie-card__link" href="./movie-0616.html">
+        <div class="movie-card__poster">
+          <img src="./16.jpg" alt="格拉斯医生">
+          <span class="rank-badge">#103</span>
+          <span class="theme-badge">爱情文艺</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">格拉斯医生</h3>
+          <div class="movie-card__meta">瑞典 · 剧集 · 2026 · 剧情 / 悬疑 / 伦理</div>
+          <p class="movie-card__desc">一家高端私人医院，每年都有恰好12名病人“自然死亡”，不多不少，像一场精确的献祭。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">剧集</span><span class="mini-tag">瑞典</span><span class="mini-tag">医疗伦理</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="战略迷魂 美国 电影 2026 动作, 科幻, 悬疑 记忆植入 间谍 反转 身份认知 硬科幻 顶尖特工被俘后植入假记忆逃回总部，却发现自己带回来的情报每一步都在帮敌人实现完美计划。 CIA最强特工凯恩在任务中被敌方俘获，经历了72小时酷刑后奇迹般逃脱，带回了一份关于“新世界秩序”的绝密袭击计划。CIA按此情报布下天罗地网，然而每一次精准的拦截，都莫名其妙地帮助敌人扫清了障碍，最终反而促成了对方的终极目标——全球金融系统一键崩盘。凯恩发现自己被植入了一套完美的“战略迷魂”记忆：他所记得的一切情报，都是敌人专门设计好让他“偷走”的假信息，目的就是让CIA按照敌人的剧本行事。当他终于醒悟时，早已分不清哪些记忆是真的，哪些是植入的。就连他对妻子的爱，也可能是代码。 这不是一部简单的动作片，而是一部披着特工外衣的认知哲学电影。层层嵌套的记忆陷阱让人全程怀疑人生，动作场面干净利落，但真正的高潮是凯恩面对镜子质问“我到底是谁”的那一刻。结局的开放性处理堪称神来之笔。 爱情文艺" data-year="2026" data-type="电影" data-region="美国" data-theme="love">
+      <a class="movie-card__link" href="./movie-0623.html">
+        <div class="movie-card__poster">
+          <img src="./23.jpg" alt="战略迷魂">
+          <span class="rank-badge">#104</span>
+          <span class="theme-badge">爱情文艺</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">战略迷魂</h3>
+          <div class="movie-card__meta">美国 · 电影 · 2026 · 动作, 科幻, 悬疑</div>
+          <p class="movie-card__desc">顶尖特工被俘后植入假记忆逃回总部，却发现自己带回来的情报每一步都在帮敌人实现完美计划。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">电影</span><span class="mini-tag">美国</span><span class="mini-tag">记忆植入</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="她来自台北 中国大陆 / 中国台湾 剧集 2026 剧情, 家庭 两岸家庭 身份认同 美食治愈 代际和解 1999年，一个台北女孩嫁到东北小城；二十年后，她混血口音的女儿带着她的骨灰回台北，寻找那个从未见过面的外公。 1999年，台北女孩阿媛不顾家人反对，嫁给在士林夜市摆摊时认识的东北小伙铁军，远赴辽宁铁岭。二十年后，阿媛因病去世，留下在铁岭出生长大的女儿陈念。陈念一口台湾腔东北话混着说，在哪边都像外人。母亲遗言只有一句：“把我的骨灰带回台北，洒在你外公常去的那家豆浆店门口。”陈念独自踏上寻亲之旅，发现外公早就搬离老地址，而那家豆浆店也成了便利店。她通过台北的远房表姐，一点一点拼凑出母亲的过去：外公不是反对婚事，而是因为当年“白色恐怖”期间受过刺激，害怕女儿嫁给外省人会出事。陈念最终在养老院找到失智的外公，外公已经不认识任何人，却每天凌晨四点准时做出“和阿媛约定的豆浆”。 细腻、克制、温柔又有力。东北话和台湾腔的碰撞产生了很多笑点，但底色是两代人跨越海峡的伤痛与和解。最后一集外公认不出人却记得做豆浆的细节，让无数观众破防。 国际精选" data-year="2026" data-type="剧集" data-region="中国大陆 / 中国台湾" data-theme="global">
+      <a class="movie-card__link" href="./movie-0640.html">
+        <div class="movie-card__poster">
+          <img src="./40.jpg" alt="她来自台北">
+          <span class="rank-badge">#105</span>
+          <span class="theme-badge">国际精选</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">她来自台北</h3>
+          <div class="movie-card__meta">中国大陆 / 中国台湾 · 剧集 · 2026 · 剧情, 家庭</div>
+          <p class="movie-card__desc">1999年，一个台北女孩嫁到东北小城；二十年后，她混血口音的女儿带着她的骨灰回台北，寻找那个从未见过面的外公。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">剧集</span><span class="mini-tag">中国大陆 / 中国台湾</span><span class="mini-tag">两岸家庭</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="无人知晓的夏日清晨 日本 电影 2026 剧情，家庭，青春 遗弃 儿童 生存 温情 母亲消失后的第一个夏天，四个年幼的孩子必须在不被任何人发现的情况下活下去。 一个普通的单亲家庭，母亲带着四个孩子（长子明12岁，长女京子9岁，次子茂7岁，幼女雪5岁）搬进新公寓。某天早上，母亲留下一些钱和一封信后就再也没有回来。明为了不让其他孩子被送进福利院分开，决定隐瞒母亲失踪的事实。他们不能上学，不能出门，不能发出大的声音，每天的生活费被严格限制。夏天来临，钱快用完了，水电也被切断。明开始偷偷去便利店后门捡过期食品，京子在天台种起了蔬菜。当所有人都以为他们被亲人抛弃时，隔壁新搬来的老太太发现了他们晾在阳台上的破旧校服，她没有报警，而是悄悄地在他们家门口放了一份热腾腾的咖喱饭。 导演用极其冷静克制的镜头，展现了孩子们被成年人世界遗弃的残酷现实。没有声嘶力竭的哭喊，只有日常琐碎的绝望和孩子们之间微弱却坚韧的温情。结尾老太太的出现是神来之笔，提供了残酷现实中唯一的温暖救赎。 动作战争" data-year="2026" data-type="电影" data-region="日本" data-theme="action">
+      <a class="movie-card__link" href="./movie-0655.html">
+        <div class="movie-card__poster">
+          <img src="./55.jpg" alt="无人知晓的夏日清晨">
+          <span class="rank-badge">#106</span>
+          <span class="theme-badge">动作战争</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">无人知晓的夏日清晨</h3>
+          <div class="movie-card__meta">日本 · 电影 · 2026 · 剧情，家庭，青春</div>
+          <p class="movie-card__desc">母亲消失后的第一个夏天，四个年幼的孩子必须在不被任何人发现的情况下活下去。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">电影</span><span class="mini-tag">日本</span><span class="mini-tag">遗弃</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="辣手娇娃 中国香港 电影 2026 动作 / 犯罪 女子特工 暴力美学 卧底 黑帮 三位看似娇弱的少妇，实则是代号“辣手”的顶尖杀手，为救孩子重出江湖。 曾是东南亚最强女子特工队的“辣手”三人组，退隐后各自嫁入豪门，成为相夫教子的贵妇。然而，一场针对她们家人的阴谋绑架案让三人不得不重拾旧业。表面上是慈善晚宴的优雅女主人，暗夜里却是拳拳到肉的复仇者。她们一路追查发现，幕后黑手竟是曾经的教官。在一场充满霓虹灯与玻璃碎片的最终决战中，三位辣手娇娃必须撕碎华服，用最原始的方式夺回属于自己的生活。 动作设计行云流水，将芭蕾与格斗巧妙融合。虽然剧情稍显套路，但三位主演的魅力爆棚，尤其是高跟鞋踢碎车窗的镜头堪称经典。女性力量的另一种诠释，爽感十足。 国际精选" data-year="2026" data-type="电影" data-region="中国香港" data-theme="global">
+      <a class="movie-card__link" href="./movie-0656.html">
+        <div class="movie-card__poster">
+          <img src="./56.jpg" alt="辣手娇娃">
+          <span class="rank-badge">#107</span>
+          <span class="theme-badge">国际精选</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">辣手娇娃</h3>
+          <div class="movie-card__meta">中国香港 · 电影 · 2026 · 动作 / 犯罪</div>
+          <p class="movie-card__desc">三位看似娇弱的少妇，实则是代号“辣手”的顶尖杀手，为救孩子重出江湖。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">电影</span><span class="mini-tag">中国香港</span><span class="mini-tag">女子特工</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="天国的孩子们 西班牙 / 墨西哥 电影 2026 剧情 / 奇幻 孤儿院 亡灵节 记忆 告别 一所废弃孤儿院里住着七个被遗忘的亡灵小孩，他们每年亡灵节都在等一个永远不会来的人。 墨西哥一处荒废了四十年的孤儿院，每年亡灵节晚上，都会有七个孩子的亡灵出现。他们不知道自己已经死了，以为只是“被留下来了”。他们等的人叫“米格尔哥哥”——当年孤儿院里最大的孩子，他承诺会回来接他们。但米格尔一直没回来。今年，一个叛逆的少女索菲亚为了拍灵异视频闯入孤儿院，她能看到他们。索菲亚起初害怕，后来发现这些孩子只是想玩捉迷藏、想吃玉米粽、想有人给他们唱一首歌。索菲亚决定帮他们找到米格尔。她翻遍档案，发现米格尔当年离开孤儿院后参了军，在1985年墨西哥城大地震中救人时去世，就埋在孤儿院后面的那棵老树下。原来他一直都在，只是也变成了亡灵，困在“没有回去”的内疚里。 披着奇幻外衣的催泪瓦斯，亡灵节美学美到窒息。孩子们“不知道自己死了”的设定既残忍又温柔。最后的集体告别不是恐怖片，而是最治愈的放手。建议带足纸巾。 爱情文艺" data-year="2026" data-type="电影" data-region="西班牙 / 墨西哥" data-theme="love">
+      <a class="movie-card__link" href="./movie-0673.html">
+        <div class="movie-card__poster">
+          <img src="./73.jpg" alt="天国的孩子们">
+          <span class="rank-badge">#108</span>
+          <span class="theme-badge">爱情文艺</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">天国的孩子们</h3>
+          <div class="movie-card__meta">西班牙 / 墨西哥 · 电影 · 2026 · 剧情 / 奇幻</div>
+          <p class="movie-card__desc">一所废弃孤儿院里住着七个被遗忘的亡灵小孩，他们每年亡灵节都在等一个永远不会来的人。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">电影</span><span class="mini-tag">西班牙 / 墨西哥</span><span class="mini-tag">孤儿院</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="神女 中国大陆 电影 2026 剧情 / 历史 民国 妓女 母性 黑白转彩色 阮玲玉致敬 1930年代的上海街头，一位神秘女子在夜色中同时扮演着圣洁母亲与风尘女子，她的秘密即将揭晓。 1935年的上海，一位被称为“神女”的妓女为了抚养年幼的儿子，在夜晚的街头与底层混混周旋。她努力让孩子接受良好教育，却因身份暴露而遭到学校与其他家长的排斥。当混混用孩子的未来要挟她继续卖淫时，她被迫做出极端选择。影片以黑白影像为主，但在她与孩子相处的温馨时刻转为彩色，隐喻她内心对纯洁生活的渴望。最终她在法庭上平静陈述，其眼神中交织的绝望与尊严成为经典镜头。 影片用极致的视觉对比将母性的光辉与社会的残酷并置。女主角的表演层次丰富，从妩媚到坚毅的转换令人心碎。结局不落俗套，将道德评判交给观众，是一部具有古典悲剧力量的杰作。 动作战争" data-year="2026" data-type="电影" data-region="中国大陆" data-theme="action">
+      <a class="movie-card__link" href="./movie-0684.html">
+        <div class="movie-card__poster">
+          <img src="./84.jpg" alt="神女">
+          <span class="rank-badge">#109</span>
+          <span class="theme-badge">动作战争</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">神女</h3>
+          <div class="movie-card__meta">中国大陆 · 电影 · 2026 · 剧情 / 历史</div>
+          <p class="movie-card__desc">1930年代的上海街头，一位神秘女子在夜色中同时扮演着圣洁母亲与风尘女子，她的秘密即将揭晓。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">电影</span><span class="mini-tag">中国大陆</span><span class="mini-tag">民国</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="猪妖传 中国 电影 2026 奇幻 / 古装 神话新编 妖怪逆袭 人妖情 视觉特效 天蓬元帅被打入畜生道，成为一头丑陋猪妖，他却用这一世妖身，救下了嘲笑他最狠的绣娘。 本片颠覆传统《西游记》视角。天蓬元帅因调戏嫦娥被贬，不料错投猪胎，成了丑陋的“猪刚鬣”。他在云栈洞自暴自弃，靠吃人为生。高老庄的绣娘翠兰，因容貌被嘲笑而离家，误入猪妖领地。猪刚鬣本想吓跑她，却被翠兰误以为是同样被欺负的“怪物”，送给他一个绣了自己名字的手帕。这是猪刚鬣在人间收到的第一份善意。当翠兰被真正的山匪掳走后，猪刚鬣第一次忘记自己的猪身，像一个曾经的将军一样，冲入匪窝。他用妖力杀了所有匪徒，却因控制不住妖气，在翠兰惊恐的眼神中仓皇逃走。直到取经人到来，他才明白了这一世的修行，名叫“慈悲”。 用丑妖怪讲述温柔故事，极具情感张力。将原著中脸谱化的反派，塑造成了一个有血有泪的悲情英雄。视觉上对猪妖的塑造也是脏、丑、毛，但眼神戏十足。最后那一幕“不敢回头”，胜过千言万语。 高分热播" data-year="2026" data-type="电影" data-region="中国" data-theme="top">
+      <a class="movie-card__link" href="./movie-0685.html">
+        <div class="movie-card__poster">
+          <img src="./85.jpg" alt="猪妖传">
+          <span class="rank-badge">#110</span>
+          <span class="theme-badge">高分热播</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">猪妖传</h3>
+          <div class="movie-card__meta">中国 · 电影 · 2026 · 奇幻 / 古装</div>
+          <p class="movie-card__desc">天蓬元帅被打入畜生道，成为一头丑陋猪妖，他却用这一世妖身，救下了嘲笑他最狠的绣娘。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">电影</span><span class="mini-tag">中国</span><span class="mini-tag">神话新编</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="回望长安 中国 电影 2026 历史, 剧情 考古 大唐 记忆 跨越千年 一枚出土的残缺铜镜，让现代女考古学家与唐代宫廷乐师产生了跨越千年的感应。 考古学家沈千寻在西安挖掘一处唐代遗址时，发现了一面刻有“长相思”字样的破碎铜镜。每当她触碰铜镜，便会“看到”天宝年间宫廷乐师李慕白的一生。李慕白因安史之乱与爱人分离，他将思念刻在镜背，却至死未能再见。沈千寻沉迷于这种通感，现实中的未婚夫离她而去。随着研究深入，她发现铜镜上的血痕其实藏着李慕白最终找到爱人埋骨之地的线索。她顺着线索在现实中挖掘，竟然真的找到了两具相拥的白骨。当她将铜镜复原，千年前的笛声在现代的风中响起，沈千寻终于明白：历史不是冰冷的土，而是滚烫的泪。 影片将个人情爱置于王朝兴衰的背景下，极具史诗感。古今两条线平行剪辑，当考古锤敲开泥土的声音与战乱马蹄声重叠，瞬间泪崩。它让现代人重新相信了“执念”的力量。 动作战争" data-year="2026" data-type="电影" data-region="中国" data-theme="action">
+      <a class="movie-card__link" href="./movie-0703.html">
+        <div class="movie-card__poster">
+          <img src="./103.jpg" alt="回望长安">
+          <span class="rank-badge">#111</span>
+          <span class="theme-badge">动作战争</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">回望长安</h3>
+          <div class="movie-card__meta">中国 · 电影 · 2026 · 历史, 剧情</div>
+          <p class="movie-card__desc">一枚出土的残缺铜镜，让现代女考古学家与唐代宫廷乐师产生了跨越千年的感应。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">电影</span><span class="mini-tag">中国</span><span class="mini-tag">考古</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="逃出西伯利亚 俄罗斯 / 英国 电影 2026 动作， 冒险， 惊悚 极寒求生 卧底双雄 雪地摩托 监狱暴动 一个被诬陷的间谍和一个真正的战犯，被拷在一起从西伯利亚的极寒列车监狱中逃亡。 前军事情报员伊利亚因拒绝执行黑箱任务而被栽赃成叛国者，扔进了穿越西伯利亚的移动囚车“死亡列车”。他的镣铐另一端是臭名昭著的连环杀手“牧师”科洛莫夫。列车在白茫茫的针叶林带中行驶，气温零下五十度。中途列车遭遇雪崩脱轨，囚犯暴动，仅存的警卫被杀。伊利亚和科洛莫夫必须合作才能活下去。科洛莫夫有着惊人的野外生存技巧，但每次看向伊利亚的眼神都像在看猎物。伊利亚得知，科洛莫夫手中掌握着军方高层腐败的关键证据。两人从敌对到利用，再到产生一种畸形的人质情结。在穿越冰封的贝加尔湖时，后方追兵已至，前方冰层碎裂。科洛莫夫对伊利亚说：“跑，别回头。” 极寒背景下的硬核双男主动作片。动作设计朴实无华但力道万钧，西伯利亚的自然景观本身就是最震撼的视觉特效。两位主角之间的张力贯穿始终，结尾的选择让这个越狱故事升华到了人性层面。 爱情文艺" data-year="2026" data-type="电影" data-region="俄罗斯 / 英国" data-theme="love">
+      <a class="movie-card__link" href="./movie-0710.html">
+        <div class="movie-card__poster">
+          <img src="./110.jpg" alt="逃出西伯利亚">
+          <span class="rank-badge">#112</span>
+          <span class="theme-badge">爱情文艺</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">逃出西伯利亚</h3>
+          <div class="movie-card__meta">俄罗斯 / 英国 · 电影 · 2026 · 动作， 冒险， 惊悚</div>
+          <p class="movie-card__desc">一个被诬陷的间谍和一个真正的战犯，被拷在一起从西伯利亚的极寒列车监狱中逃亡。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">电影</span><span class="mini-tag">俄罗斯 / 英国</span><span class="mini-tag">极寒求生</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="曼谷任务 泰国 电影 2026 动作、惊悚、谍战 特工 东南亚 极限反杀 背叛 三名被开除的前特工在曼谷接到神秘任务：找到一个人，杀光追杀他的所有人。 前特工老鬼、哑弹和飞鹰因为一次失败的行动被组织开除，各自在曼谷底层讨生活。某天三人同时收到加密邮件，内容是“找到阿泰，保护他，杀光追他的人”，酬劳是他们这辈子都赚不到的数目。三人重聚后发现，所谓的阿泰只是一个七岁的自闭症男孩，身上没有任何机密。随着雇佣兵、当地黑帮和另一个更强大的情报组织接连杀到，他们意识到这不是任务，是一个局——有人要借他们的手，清除所有知情人，包括他们自己。 东南亚废土美学下的硬核动作片，三场巷战追击戏堪称年度动作设计范本。主角三人各有短板却配合默契，文戏不拖沓，情感点到即止，纯正的老派硬汉味儿。 高分热播" data-year="2026" data-type="电影" data-region="泰国" data-theme="top">
+      <a class="movie-card__link" href="./movie-0719.html">
+        <div class="movie-card__poster">
+          <img src="./119.jpg" alt="曼谷任务">
+          <span class="rank-badge">#113</span>
+          <span class="theme-badge">高分热播</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">曼谷任务</h3>
+          <div class="movie-card__meta">泰国 · 电影 · 2026 · 动作、惊悚、谍战</div>
+          <p class="movie-card__desc">三名被开除的前特工在曼谷接到神秘任务：找到一个人，杀光追杀他的所有人。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">电影</span><span class="mini-tag">泰国</span><span class="mini-tag">特工</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="金牌投资人 中国大陆 剧集 2026 商战 / 职场 风投 对赌协议 创业陷阱 商业伦理 反套路 一名专投“垃圾项目”的怪咖投资人，专挑别人不看好的团队下注，然后用最残忍的方式逼他们成功。 投资圈人称“秃鹫”的方见秋，从不抢独角兽，专门投资那些被所有人判了死刑的团队：烧光钱的美妆博主、负债的机器人玩具厂、跟合伙人闹翻的独立游戏开发组。他签的条款极其苛刻，触发对赌后可以随时接管公司。所有创业者都骂他是吸血鬼。但随着剧情展开，观众发现方见秋逼他们的方式——让美妆博主去工地卖化妆品、让玩具厂给殡仪馆做仿真花圈、让游戏组改成农业教学软件——每一次看似羞辱的转型，最后都让这些团队起死回生。他不是一个收割者，而是用最狠的手段逼创业者扔掉自尊和虚假叙事，看清商业的本质。最后一集，他自己被合伙人逼出局，笑着签了对赌。 堪称商战版《爆裂鼓手》。拒绝一切温情脉脉，每一场谈判都像上刑场。方见秋这个角色集可恨与可敬于一身，台词密度高到像子弹。看完会对“创业”两个字产生全新的——也可能更真实的——理解。 高分热播" data-year="2026" data-type="剧集" data-region="中国大陆" data-theme="top">
+      <a class="movie-card__link" href="./movie-0727.html">
+        <div class="movie-card__poster">
+          <img src="./127.jpg" alt="金牌投资人">
+          <span class="rank-badge">#114</span>
+          <span class="theme-badge">高分热播</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">金牌投资人</h3>
+          <div class="movie-card__meta">中国大陆 · 剧集 · 2026 · 商战 / 职场</div>
+          <p class="movie-card__desc">一名专投“垃圾项目”的怪咖投资人，专挑别人不看好的团队下注，然后用最残忍的方式逼他们成功。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">剧集</span><span class="mini-tag">中国大陆</span><span class="mini-tag">风投</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="完美生物 美国 电视剧 2026 科幻, 悬疑, 惊悚 基因编辑 反乌托邦 伦理 超能力 基因编辑婴儿一代长大成人，他们发现自己只是富人的“器官容器”，一场猎杀与反猎杀开始了。 二十年前，科学家宣布制造出第一批无遗传病的“完美婴儿”。二十年后，这群被称为“新人类”的青少年开始觉醒，发现自己体内被植入特殊蛋白，当他们发育成熟时，器官将与特定富豪完美匹配。他们只是行走的“器官农场”。政府默许这种行为，将他们列为“非完全人权体”。主角艾玛带领同伴逃亡，在逃亡过程中，他们不仅觉醒了因基因优化带来的特殊能力，更要面对一个抉择：是切除隐患继续逃跑，还是反攻培育他们的“父母”。 设定细思极恐，青少年演员演技全员在线。将青春期的叛逆与对科技伦理的探讨融合得极好，节奏堪比悬疑大片，每一集结尾都让人忍不住点下一集。 轻松喜剧" data-year="2026" data-type="电视剧" data-region="美国" data-theme="comedy">
+      <a class="movie-card__link" href="./movie-0741.html">
+        <div class="movie-card__poster">
+          <img src="./141.jpg" alt="完美生物">
+          <span class="rank-badge">#115</span>
+          <span class="theme-badge">轻松喜剧</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">完美生物</h3>
+          <div class="movie-card__meta">美国 · 电视剧 · 2026 · 科幻, 悬疑, 惊悚</div>
+          <p class="movie-card__desc">基因编辑婴儿一代长大成人，他们发现自己只是富人的“器官容器”，一场猎杀与反猎杀开始了。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">电视剧</span><span class="mini-tag">美国</span><span class="mini-tag">基因编辑</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="幸存的希德 英国 电影 2026 剧情 / 历史 二战 犹太人 孩童视角 人性光辉 二战孤儿希德靠躲藏在华沙动物园的动物地窖里求生，而教他认字的，是一头会“叹气”的老猩猩。 1942年，犹太小男孩希德在父母被押往集中营前，被藏进华沙动物园一处废弃的地下兽笼。动物园的前管理员夫妇偷偷给他送食物。希德唯一的邻居，是一只因年老被遗弃的猩猩“卡斯帕”。起初希德恐惧、孤独，但渐渐地，他发现卡斯帕有自己的情绪，会在管理员来时发出特殊的叫声报信。在漫长而黑暗的隐藏岁月里，希德靠对着卡斯帕说话保持心智正常。他甚至从卡斯帕的“叹气”中学会识别危险。战争结束时，希德获救，而卡斯帕在希德怀中闭上了眼睛。 没有宏大战争场面，却用最朴素的方式展现了生命在极端环境下的韧性。动物与孩童的组合天然具有打动人心的力量。“幸存的”不仅是希德，更是残存的人性。影片克制而深情，后劲十足。 悬疑惊悚" data-year="2026" data-type="电影" data-region="英国" data-theme="suspense">
+      <a class="movie-card__link" href="./movie-0754.html">
+        <div class="movie-card__poster">
+          <img src="./4.jpg" alt="幸存的希德">
+          <span class="rank-badge">#116</span>
+          <span class="theme-badge">悬疑惊悚</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">幸存的希德</h3>
+          <div class="movie-card__meta">英国 · 电影 · 2026 · 剧情 / 历史</div>
+          <p class="movie-card__desc">二战孤儿希德靠躲藏在华沙动物园的动物地窖里求生，而教他认字的，是一头会“叹气”的老猩猩。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">电影</span><span class="mini-tag">英国</span><span class="mini-tag">二战</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="阿丽塔:战斗天使 美国 / 日本 电影 2026 动作 / 科幻 / 冒险 赛博格 废铁镇 机动球 续集 沉睡二十年再醒，阿丽塔发现撒冷不再压迫废铁镇，因为撒冷已经被更高等的文明殖民了。 接续前作，阿丽塔修复后苏醒，发现时间已过去二十年。废铁镇出人意料地繁荣，撒冷不仅不收取“过路肺”，反而向地面输送食物和药品。阿丽塔以为诺瓦死了，但真相是：天空之城撒冷被来自轨道上的“星环文明”占领了。星环文明把撒冷当作地球的前哨基站，而废铁镇是实验场。诺瓦成了星环的傀儡，他告诉阿丽塔：你的火星机甲术本来就是星环人设计的，你从未反抗过，你一直是他们的武器。阿丽塔砸碎了自己的心脏，拿出那把大马士革刀，她说：那我用这把破铁，砍断你们的星环。 等了多年的续集，世界观被撕裂得更宏大。机动球比赛拍出了飙车戏的爽感，结局阿丽塔独战星环舰队的分镜极具史诗感，粉丝必看。 悬疑惊悚" data-year="2026" data-type="电影" data-region="美国 / 日本" data-theme="suspense">
+      <a class="movie-card__link" href="./movie-0769.html">
+        <div class="movie-card__poster">
+          <img src="./19.jpg" alt="阿丽塔:战斗天使">
+          <span class="rank-badge">#117</span>
+          <span class="theme-badge">悬疑惊悚</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">阿丽塔:战斗天使</h3>
+          <div class="movie-card__meta">美国 / 日本 · 电影 · 2026 · 动作 / 科幻 / 冒险</div>
+          <p class="movie-card__desc">沉睡二十年再醒，阿丽塔发现撒冷不再压迫废铁镇，因为撒冷已经被更高等的文明殖民了。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">电影</span><span class="mini-tag">美国 / 日本</span><span class="mini-tag">赛博格</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="我的老婆是老公 中国大陆 网剧 / 喜剧 2026 喜剧 / 奇幻 / 爱情 灵魂互换 性别错位 职场博弈 夫妻日常 爆笑 毒舌女总裁和佛系家庭煮夫一夜互换身体，谁料老公的公司竟比老婆的更难搞。 林筱是科技公司铁腕CEO，丈夫陈宇是温柔的家庭主夫。一场意外车祸后，两人灵魂互换。林筱发现自己要面对丈夫那家濒临倒闭的文创工作室，以及一群不靠谱的合伙人；而陈宇则要穿着高跟鞋去开董事会，对付一个随时想收购公司的反派。两人在慌乱中学习对方的职业技能，闹出一系列啼笑皆非的误会。林筱用商业手段拯救了工作室，陈宇用温情管理化解了公司危机。最后他们学会互相理解，在结婚纪念日那天，一个吻让灵魂回归。但回归后，他们决定交换职业赛道，活成对方的样子。 将老梗玩出新花样，职场与家庭的错位制造出密集笑点。男女主演技炸裂，细节处见真章。不强行煽情，结尾互换职业的选择既意外又温馨，堪称下饭神剧。 动作战争" data-year="2026" data-type="网剧 / 喜剧" data-region="中国大陆" data-theme="action">
+      <a class="movie-card__link" href="./movie-0770.html">
+        <div class="movie-card__poster">
+          <img src="./20.jpg" alt="我的老婆是老公">
+          <span class="rank-badge">#118</span>
+          <span class="theme-badge">动作战争</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">我的老婆是老公</h3>
+          <div class="movie-card__meta">中国大陆 · 网剧 / 喜剧 · 2026 · 喜剧 / 奇幻 / 爱情</div>
+          <p class="movie-card__desc">毒舌女总裁和佛系家庭煮夫一夜互换身体，谁料老公的公司竟比老婆的更难搞。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">网剧 / 喜剧</span><span class="mini-tag">中国大陆</span><span class="mini-tag">灵魂互换</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="阿里巴巴三根金发 中国大陆 电影 2026 奇幻、冒险、喜剧 民间传说 夺宝 反转 底层逆袭 穷小子阿里巴巴意外获得三根能实现愿望的金发，却发现自己成了全宇宙通缉的“bug级”存在。 在黄沙弥漫的古老集市，穷小子阿里巴巴意外获得三根能实现愿望的神秘金发。但他很快发现，金发每使用一次，就会在平行世界里制造出一个“愿望漏洞”，引来时空监察者的追捕。当阿里巴巴用第一根金发救下病重的妹妹，第二根金发让自己成为富豪后，整个王国的因果律开始崩塌。第三根金发他迟迟不敢使用，因为监察者警告：若再用，他的存在将被彻底抹去。眼看挚友被卷入时空乱流，阿里巴巴必须做出抉择——是牺牲自己修复世界，还是用最后一根金发改写规则，成为新的秩序制定者。 影片将古老传说与高概念科幻巧妙融合，笑点密集却又不乏深度。男主角从市井小民到“宇宙公敌”的转变极具张力，三根金发的设定层层递进，最后的反转既意外又感人。 轻松喜剧" data-year="2026" data-type="电影" data-region="中国大陆" data-theme="comedy">
+      <a class="movie-card__link" href="./movie-0771.html">
+        <div class="movie-card__poster">
+          <img src="./21.jpg" alt="阿里巴巴三根金发">
+          <span class="rank-badge">#119</span>
+          <span class="theme-badge">轻松喜剧</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">阿里巴巴三根金发</h3>
+          <div class="movie-card__meta">中国大陆 · 电影 · 2026 · 奇幻、冒险、喜剧</div>
+          <p class="movie-card__desc">穷小子阿里巴巴意外获得三根能实现愿望的金发，却发现自己成了全宇宙通缉的“bug级”存在。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">电影</span><span class="mini-tag">中国大陆</span><span class="mini-tag">民间传说</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-search="快闪杀手 美国 电影 2026 犯罪 / 喜剧 / 动作 精准刺杀 社交媒体 病毒营销 黑色幽默 替天行道 每次作案都像一场精心排练的快闪舞蹈，百万网友在线等下一个恶人何时毙命。 一位厌倦了传统暗杀技巧的前芭蕾舞者，开发出一种全新职业：快闪杀手。他会在热门景点、商场或音乐节现场，将暗杀动作编排成看似随性的舞蹈，在一群人“快闪”表演的掩护下精准干掉目标——全是法律无法制裁的恶棍。每次行动都被路人拍下并意外爆红网络，凶手成为全民追捧的神秘英雄。一名执着但又有点蠢萌的FBI女探员负责追捕他，两人之间逐渐形成亦敌亦友、猫鼠游戏般的张力。第三幕高潮中，杀手准备在大都会博物馆做最后一次“谢幕演出”，而探员必须决定：抓他，还是加入这场舞。 极富原创性的设定，动作与喜剧结合得天衣无缝。节奏明快，反转密集，社交媒体的讽刺与舞蹈设计的创意都让人拍案叫绝。结局既浪漫又悲壮，回味无穷。 国际精选" data-year="2026" data-type="电影" data-region="美国" data-theme="global">
+      <a class="movie-card__link" href="./movie-0783.html">
+        <div class="movie-card__poster">
+          <img src="./33.jpg" alt="快闪杀手">
+          <span class="rank-badge">#120</span>
+          <span class="theme-badge">国际精选</span>
+        </div>
+        <div class="movie-card__body">
+          <h3 class="movie-card__title">快闪杀手</h3>
+          <div class="movie-card__meta">美国 · 电影 · 2026 · 犯罪 / 喜剧 / 动作</div>
+          <p class="movie-card__desc">每次作案都像一场精心排练的快闪舞蹈，百万网友在线等下一个恶人何时毙命。</p>
+          <div class="movie-card__tags">
+            <span class="mini-tag">电影</span><span class="mini-tag">美国</span><span class="mini-tag">精准刺杀</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+        </div>
+      </div>
+    </section>
+    
+    </main>
+    <footer class="site-footer">
+      <div class="container">
+        <div class="site-footer__grid">
+          <div>
+            <div class="site-footer__brand">高分剧集</div>
+            <p>高分电视剧与高分剧集的静态索引站，按分类、榜单与详情页构建可访问内链。</p>
+          </div>
+          <div>
+            <div class="site-footer__brand">站内导航</div>
+            <p><a href="./categories.html">分类总览</a> · <a href="./ranking.html">排行榜</a> · <a href="./category-top.html">高分热播</a></p>
+          </div>
+          <div>
+            <div class="site-footer__brand">数据规模</div>
+            <p>影片总数：2000 部 · 详情页：2000 个 · 分类页：10 个</p>
+          </div>
+        </div>
+        <div class="site-footer__note">页面中的统计代码与影片内容均已写入 HTML，便于搜索引擎抓取。</div>
+      </div>
+    </footer>
+  </div>
+  <script src="./site.js"></script>
+  
+  <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
